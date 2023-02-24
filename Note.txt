@@ -1,0 +1,35 @@
+# Run
+/Users/maryeyvazi/anaconda3/envs/paddle_env/bin/python3 PaddleOCR/tools/train.py -c configs/vi_layoutxlm.yml
+
+python PaddleOCR/tools/train.py -c configs/vi_layoutxlm.yml
+
+# secure copy
+scp -r ~/Desktop/project maryezi@mox.hyak.uw.edu:~/
+
+# Interactive
+srun -p stf -A stf --ntasks=4 --mem=3G --time=0:60:00 --pty bash
+
+
+s
+bash
+conda create --name paddle_env python=3.8 --channel https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ -y
+conda activate paddle_env
+pip install paddleocr paddlepaddle paddlenlp
+pip install -r project/PaddleOCR/requirements.txt
+
+
+
+/gscratch/stf/mz/
+
+##############
+ssh maryezi@mox.hyak.uw.edu
+squeue -u maryezi
+sbatch submit.slurm 
+
+
+
+#
+1) create conda paddle_env
+2) install library
+3) run code on your device to download files
+4) run on nodes!
