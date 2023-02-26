@@ -1,9 +1,9 @@
 Global:
-  use_gpu: False
+  use_gpu: True
   epoch_num: &epoch_num 200
   log_smooth_window: 10
   print_batch_step: 10
-  save_model_dir: /gscratch/stf/mz/output/ser_vi_layoutxlm
+  save_model_dir: ./output/ser_vi_layoutxlm
   save_epoch_step: 2000
   # evaluation is run every 10 iterations after the 0th iteration
   eval_batch_step: [ 0, 19 ]
@@ -17,7 +17,7 @@ Global:
   # infer_img: train_data/XFUND/zh_val/val.json
   # infer_mode: False
 
-  save_res_path: /gscratch/stf/mz/output/ser_vi_layoutxlm/res
+  save_res_path: ./mz/output/ser_vi_layoutxlm/res
   kie_rec_model_dir: 
   kie_det_model_dir:
 
