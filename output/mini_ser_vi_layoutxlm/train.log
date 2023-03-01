@@ -1042,3 +1042,730 @@
 [2023/03/01 06:19:11] ppocr INFO: best metric, hmean: 0.23493975903614459, precision: 0.19961612284069097, recall: 0.28545288197621227, fps: 50.70985017619005, best_epoch: 3
 [2023/03/01 06:19:12] ppocr INFO: epoch: [3/200], global_step: 270, lr: 0.000050, loss: 2.534045, avg_reader_cost: 0.24875 s, avg_batch_cost: 0.50868 s, avg_samples: 8.0, ips: 15.72689 samples/s, eta: 2:25:55
 [2023/03/01 06:19:16] ppocr INFO: epoch: [3/200], global_step: 280, lr: 0.000050, loss: 2.326292, avg_reader_cost: 0.00309 s, avg_batch_cost: 0.21688 s, avg_samples: 8.0, ips: 36.88760 samples/s, eta: 2:23:11
+[2023/03/01 06:19:31] ppocr INFO: cur metric, precision: 0.257285595337219, recall: 0.282708142726441, hmean: 0.2693984306887533, fps: 46.17059005678219
+[2023/03/01 06:19:56] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:19:56] ppocr INFO: best metric, hmean: 0.2693984306887533, precision: 0.257285595337219, recall: 0.282708142726441, fps: 46.17059005678219, best_epoch: 3
+[2023/03/01 06:19:58] ppocr INFO: epoch: [3/200], global_step: 290, lr: 0.000050, loss: 2.172167, avg_reader_cost: 0.18682 s, avg_batch_cost: 0.42249 s, avg_samples: 8.0, ips: 18.93551 samples/s, eta: 2:22:58
+[2023/03/01 06:20:03] ppocr INFO: epoch: [3/200], global_step: 300, lr: 0.000050, loss: 2.215265, avg_reader_cost: 0.11460 s, avg_batch_cost: 0.31933 s, avg_samples: 8.0, ips: 25.05248 samples/s, eta: 2:21:37
+[2023/03/01 06:20:30] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:20:45] ppocr INFO: cur metric, precision: 0.2661373835001726, recall: 0.3526989935956084, hmean: 0.3033641550265591, fps: 45.29394003663857
+[2023/03/01 06:21:13] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:21:13] ppocr INFO: best metric, hmean: 0.3033641550265591, precision: 0.2661373835001726, recall: 0.3526989935956084, fps: 45.29394003663857, best_epoch: 4
+[2023/03/01 06:21:16] ppocr INFO: epoch: [4/200], global_step: 310, lr: 0.000050, loss: 1.961470, avg_reader_cost: 3.12157 s, avg_batch_cost: 3.36646 s, avg_samples: 8.0, ips: 2.37638 samples/s, eta: 2:52:37
+[2023/03/01 06:21:21] ppocr INFO: epoch: [4/200], global_step: 320, lr: 0.000050, loss: 1.967344, avg_reader_cost: 0.09316 s, avg_batch_cost: 0.34575 s, avg_samples: 8.0, ips: 23.13807 samples/s, eta: 2:50:41
+[2023/03/01 06:21:35] ppocr INFO: cur metric, precision: 0.2821503865073788, recall: 0.3673376029277219, hmean: 0.3191573926868045, fps: 48.986443044306625
+[2023/03/01 06:22:02] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:22:02] ppocr INFO: best metric, hmean: 0.3191573926868045, precision: 0.2821503865073788, recall: 0.3673376029277219, fps: 48.986443044306625, best_epoch: 4
+[2023/03/01 06:22:05] ppocr INFO: epoch: [4/200], global_step: 330, lr: 0.000050, loss: 2.145221, avg_reader_cost: 0.14128 s, avg_batch_cost: 0.39514 s, avg_samples: 8.0, ips: 20.24599 samples/s, eta: 2:49:21
+[2023/03/01 06:22:12] ppocr INFO: epoch: [4/200], global_step: 340, lr: 0.000050, loss: 1.962171, avg_reader_cost: 0.25388 s, avg_batch_cost: 0.50420 s, avg_samples: 8.0, ips: 15.86662 samples/s, eta: 2:49:09
+[2023/03/01 06:22:25] ppocr INFO: cur metric, precision: 0.3059187887130076, recall: 0.40667886550777677, hmean: 0.34917517674783977, fps: 50.16408590712614
+[2023/03/01 06:22:55] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:22:55] ppocr INFO: best metric, hmean: 0.34917517674783977, precision: 0.3059187887130076, recall: 0.40667886550777677, fps: 50.16408590712614, best_epoch: 4
+[2023/03/01 06:22:58] ppocr INFO: epoch: [4/200], global_step: 350, lr: 0.000050, loss: 1.801608, avg_reader_cost: 0.00098 s, avg_batch_cost: 0.22305 s, avg_samples: 8.0, ips: 35.86696 samples/s, eta: 2:46:19
+[2023/03/01 06:23:06] ppocr INFO: epoch: [4/200], global_step: 360, lr: 0.000050, loss: 1.788496, avg_reader_cost: 0.28084 s, avg_batch_cost: 0.59040 s, avg_samples: 8.0, ips: 13.55016 samples/s, eta: 2:46:59
+[2023/03/01 06:23:15] ppocr INFO: cur metric, precision: 0.3375950241879751, recall: 0.44693504117108873, hmean: 0.38464566929133853, fps: 41.739829639400575
+[2023/03/01 06:23:42] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:23:42] ppocr INFO: best metric, hmean: 0.38464566929133853, precision: 0.3375950241879751, recall: 0.44693504117108873, fps: 41.739829639400575, best_epoch: 4
+[2023/03/01 06:23:46] ppocr INFO: epoch: [4/200], global_step: 370, lr: 0.000050, loss: 1.773473, avg_reader_cost: 0.00157 s, avg_batch_cost: 0.24924 s, avg_samples: 8.0, ips: 32.09817 samples/s, eta: 2:44:35
+[2023/03/01 06:23:54] ppocr INFO: epoch: [4/200], global_step: 380, lr: 0.000050, loss: 1.622319, avg_reader_cost: 0.39402 s, avg_batch_cost: 0.69341 s, avg_samples: 8.0, ips: 11.53721 samples/s, eta: 2:46:09
+[2023/03/01 06:24:04] ppocr INFO: cur metric, precision: 0.35251524390243905, recall: 0.4231473010064044, hmean: 0.3846153846153847, fps: 46.812645909207234
+[2023/03/01 06:24:04] ppocr INFO: best metric, hmean: 0.38464566929133853, precision: 0.3375950241879751, recall: 0.44693504117108873, fps: 41.739829639400575, best_epoch: 4
+[2023/03/01 06:24:08] ppocr INFO: epoch: [4/200], global_step: 390, lr: 0.000050, loss: 1.754888, avg_reader_cost: 0.00183 s, avg_batch_cost: 0.24465 s, avg_samples: 8.0, ips: 32.69949 samples/s, eta: 2:43:51
+[2023/03/01 06:24:22] ppocr INFO: cur metric, precision: 0.3761334784185709, recall: 0.47438243366880145, hmean: 0.4195832490390451, fps: 52.39400383220494
+[2023/03/01 06:24:49] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:24:49] ppocr INFO: best metric, hmean: 0.4195832490390451, precision: 0.3761334784185709, recall: 0.47438243366880145, fps: 52.39400383220494, best_epoch: 4
+[2023/03/01 06:24:49] ppocr INFO: epoch: [4/200], global_step: 400, lr: 0.000050, loss: 1.860914, avg_reader_cost: 0.05826 s, avg_batch_cost: 0.27369 s, avg_samples: 8.0, ips: 29.23050 samples/s, eta: 2:41:54
+[2023/03/01 06:25:17] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:25:26] ppocr INFO: epoch: [5/200], global_step: 410, lr: 0.000049, loss: 1.607204, avg_reader_cost: 3.20440 s, avg_batch_cost: 3.53525 s, avg_samples: 8.0, ips: 2.26292 samples/s, eta: 3:06:02
+[2023/03/01 06:25:44] ppocr INFO: cur metric, precision: 0.3816216216216216, recall: 0.48444647758462944, hmean: 0.42693005442451115, fps: 47.25283119028622
+[2023/03/01 06:26:10] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:26:10] ppocr INFO: best metric, hmean: 0.42693005442451115, precision: 0.3816216216216216, recall: 0.48444647758462944, fps: 47.25283119028622, best_epoch: 5
+[2023/03/01 06:26:11] ppocr INFO: epoch: [5/200], global_step: 420, lr: 0.000049, loss: 1.392402, avg_reader_cost: 0.40296 s, avg_batch_cost: 0.68942 s, avg_samples: 8.0, ips: 11.60404 samples/s, eta: 3:06:52
+[2023/03/01 06:26:15] ppocr INFO: epoch: [5/200], global_step: 430, lr: 0.000049, loss: 1.312556, avg_reader_cost: 0.00335 s, avg_batch_cost: 0.20709 s, avg_samples: 8.0, ips: 38.63025 samples/s, eta: 3:04:00
+[2023/03/01 06:26:25] ppocr INFO: cur metric, precision: 0.4001455074572572, recall: 0.5032021957913998, hmean: 0.44579533941236066, fps: 56.19924981985118
+[2023/03/01 06:26:50] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:26:50] ppocr INFO: best metric, hmean: 0.44579533941236066, precision: 0.4001455074572572, recall: 0.5032021957913998, fps: 56.19924981985118, best_epoch: 5
+[2023/03/01 06:26:51] ppocr INFO: epoch: [5/200], global_step: 440, lr: 0.000049, loss: 1.347123, avg_reader_cost: 0.00964 s, avg_batch_cost: 0.22767 s, avg_samples: 8.0, ips: 35.13805 samples/s, eta: 3:01:25
+[2023/03/01 06:26:55] ppocr INFO: epoch: [5/200], global_step: 450, lr: 0.000049, loss: 1.299754, avg_reader_cost: 0.02089 s, avg_batch_cost: 0.24637 s, avg_samples: 8.0, ips: 32.47147 samples/s, eta: 2:59:04
+[2023/03/01 06:27:07] ppocr INFO: cur metric, precision: 0.39630024902170047, recall: 0.5096065873741995, hmean: 0.4458675205123074, fps: 45.60253885747282
+[2023/03/01 06:27:32] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:27:32] ppocr INFO: best metric, hmean: 0.4458675205123074, precision: 0.39630024902170047, recall: 0.5096065873741995, fps: 45.60253885747282, best_epoch: 5
+[2023/03/01 06:27:34] ppocr INFO: epoch: [5/200], global_step: 460, lr: 0.000049, loss: 1.334463, avg_reader_cost: 0.15164 s, avg_batch_cost: 0.38560 s, avg_samples: 8.0, ips: 20.74705 samples/s, eta: 2:57:49
+[2023/03/01 06:27:38] ppocr INFO: epoch: [5/200], global_step: 470, lr: 0.000049, loss: 1.273107, avg_reader_cost: 0.03349 s, avg_batch_cost: 0.24284 s, avg_samples: 8.0, ips: 32.94295 samples/s, eta: 2:55:38
+[2023/03/01 06:27:52] ppocr INFO: cur metric, precision: 0.40427769985974754, recall: 0.5274473924977127, hmean: 0.45772131798332666, fps: 54.35123723036114
+[2023/03/01 06:28:17] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:28:17] ppocr INFO: best metric, hmean: 0.45772131798332666, precision: 0.40427769985974754, recall: 0.5274473924977127, fps: 54.35123723036114, best_epoch: 5
+[2023/03/01 06:28:19] ppocr INFO: epoch: [5/200], global_step: 480, lr: 0.000049, loss: 1.256398, avg_reader_cost: 0.16723 s, avg_batch_cost: 0.42291 s, avg_samples: 8.0, ips: 18.91638 samples/s, eta: 2:54:45
+[2023/03/01 06:28:23] ppocr INFO: epoch: [5/200], global_step: 490, lr: 0.000049, loss: 1.244213, avg_reader_cost: 0.00248 s, avg_batch_cost: 0.19819 s, avg_samples: 8.0, ips: 40.36436 samples/s, eta: 2:52:24
+[2023/03/01 06:28:31] ppocr INFO: cur metric, precision: 0.4168126094570928, recall: 0.5443732845379688, hmean: 0.47212854592342784, fps: 48.74313081375721
+[2023/03/01 06:28:55] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:28:55] ppocr INFO: best metric, hmean: 0.47212854592342784, precision: 0.4168126094570928, recall: 0.5443732845379688, fps: 48.74313081375721, best_epoch: 5
+[2023/03/01 06:28:57] ppocr INFO: epoch: [5/200], global_step: 500, lr: 0.000049, loss: 1.350366, avg_reader_cost: 0.00067 s, avg_batch_cost: 0.16507 s, avg_samples: 8.0, ips: 48.46556 samples/s, eta: 2:49:57
+[2023/03/01 06:29:22] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:29:28] ppocr INFO: epoch: [6/200], global_step: 510, lr: 0.000049, loss: 1.094605, avg_reader_cost: 2.72733 s, avg_batch_cost: 2.97668 s, avg_samples: 8.0, ips: 2.68756 samples/s, eta: 3:05:29
+[2023/03/01 06:29:37] ppocr INFO: cur metric, precision: 0.42474444836094466, recall: 0.5512351326623971, hmean: 0.47979295241887315, fps: 54.79430436591686
+[2023/03/01 06:30:00] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:30:00] ppocr INFO: best metric, hmean: 0.47979295241887315, precision: 0.42474444836094466, recall: 0.5512351326623971, fps: 54.79430436591686, best_epoch: 6
+[2023/03/01 06:30:03] ppocr INFO: epoch: [6/200], global_step: 520, lr: 0.000049, loss: 1.074683, avg_reader_cost: 0.02066 s, avg_batch_cost: 0.23727 s, avg_samples: 8.0, ips: 33.71706 samples/s, eta: 3:03:19
+[2023/03/01 06:30:07] ppocr INFO: epoch: [6/200], global_step: 530, lr: 0.000049, loss: 0.999374, avg_reader_cost: 0.00433 s, avg_batch_cost: 0.19738 s, avg_samples: 8.0, ips: 40.53170 samples/s, eta: 3:00:58
+[2023/03/01 06:30:15] ppocr INFO: cur metric, precision: 0.4491215226939971, recall: 0.561299176578225, hmean: 0.4989833265555103, fps: 58.197092076833464
+[2023/03/01 06:30:38] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:30:38] ppocr INFO: best metric, hmean: 0.4989833265555103, precision: 0.4491215226939971, recall: 0.561299176578225, fps: 58.197092076833464, best_epoch: 6
+[2023/03/01 06:30:42] ppocr INFO: epoch: [6/200], global_step: 540, lr: 0.000049, loss: 1.227122, avg_reader_cost: 0.06687 s, avg_batch_cost: 0.26964 s, avg_samples: 8.0, ips: 29.66927 samples/s, eta: 2:59:09
+[2023/03/01 06:30:47] ppocr INFO: epoch: [6/200], global_step: 550, lr: 0.000049, loss: 1.175511, avg_reader_cost: 0.17308 s, avg_batch_cost: 0.35112 s, avg_samples: 8.0, ips: 22.78419 samples/s, eta: 2:57:52
+[2023/03/01 06:30:54] ppocr INFO: cur metric, precision: 0.4381054897739505, recall: 0.5585544373284538, hmean: 0.49105167906696157, fps: 57.06867596253551
+[2023/03/01 06:30:54] ppocr INFO: best metric, hmean: 0.4989833265555103, precision: 0.4491215226939971, recall: 0.561299176578225, fps: 58.197092076833464, best_epoch: 6
+[2023/03/01 06:30:57] ppocr INFO: epoch: [6/200], global_step: 560, lr: 0.000049, loss: 1.188339, avg_reader_cost: 0.00240 s, avg_batch_cost: 0.18317 s, avg_samples: 8.0, ips: 43.67478 samples/s, eta: 2:55:39
+[2023/03/01 06:31:01] ppocr INFO: epoch: [6/200], global_step: 570, lr: 0.000049, loss: 0.980951, avg_reader_cost: 0.00247 s, avg_batch_cost: 0.23311 s, avg_samples: 8.0, ips: 34.31928 samples/s, eta: 2:53:49
+[2023/03/01 06:31:08] ppocr INFO: cur metric, precision: 0.4547775346462436, recall: 0.570448307410796, hmean: 0.5060876623376624, fps: 56.87060772836423
+[2023/03/01 06:31:32] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:31:32] ppocr INFO: best metric, hmean: 0.5060876623376624, precision: 0.4547775346462436, recall: 0.570448307410796, fps: 56.87060772836423, best_epoch: 6
+[2023/03/01 06:31:36] ppocr INFO: epoch: [6/200], global_step: 580, lr: 0.000049, loss: 1.052184, avg_reader_cost: 0.00506 s, avg_batch_cost: 0.20289 s, avg_samples: 8.0, ips: 39.43038 samples/s, eta: 2:51:52
+[2023/03/01 06:31:50] ppocr INFO: cur metric, precision: 0.4705446461652464, recall: 0.5809698078682525, hmean: 0.5199590583418628, fps: 50.963491326931646
+[2023/03/01 06:32:14] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:32:14] ppocr INFO: best metric, hmean: 0.5199590583418628, precision: 0.4705446461652464, recall: 0.5809698078682525, fps: 50.963491326931646, best_epoch: 6
+[2023/03/01 06:32:15] ppocr INFO: epoch: [6/200], global_step: 590, lr: 0.000049, loss: 1.061585, avg_reader_cost: 0.09886 s, avg_batch_cost: 0.33323 s, avg_samples: 8.0, ips: 24.00748 samples/s, eta: 2:50:41
+[2023/03/01 06:32:19] ppocr INFO: epoch: [6/200], global_step: 600, lr: 0.000049, loss: 0.975962, avg_reader_cost: 0.00967 s, avg_batch_cost: 0.20180 s, avg_samples: 8.0, ips: 39.64299 samples/s, eta: 2:48:51
+[2023/03/01 06:32:43] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:32:55] ppocr INFO: cur metric, precision: 0.46959085882786583, recall: 0.5827996340347666, hmean: 0.5201061441110431, fps: 55.12735283023084
+[2023/03/01 06:33:18] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:33:18] ppocr INFO: best metric, hmean: 0.5201061441110431, precision: 0.46959085882786583, recall: 0.5827996340347666, fps: 55.12735283023084, best_epoch: 7
+[2023/03/01 06:33:19] ppocr INFO: epoch: [7/200], global_step: 610, lr: 0.000049, loss: 0.819609, avg_reader_cost: 2.66776 s, avg_batch_cost: 2.86493 s, avg_samples: 8.0, ips: 2.79239 samples/s, eta: 3:01:10
+[2023/03/01 06:33:23] ppocr INFO: epoch: [7/200], global_step: 620, lr: 0.000049, loss: 0.974653, avg_reader_cost: 0.00256 s, avg_batch_cost: 0.18780 s, avg_samples: 8.0, ips: 42.59889 samples/s, eta: 2:59:08
+[2023/03/01 06:33:31] ppocr INFO: cur metric, precision: 0.48124767916821387, recall: 0.5928636779505947, hmean: 0.5312564050010248, fps: 59.16487649698223
+[2023/03/01 06:33:54] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:33:54] ppocr INFO: best metric, hmean: 0.5312564050010248, precision: 0.48124767916821387, recall: 0.5928636779505947, fps: 59.16487649698223, best_epoch: 7
+[2023/03/01 06:33:56] ppocr INFO: epoch: [7/200], global_step: 630, lr: 0.000049, loss: 0.887484, avg_reader_cost: 0.00084 s, avg_batch_cost: 0.17092 s, avg_samples: 8.0, ips: 46.80415 samples/s, eta: 2:57:04
+[2023/03/01 06:33:59] ppocr INFO: epoch: [7/200], global_step: 640, lr: 0.000049, loss: 0.919638, avg_reader_cost: 0.00184 s, avg_batch_cost: 0.16456 s, avg_samples: 8.0, ips: 48.61501 samples/s, eta: 2:55:03
+[2023/03/01 06:34:08] ppocr INFO: cur metric, precision: 0.4764684421743889, recall: 0.5974382433668801, hmean: 0.5301400446519179, fps: 57.354042558428446
+[2023/03/01 06:34:08] ppocr INFO: best metric, hmean: 0.5312564050010248, precision: 0.48124767916821387, recall: 0.5928636779505947, fps: 59.16487649698223, best_epoch: 7
+[2023/03/01 06:34:10] ppocr INFO: epoch: [7/200], global_step: 650, lr: 0.000049, loss: 0.939807, avg_reader_cost: 0.00438 s, avg_batch_cost: 0.20139 s, avg_samples: 8.0, ips: 39.72402 samples/s, eta: 2:53:16
+[2023/03/01 06:34:13] ppocr INFO: epoch: [7/200], global_step: 660, lr: 0.000049, loss: 0.833287, avg_reader_cost: 0.00276 s, avg_batch_cost: 0.17867 s, avg_samples: 8.0, ips: 44.77424 samples/s, eta: 2:51:25
+[2023/03/01 06:34:21] ppocr INFO: cur metric, precision: 0.48741672834937083, recall: 0.6024702653247942, hmean: 0.5388707037643208, fps: 49.81909519924353
+[2023/03/01 06:34:46] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:34:46] ppocr INFO: best metric, hmean: 0.5388707037643208, precision: 0.48741672834937083, recall: 0.6024702653247942, fps: 49.81909519924353, best_epoch: 7
+[2023/03/01 06:34:48] ppocr INFO: epoch: [7/200], global_step: 670, lr: 0.000049, loss: 0.723079, avg_reader_cost: 0.00215 s, avg_batch_cost: 0.17379 s, avg_samples: 8.0, ips: 46.03309 samples/s, eta: 2:49:37
+[2023/03/01 06:34:52] ppocr INFO: epoch: [7/200], global_step: 680, lr: 0.000049, loss: 0.891747, avg_reader_cost: 0.00213 s, avg_batch_cost: 0.20189 s, avg_samples: 8.0, ips: 39.62523 samples/s, eta: 2:47:59
+[2023/03/01 06:35:02] ppocr INFO: cur metric, precision: 0.4923535994032078, recall: 0.6038426349496798, hmean: 0.5424286007807685, fps: 58.090045231885604
+[2023/03/01 06:35:27] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:35:27] ppocr INFO: best metric, hmean: 0.5424286007807685, precision: 0.4923535994032078, recall: 0.6038426349496798, fps: 58.090045231885604, best_epoch: 7
+[2023/03/01 06:35:29] ppocr INFO: epoch: [7/200], global_step: 690, lr: 0.000049, loss: 0.863757, avg_reader_cost: 0.07762 s, avg_batch_cost: 0.27780 s, avg_samples: 8.0, ips: 28.79782 samples/s, eta: 2:46:46
+[2023/03/01 06:35:33] ppocr INFO: epoch: [7/200], global_step: 700, lr: 0.000049, loss: 0.862724, avg_reader_cost: 0.00136 s, avg_batch_cost: 0.22295 s, avg_samples: 8.0, ips: 35.88249 samples/s, eta: 2:45:19
+[2023/03/01 06:35:57] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:36:05] ppocr INFO: cur metric, precision: 0.506797583081571, recall: 0.6139066788655078, hmean: 0.555233760860571, fps: 57.305881515492715
+[2023/03/01 06:36:28] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:36:28] ppocr INFO: best metric, hmean: 0.555233760860571, precision: 0.506797583081571, recall: 0.6139066788655078, fps: 57.305881515492715, best_epoch: 8
+[2023/03/01 06:36:31] ppocr INFO: epoch: [8/200], global_step: 710, lr: 0.000049, loss: 0.723687, avg_reader_cost: 2.48777 s, avg_batch_cost: 2.68833 s, avg_samples: 8.0, ips: 2.97582 samples/s, eta: 2:55:05
+[2023/03/01 06:36:35] ppocr INFO: epoch: [8/200], global_step: 720, lr: 0.000049, loss: 0.740966, avg_reader_cost: 0.00239 s, avg_batch_cost: 0.18204 s, avg_samples: 8.0, ips: 43.94655 samples/s, eta: 2:53:22
+[2023/03/01 06:36:41] ppocr INFO: cur metric, precision: 0.5007462686567165, recall: 0.6139066788655078, hmean: 0.5515824085491163, fps: 53.50093874969179
+[2023/03/01 06:36:41] ppocr INFO: best metric, hmean: 0.555233760860571, precision: 0.506797583081571, recall: 0.6139066788655078, fps: 57.305881515492715, best_epoch: 8
+[2023/03/01 06:36:44] ppocr INFO: epoch: [8/200], global_step: 730, lr: 0.000049, loss: 0.706128, avg_reader_cost: 0.00226 s, avg_batch_cost: 0.18268 s, avg_samples: 8.0, ips: 43.79204 samples/s, eta: 2:51:43
+[2023/03/01 06:36:48] ppocr INFO: epoch: [8/200], global_step: 740, lr: 0.000049, loss: 0.682212, avg_reader_cost: 0.00346 s, avg_batch_cost: 0.17108 s, avg_samples: 8.0, ips: 46.76203 samples/s, eta: 2:50:03
+[2023/03/01 06:36:54] ppocr INFO: cur metric, precision: 0.49508196721311476, recall: 0.6216834400731931, hmean: 0.5512066517947678, fps: 55.45640059836742
+[2023/03/01 06:36:54] ppocr INFO: best metric, hmean: 0.555233760860571, precision: 0.506797583081571, recall: 0.6139066788655078, fps: 57.305881515492715, best_epoch: 8
+[2023/03/01 06:36:57] ppocr INFO: epoch: [8/200], global_step: 750, lr: 0.000049, loss: 0.729785, avg_reader_cost: 0.00144 s, avg_batch_cost: 0.16726 s, avg_samples: 8.0, ips: 47.82975 samples/s, eta: 2:48:24
+[2023/03/01 06:37:01] ppocr INFO: epoch: [8/200], global_step: 760, lr: 0.000049, loss: 0.746500, avg_reader_cost: 0.00461 s, avg_batch_cost: 0.22548 s, avg_samples: 8.0, ips: 35.47965 samples/s, eta: 2:47:03
+[2023/03/01 06:37:07] ppocr INFO: cur metric, precision: 0.5022222222222222, recall: 0.6203110704483074, hmean: 0.5550552599263201, fps: 55.818259126202804
+[2023/03/01 06:37:07] ppocr INFO: best metric, hmean: 0.555233760860571, precision: 0.506797583081571, recall: 0.6139066788655078, fps: 57.305881515492715, best_epoch: 8
+[2023/03/01 06:37:11] ppocr INFO: epoch: [8/200], global_step: 770, lr: 0.000049, loss: 0.645529, avg_reader_cost: 0.00312 s, avg_batch_cost: 0.17392 s, avg_samples: 8.0, ips: 45.99847 samples/s, eta: 2:45:31
+[2023/03/01 06:37:21] ppocr INFO: cur metric, precision: 0.5173572228443449, recall: 0.6340347666971637, hmean: 0.5697841726618705, fps: 59.86438288847691
+[2023/03/01 06:37:45] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:37:45] ppocr INFO: best metric, hmean: 0.5697841726618705, precision: 0.5173572228443449, recall: 0.6340347666971637, fps: 59.86438288847691, best_epoch: 8
+[2023/03/01 06:37:45] ppocr INFO: epoch: [8/200], global_step: 780, lr: 0.000049, loss: 0.775705, avg_reader_cost: 0.00256 s, avg_batch_cost: 0.19715 s, avg_samples: 8.0, ips: 40.57800 samples/s, eta: 2:44:07
+[2023/03/01 06:37:49] ppocr INFO: epoch: [8/200], global_step: 790, lr: 0.000049, loss: 0.709527, avg_reader_cost: 0.00098 s, avg_batch_cost: 0.19308 s, avg_samples: 8.0, ips: 41.43412 samples/s, eta: 2:42:45
+[2023/03/01 06:37:58] ppocr INFO: cur metric, precision: 0.5150837988826815, recall: 0.6326623970722781, hmean: 0.5678505440361322, fps: 61.03438952717638
+[2023/03/01 06:37:58] ppocr INFO: best metric, hmean: 0.5697841726618705, precision: 0.5173572228443449, recall: 0.6340347666971637, fps: 59.86438288847691, best_epoch: 8
+[2023/03/01 06:37:58] ppocr INFO: epoch: [8/200], global_step: 800, lr: 0.000049, loss: 0.678046, avg_reader_cost: 0.06294 s, avg_batch_cost: 0.24283 s, avg_samples: 8.0, ips: 32.94453 samples/s, eta: 2:41:36
+[2023/03/01 06:38:21] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:38:27] ppocr INFO: epoch: [9/200], global_step: 810, lr: 0.000048, loss: 0.612422, avg_reader_cost: 2.52921 s, avg_batch_cost: 2.72498 s, avg_samples: 8.0, ips: 2.93580 samples/s, eta: 2:50:17
+[2023/03/01 06:38:36] ppocr INFO: cur metric, precision: 0.5241121495327102, recall: 0.6413540713632205, hmean: 0.5768360419666735, fps: 59.30165416153199
+[2023/03/01 06:38:59] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:38:59] ppocr INFO: best metric, hmean: 0.5768360419666735, precision: 0.5241121495327102, recall: 0.6413540713632205, fps: 59.30165416153199, best_epoch: 9
+[2023/03/01 06:39:00] ppocr INFO: epoch: [9/200], global_step: 820, lr: 0.000048, loss: 0.625945, avg_reader_cost: 0.02839 s, avg_batch_cost: 0.19810 s, avg_samples: 8.0, ips: 40.38464 samples/s, eta: 2:48:53
+[2023/03/01 06:39:04] ppocr INFO: epoch: [9/200], global_step: 830, lr: 0.000048, loss: 0.591360, avg_reader_cost: 0.00232 s, avg_batch_cost: 0.17555 s, avg_samples: 8.0, ips: 45.57055 samples/s, eta: 2:47:27
+[2023/03/01 06:39:12] ppocr INFO: cur metric, precision: 0.5137546468401487, recall: 0.6322049405306496, hmean: 0.5668580803937654, fps: 61.37864233669145
+[2023/03/01 06:39:12] ppocr INFO: best metric, hmean: 0.5768360419666735, precision: 0.5241121495327102, recall: 0.6413540713632205, fps: 59.30165416153199, best_epoch: 9
+[2023/03/01 06:39:14] ppocr INFO: epoch: [9/200], global_step: 840, lr: 0.000048, loss: 0.594969, avg_reader_cost: 0.02861 s, avg_batch_cost: 0.19054 s, avg_samples: 8.0, ips: 41.98484 samples/s, eta: 2:46:05
+[2023/03/01 06:39:17] ppocr INFO: epoch: [9/200], global_step: 850, lr: 0.000048, loss: 0.628099, avg_reader_cost: 0.00335 s, avg_batch_cost: 0.16974 s, avg_samples: 8.0, ips: 47.13117 samples/s, eta: 2:44:41
+[2023/03/01 06:39:25] ppocr INFO: cur metric, precision: 0.5211581291759465, recall: 0.6422689844464776, hmean: 0.5754098360655738, fps: 60.931032494050065
+[2023/03/01 06:39:25] ppocr INFO: best metric, hmean: 0.5768360419666735, precision: 0.5241121495327102, recall: 0.6413540713632205, fps: 59.30165416153199, best_epoch: 9
+[2023/03/01 06:39:27] ppocr INFO: epoch: [9/200], global_step: 860, lr: 0.000048, loss: 0.589648, avg_reader_cost: 0.00192 s, avg_batch_cost: 0.18958 s, avg_samples: 8.0, ips: 42.19848 samples/s, eta: 2:43:23
+[2023/03/01 06:39:31] ppocr INFO: epoch: [9/200], global_step: 870, lr: 0.000048, loss: 0.631434, avg_reader_cost: 0.00500 s, avg_batch_cost: 0.17303 s, avg_samples: 8.0, ips: 46.23487 samples/s, eta: 2:42:04
+[2023/03/01 06:39:38] ppocr INFO: cur metric, precision: 0.5238452872699962, recall: 0.6381518755718206, hmean: 0.5753763662610847, fps: 55.16631820845833
+[2023/03/01 06:39:38] ppocr INFO: best metric, hmean: 0.5768360419666735, precision: 0.5241121495327102, recall: 0.6413540713632205, fps: 59.30165416153199, best_epoch: 9
+[2023/03/01 06:39:40] ppocr INFO: epoch: [9/200], global_step: 880, lr: 0.000048, loss: 0.552361, avg_reader_cost: 0.00162 s, avg_batch_cost: 0.17654 s, avg_samples: 8.0, ips: 45.31447 samples/s, eta: 2:40:46
+[2023/03/01 06:39:44] ppocr INFO: epoch: [9/200], global_step: 890, lr: 0.000048, loss: 0.614750, avg_reader_cost: 0.00156 s, avg_batch_cost: 0.19354 s, avg_samples: 8.0, ips: 41.33432 samples/s, eta: 2:39:35
+[2023/03/01 06:39:52] ppocr INFO: cur metric, precision: 0.5247120029728726, recall: 0.645928636779506, hmean: 0.5790444945663318, fps: 58.17254635124102
+[2023/03/01 06:40:15] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:40:15] ppocr INFO: best metric, hmean: 0.5790444945663318, precision: 0.5247120029728726, recall: 0.645928636779506, fps: 58.17254635124102, best_epoch: 9
+[2023/03/01 06:40:17] ppocr INFO: epoch: [9/200], global_step: 900, lr: 0.000048, loss: 0.595899, avg_reader_cost: 0.14084 s, avg_batch_cost: 0.29753 s, avg_samples: 8.0, ips: 26.88826 samples/s, eta: 2:38:46
+[2023/03/01 06:40:41] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:40:50] ppocr INFO: epoch: [10/200], global_step: 910, lr: 0.000048, loss: 0.508919, avg_reader_cost: 2.87277 s, avg_batch_cost: 3.05705 s, avg_samples: 8.0, ips: 2.61691 samples/s, eta: 2:47:38
+[2023/03/01 06:40:57] ppocr INFO: cur metric, precision: 0.5291496472335685, recall: 0.651875571820677, hmean: 0.584136093461775, fps: 50.82619295661098
+[2023/03/01 06:41:20] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:41:20] ppocr INFO: best metric, hmean: 0.584136093461775, precision: 0.5291496472335685, recall: 0.651875571820677, fps: 50.82619295661098, best_epoch: 10
+[2023/03/01 06:41:23] ppocr INFO: epoch: [10/200], global_step: 920, lr: 0.000048, loss: 0.496499, avg_reader_cost: 0.00227 s, avg_batch_cost: 0.22974 s, avg_samples: 8.0, ips: 34.82209 samples/s, eta: 2:46:31
+[2023/03/01 06:41:28] ppocr INFO: epoch: [10/200], global_step: 930, lr: 0.000048, loss: 0.446939, avg_reader_cost: 0.04752 s, avg_batch_cost: 0.26117 s, avg_samples: 8.0, ips: 30.63145 samples/s, eta: 2:45:32
+[2023/03/01 06:41:34] ppocr INFO: cur metric, precision: 0.5315078769692423, recall: 0.6482159194876487, hmean: 0.5840890354492992, fps: 54.47220917370713
+[2023/03/01 06:41:34] ppocr INFO: best metric, hmean: 0.584136093461775, precision: 0.5291496472335685, recall: 0.651875571820677, fps: 50.82619295661098, best_epoch: 10
+[2023/03/01 06:41:37] ppocr INFO: epoch: [10/200], global_step: 940, lr: 0.000048, loss: 0.539205, avg_reader_cost: 0.00088 s, avg_batch_cost: 0.16720 s, avg_samples: 8.0, ips: 47.84781 samples/s, eta: 2:44:15
+[2023/03/01 06:41:41] ppocr INFO: epoch: [10/200], global_step: 950, lr: 0.000048, loss: 0.478728, avg_reader_cost: 0.00324 s, avg_batch_cost: 0.17836 s, avg_samples: 8.0, ips: 44.85231 samples/s, eta: 2:43:02
+[2023/03/01 06:41:47] ppocr INFO: cur metric, precision: 0.540530303030303, recall: 0.6527904849039341, hmean: 0.5913800248653128, fps: 55.70408902658515
+[2023/03/01 06:42:10] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:42:10] ppocr INFO: best metric, hmean: 0.5913800248653128, precision: 0.540530303030303, recall: 0.6527904849039341, fps: 55.70408902658515, best_epoch: 10
+[2023/03/01 06:42:13] ppocr INFO: epoch: [10/200], global_step: 960, lr: 0.000048, loss: 0.439563, avg_reader_cost: 0.00167 s, avg_batch_cost: 0.17079 s, avg_samples: 8.0, ips: 46.84133 samples/s, eta: 2:41:49
+[2023/03/01 06:42:23] ppocr INFO: cur metric, precision: 0.5338824410333208, recall: 0.6523330283623056, hmean: 0.5871937409923821, fps: 53.97054276353673
+[2023/03/01 06:42:23] ppocr INFO: best metric, hmean: 0.5913800248653128, precision: 0.540530303030303, recall: 0.6527904849039341, fps: 55.70408902658515, best_epoch: 10
+[2023/03/01 06:42:24] ppocr INFO: epoch: [10/200], global_step: 970, lr: 0.000048, loss: 0.465758, avg_reader_cost: 0.00351 s, avg_batch_cost: 0.18649 s, avg_samples: 8.0, ips: 42.89832 samples/s, eta: 2:40:40
+[2023/03/01 06:42:28] ppocr INFO: epoch: [10/200], global_step: 980, lr: 0.000048, loss: 0.538945, avg_reader_cost: 0.00177 s, avg_batch_cost: 0.18155 s, avg_samples: 8.0, ips: 44.06426 samples/s, eta: 2:39:32
+[2023/03/01 06:42:37] ppocr INFO: cur metric, precision: 0.5304217991787981, recall: 0.6500457456541628, hmean: 0.5841726618705037, fps: 56.322486109738435
+[2023/03/01 06:42:37] ppocr INFO: best metric, hmean: 0.5913800248653128, precision: 0.540530303030303, recall: 0.6527904849039341, fps: 55.70408902658515, best_epoch: 10
+[2023/03/01 06:42:38] ppocr INFO: epoch: [10/200], global_step: 990, lr: 0.000048, loss: 0.513990, avg_reader_cost: 0.00136 s, avg_batch_cost: 0.16395 s, avg_samples: 8.0, ips: 48.79525 samples/s, eta: 2:38:22
+[2023/03/01 06:42:41] ppocr INFO: epoch: [10/200], global_step: 1000, lr: 0.000048, loss: 0.485037, avg_reader_cost: 0.00085 s, avg_batch_cost: 0.14638 s, avg_samples: 8.0, ips: 54.65230 samples/s, eta: 2:37:10
+[2023/03/01 06:43:04] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:43:15] ppocr INFO: cur metric, precision: 0.5352588147036759, recall: 0.6527904849039341, hmean: 0.5882110469909315, fps: 53.169093223358786
+[2023/03/01 06:43:15] ppocr INFO: best metric, hmean: 0.5913800248653128, precision: 0.540530303030303, recall: 0.6527904849039341, fps: 55.70408902658515, best_epoch: 10
+[2023/03/01 06:43:16] ppocr INFO: epoch: [11/200], global_step: 1010, lr: 0.000048, loss: 0.464567, avg_reader_cost: 2.46221 s, avg_batch_cost: 2.63842 s, avg_samples: 8.0, ips: 3.03212 samples/s, eta: 2:43:48
+[2023/03/01 06:43:20] ppocr INFO: epoch: [11/200], global_step: 1020, lr: 0.000048, loss: 0.414011, avg_reader_cost: 0.00402 s, avg_batch_cost: 0.17926 s, avg_samples: 8.0, ips: 44.62779 samples/s, eta: 2:42:40
+[2023/03/01 06:43:29] ppocr INFO: cur metric, precision: 0.5417769376181475, recall: 0.6555352241537054, hmean: 0.5932519147174498, fps: 54.69769455625245
+[2023/03/01 06:43:52] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:43:52] ppocr INFO: best metric, hmean: 0.5932519147174498, precision: 0.5417769376181475, recall: 0.6555352241537054, fps: 54.69769455625245, best_epoch: 11
+[2023/03/01 06:43:54] ppocr INFO: epoch: [11/200], global_step: 1030, lr: 0.000048, loss: 0.343218, avg_reader_cost: 0.00235 s, avg_batch_cost: 0.27305 s, avg_samples: 8.0, ips: 29.29828 samples/s, eta: 2:41:50
+[2023/03/01 06:43:58] ppocr INFO: epoch: [11/200], global_step: 1040, lr: 0.000048, loss: 0.388755, avg_reader_cost: 0.00227 s, avg_batch_cost: 0.19214 s, avg_samples: 8.0, ips: 41.63717 samples/s, eta: 2:40:47
+[2023/03/01 06:44:07] ppocr INFO: cur metric, precision: 0.5474839197881196, recall: 0.6619396157365051, hmean: 0.5992959204804307, fps: 55.789563292755595
+[2023/03/01 06:44:29] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:44:29] ppocr INFO: best metric, hmean: 0.5992959204804307, precision: 0.5474839197881196, recall: 0.6619396157365051, fps: 55.789563292755595, best_epoch: 11
+[2023/03/01 06:44:31] ppocr INFO: epoch: [11/200], global_step: 1050, lr: 0.000048, loss: 0.441443, avg_reader_cost: 0.05204 s, avg_batch_cost: 0.22680 s, avg_samples: 8.0, ips: 35.27406 samples/s, eta: 2:39:51
+[2023/03/01 06:44:36] ppocr INFO: epoch: [11/200], global_step: 1060, lr: 0.000048, loss: 0.459377, avg_reader_cost: 0.08800 s, avg_batch_cost: 0.27396 s, avg_samples: 8.0, ips: 29.20169 samples/s, eta: 2:39:04
+[2023/03/01 06:44:43] ppocr INFO: cur metric, precision: 0.5380881254667662, recall: 0.6591948764867338, hmean: 0.592516447368421, fps: 60.573033667298496
+[2023/03/01 06:44:43] ppocr INFO: best metric, hmean: 0.5992959204804307, precision: 0.5474839197881196, recall: 0.6619396157365051, fps: 55.789563292755595, best_epoch: 11
+[2023/03/01 06:44:45] ppocr INFO: epoch: [11/200], global_step: 1070, lr: 0.000048, loss: 0.396830, avg_reader_cost: 0.00233 s, avg_batch_cost: 0.16095 s, avg_samples: 8.0, ips: 49.70567 samples/s, eta: 2:37:58
+[2023/03/01 06:44:48] ppocr INFO: epoch: [11/200], global_step: 1080, lr: 0.000048, loss: 0.411919, avg_reader_cost: 0.00150 s, avg_batch_cost: 0.17602 s, avg_samples: 8.0, ips: 45.44928 samples/s, eta: 2:36:56
+[2023/03/01 06:44:55] ppocr INFO: cur metric, precision: 0.5363399180022363, recall: 0.6582799634034767, hmean: 0.5910864653933046, fps: 57.52326135720919
+[2023/03/01 06:44:55] ppocr INFO: best metric, hmean: 0.5992959204804307, precision: 0.5474839197881196, recall: 0.6619396157365051, fps: 55.789563292755595, best_epoch: 11
+[2023/03/01 06:44:58] ppocr INFO: epoch: [11/200], global_step: 1090, lr: 0.000048, loss: 0.430876, avg_reader_cost: 0.00113 s, avg_batch_cost: 0.16338 s, avg_samples: 8.0, ips: 48.96524 samples/s, eta: 2:35:53
+[2023/03/01 06:45:01] ppocr INFO: epoch: [11/200], global_step: 1100, lr: 0.000048, loss: 0.402668, avg_reader_cost: 0.00174 s, avg_batch_cost: 0.16238 s, avg_samples: 8.0, ips: 49.26570 samples/s, eta: 2:34:51
+[2023/03/01 06:45:24] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:45:32] ppocr INFO: cur metric, precision: 0.5498857578065499, recall: 0.6605672461116194, hmean: 0.6001662510390691, fps: 57.82685764966716
+[2023/03/01 06:45:55] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:45:55] ppocr INFO: best metric, hmean: 0.6001662510390691, precision: 0.5498857578065499, recall: 0.6605672461116194, fps: 57.82685764966716, best_epoch: 12
+[2023/03/01 06:45:58] ppocr INFO: epoch: [12/200], global_step: 1110, lr: 0.000048, loss: 0.327548, avg_reader_cost: 2.39772 s, avg_batch_cost: 2.58936 s, avg_samples: 8.0, ips: 3.08957 samples/s, eta: 2:40:43
+[2023/03/01 06:46:02] ppocr INFO: epoch: [12/200], global_step: 1120, lr: 0.000048, loss: 0.353532, avg_reader_cost: 0.00266 s, avg_batch_cost: 0.17581 s, avg_samples: 8.0, ips: 45.50470 samples/s, eta: 2:39:42
+[2023/03/01 06:46:08] ppocr INFO: cur metric, precision: 0.5390654205607477, recall: 0.6596523330283623, hmean: 0.59329356099568, fps: 56.50080602782456
+[2023/03/01 06:46:08] ppocr INFO: best metric, hmean: 0.6001662510390691, precision: 0.5498857578065499, recall: 0.6605672461116194, fps: 57.82685764966716, best_epoch: 12
+[2023/03/01 06:46:12] ppocr INFO: epoch: [12/200], global_step: 1130, lr: 0.000048, loss: 0.367829, avg_reader_cost: 0.00447 s, avg_batch_cost: 0.18711 s, avg_samples: 8.0, ips: 42.75602 samples/s, eta: 2:38:43
+[2023/03/01 06:46:16] ppocr INFO: epoch: [12/200], global_step: 1140, lr: 0.000048, loss: 0.382021, avg_reader_cost: 0.10612 s, avg_batch_cost: 0.30098 s, avg_samples: 8.0, ips: 26.57940 samples/s, eta: 2:38:05
+[2023/03/01 06:46:22] ppocr INFO: cur metric, precision: 0.5362752430815259, recall: 0.6559926806953339, hmean: 0.5901234567901236, fps: 56.97095153881052
+[2023/03/01 06:46:22] ppocr INFO: best metric, hmean: 0.6001662510390691, precision: 0.5498857578065499, recall: 0.6605672461116194, fps: 57.82685764966716, best_epoch: 12
+[2023/03/01 06:46:26] ppocr INFO: epoch: [12/200], global_step: 1150, lr: 0.000048, loss: 0.356161, avg_reader_cost: 0.00242 s, avg_batch_cost: 0.17501 s, avg_samples: 8.0, ips: 45.71262 samples/s, eta: 2:37:06
+[2023/03/01 06:46:36] ppocr INFO: cur metric, precision: 0.5328385899814472, recall: 0.656907593778591, hmean: 0.5884040155705798, fps: 60.45868004944741
+[2023/03/01 06:46:36] ppocr INFO: best metric, hmean: 0.6001662510390691, precision: 0.5498857578065499, recall: 0.6605672461116194, fps: 57.82685764966716, best_epoch: 12
+[2023/03/01 06:46:37] ppocr INFO: epoch: [12/200], global_step: 1160, lr: 0.000048, loss: 0.308698, avg_reader_cost: 0.00706 s, avg_batch_cost: 0.19434 s, avg_samples: 8.0, ips: 41.16415 samples/s, eta: 2:36:11
+[2023/03/01 06:46:40] ppocr INFO: epoch: [12/200], global_step: 1170, lr: 0.000048, loss: 0.346224, avg_reader_cost: 0.00111 s, avg_batch_cost: 0.15692 s, avg_samples: 8.0, ips: 50.98158 samples/s, eta: 2:35:11
+[2023/03/01 06:46:49] ppocr INFO: cur metric, precision: 0.550531914893617, recall: 0.6628545288197621, hmean: 0.6014943960149439, fps: 55.34926231405434
+[2023/03/01 06:47:15] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:47:15] ppocr INFO: best metric, hmean: 0.6014943960149439, precision: 0.550531914893617, recall: 0.6628545288197621, fps: 55.34926231405434, best_epoch: 12
+[2023/03/01 06:47:16] ppocr INFO: epoch: [12/200], global_step: 1180, lr: 0.000048, loss: 0.424857, avg_reader_cost: 0.00376 s, avg_batch_cost: 0.19024 s, avg_samples: 8.0, ips: 42.05151 samples/s, eta: 2:34:18
+[2023/03/01 06:47:20] ppocr INFO: epoch: [12/200], global_step: 1190, lr: 0.000048, loss: 0.340872, avg_reader_cost: 0.00439 s, avg_batch_cost: 0.21359 s, avg_samples: 8.0, ips: 37.45568 samples/s, eta: 2:33:29
+[2023/03/01 06:47:28] ppocr INFO: cur metric, precision: 0.5584662110858011, recall: 0.6729185727355901, hmean: 0.6103734439834024, fps: 59.41259452879977
+[2023/03/01 06:47:52] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:47:52] ppocr INFO: best metric, hmean: 0.6103734439834024, precision: 0.5584662110858011, recall: 0.6729185727355901, fps: 59.41259452879977, best_epoch: 12
+[2023/03/01 06:47:53] ppocr INFO: epoch: [12/200], global_step: 1200, lr: 0.000048, loss: 0.369159, avg_reader_cost: 0.02850 s, avg_batch_cost: 0.19744 s, avg_samples: 8.0, ips: 40.51896 samples/s, eta: 2:32:38
+[2023/03/01 06:48:19] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:48:26] ppocr INFO: epoch: [13/200], global_step: 1210, lr: 0.000047, loss: 0.332234, avg_reader_cost: 2.87948 s, avg_batch_cost: 3.09737 s, avg_samples: 8.0, ips: 2.58284 samples/s, eta: 2:39:19
+[2023/03/01 06:48:39] ppocr INFO: cur metric, precision: 0.5529411764705883, recall: 0.6665141811527905, hmean: 0.6044389130885708, fps: 54.74752179038832
+[2023/03/01 06:48:39] ppocr INFO: best metric, hmean: 0.6103734439834024, precision: 0.5584662110858011, recall: 0.6729185727355901, fps: 59.41259452879977, best_epoch: 12
+[2023/03/01 06:48:40] ppocr INFO: epoch: [13/200], global_step: 1220, lr: 0.000047, loss: 0.283917, avg_reader_cost: 0.24320 s, avg_batch_cost: 0.44006 s, avg_samples: 8.0, ips: 18.17946 samples/s, eta: 2:39:03
+[2023/03/01 06:48:44] ppocr INFO: epoch: [13/200], global_step: 1230, lr: 0.000047, loss: 0.280952, avg_reader_cost: 0.01961 s, avg_batch_cost: 0.25192 s, avg_samples: 8.0, ips: 31.75673 samples/s, eta: 2:38:19
+[2023/03/01 06:48:55] ppocr INFO: cur metric, precision: 0.554882664647994, recall: 0.6706312900274474, hmean: 0.6072908036454019, fps: 59.122718534516906
+[2023/03/01 06:48:55] ppocr INFO: best metric, hmean: 0.6103734439834024, precision: 0.5584662110858011, recall: 0.6729185727355901, fps: 59.41259452879977, best_epoch: 12
+[2023/03/01 06:48:57] ppocr INFO: epoch: [13/200], global_step: 1240, lr: 0.000047, loss: 0.317755, avg_reader_cost: 0.04425 s, avg_batch_cost: 0.22576 s, avg_samples: 8.0, ips: 35.43660 samples/s, eta: 2:37:31
+[2023/03/01 06:49:00] ppocr INFO: epoch: [13/200], global_step: 1250, lr: 0.000047, loss: 0.251701, avg_reader_cost: 0.00313 s, avg_batch_cost: 0.19469 s, avg_samples: 8.0, ips: 41.09083 samples/s, eta: 2:36:40
+[2023/03/01 06:49:09] ppocr INFO: cur metric, precision: 0.5515425131677953, recall: 0.6706312900274474, hmean: 0.6052848885218828, fps: 56.487147344542315
+[2023/03/01 06:49:09] ppocr INFO: best metric, hmean: 0.6103734439834024, precision: 0.5584662110858011, recall: 0.6729185727355901, fps: 59.41259452879977, best_epoch: 12
+[2023/03/01 06:49:11] ppocr INFO: epoch: [13/200], global_step: 1260, lr: 0.000047, loss: 0.286899, avg_reader_cost: 0.00088 s, avg_batch_cost: 0.17099 s, avg_samples: 8.0, ips: 46.78666 samples/s, eta: 2:35:46
+[2023/03/01 06:49:15] ppocr INFO: epoch: [13/200], global_step: 1270, lr: 0.000047, loss: 0.353727, avg_reader_cost: 0.00400 s, avg_batch_cost: 0.21932 s, avg_samples: 8.0, ips: 36.47612 samples/s, eta: 2:35:00
+[2023/03/01 06:49:24] ppocr INFO: cur metric, precision: 0.5547112462006079, recall: 0.6678865507776761, hmean: 0.6060606060606061, fps: 53.06658070014469
+[2023/03/01 06:49:24] ppocr INFO: best metric, hmean: 0.6103734439834024, precision: 0.5584662110858011, recall: 0.6729185727355901, fps: 59.41259452879977, best_epoch: 12
+[2023/03/01 06:49:27] ppocr INFO: epoch: [13/200], global_step: 1280, lr: 0.000047, loss: 0.301292, avg_reader_cost: 0.06496 s, avg_batch_cost: 0.25163 s, avg_samples: 8.0, ips: 31.79234 samples/s, eta: 2:34:19
+[2023/03/01 06:49:31] ppocr INFO: epoch: [13/200], global_step: 1290, lr: 0.000047, loss: 0.297471, avg_reader_cost: 0.00192 s, avg_batch_cost: 0.22528 s, avg_samples: 8.0, ips: 35.51135 samples/s, eta: 2:33:35
+[2023/03/01 06:49:39] ppocr INFO: cur metric, precision: 0.5490867579908676, recall: 0.6601097895699909, hmean: 0.5995014540922311, fps: 51.77371367261462
+[2023/03/01 06:49:39] ppocr INFO: best metric, hmean: 0.6103734439834024, precision: 0.5584662110858011, recall: 0.6729185727355901, fps: 59.41259452879977, best_epoch: 12
+[2023/03/01 06:49:42] ppocr INFO: epoch: [13/200], global_step: 1300, lr: 0.000047, loss: 0.265177, avg_reader_cost: 0.00256 s, avg_batch_cost: 0.17814 s, avg_samples: 8.0, ips: 44.90891 samples/s, eta: 2:32:45
+[2023/03/01 06:50:07] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:50:14] ppocr INFO: epoch: [14/200], global_step: 1310, lr: 0.000047, loss: 0.246808, avg_reader_cost: 2.80251 s, avg_batch_cost: 3.02881 s, avg_samples: 8.0, ips: 2.64130 samples/s, eta: 2:38:42
+[2023/03/01 06:50:21] ppocr INFO: cur metric, precision: 0.5503993914035755, recall: 0.6619396157365051, hmean: 0.6010384215991693, fps: 55.18294636366925
+[2023/03/01 06:50:21] ppocr INFO: best metric, hmean: 0.6103734439834024, precision: 0.5584662110858011, recall: 0.6729185727355901, fps: 59.41259452879977, best_epoch: 12
+[2023/03/01 06:50:25] ppocr INFO: epoch: [14/200], global_step: 1320, lr: 0.000047, loss: 0.259921, avg_reader_cost: 0.00267 s, avg_batch_cost: 0.19687 s, avg_samples: 8.0, ips: 40.63680 samples/s, eta: 2:37:53
+[2023/03/01 06:50:29] ppocr INFO: epoch: [14/200], global_step: 1330, lr: 0.000047, loss: 0.249766, avg_reader_cost: 0.00922 s, avg_batch_cost: 0.21798 s, avg_samples: 8.0, ips: 36.70116 samples/s, eta: 2:37:07
+[2023/03/01 06:50:35] ppocr INFO: cur metric, precision: 0.5601816805450416, recall: 0.6770356816102471, hmean: 0.6130903065451533, fps: 57.69368797845048
+[2023/03/01 06:50:59] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:50:59] ppocr INFO: best metric, hmean: 0.6130903065451533, precision: 0.5601816805450416, recall: 0.6770356816102471, fps: 57.69368797845048, best_epoch: 14
+[2023/03/01 06:51:03] ppocr INFO: epoch: [14/200], global_step: 1340, lr: 0.000047, loss: 0.273006, avg_reader_cost: 0.00231 s, avg_batch_cost: 0.20517 s, avg_samples: 8.0, ips: 38.99171 samples/s, eta: 2:36:20
+[2023/03/01 06:51:14] ppocr INFO: cur metric, precision: 0.5482062780269058, recall: 0.6710887465690759, hmean: 0.6034553681612504, fps: 47.0961764696305
+[2023/03/01 06:51:14] ppocr INFO: best metric, hmean: 0.6130903065451533, precision: 0.5601816805450416, recall: 0.6770356816102471, fps: 57.69368797845048, best_epoch: 14
+[2023/03/01 06:51:15] ppocr INFO: epoch: [14/200], global_step: 1350, lr: 0.000047, loss: 0.280523, avg_reader_cost: 0.00220 s, avg_batch_cost: 0.21100 s, avg_samples: 8.0, ips: 37.91552 samples/s, eta: 2:35:35
+[2023/03/01 06:51:19] ppocr INFO: epoch: [14/200], global_step: 1360, lr: 0.000047, loss: 0.261414, avg_reader_cost: 0.00263 s, avg_batch_cost: 0.21458 s, avg_samples: 8.0, ips: 37.28216 samples/s, eta: 2:34:51
+[2023/03/01 06:51:29] ppocr INFO: cur metric, precision: 0.5512380952380952, recall: 0.6619396157365051, hmean: 0.6015381417584701, fps: 45.36867925381395
+[2023/03/01 06:51:29] ppocr INFO: best metric, hmean: 0.6130903065451533, precision: 0.5601816805450416, recall: 0.6770356816102471, fps: 57.69368797845048, best_epoch: 14
+[2023/03/01 06:51:30] ppocr INFO: epoch: [14/200], global_step: 1370, lr: 0.000047, loss: 0.244510, avg_reader_cost: 0.00179 s, avg_batch_cost: 0.19843 s, avg_samples: 8.0, ips: 40.31565 samples/s, eta: 2:34:05
+[2023/03/01 06:51:34] ppocr INFO: epoch: [14/200], global_step: 1380, lr: 0.000047, loss: 0.235630, avg_reader_cost: 0.00752 s, avg_batch_cost: 0.22201 s, avg_samples: 8.0, ips: 36.03394 samples/s, eta: 2:33:23
+[2023/03/01 06:51:45] ppocr INFO: cur metric, precision: 0.5605192821687667, recall: 0.6715462031107045, hmean: 0.6110301768990634, fps: 57.38760561345285
+[2023/03/01 06:51:45] ppocr INFO: best metric, hmean: 0.6130903065451533, precision: 0.5601816805450416, recall: 0.6770356816102471, fps: 57.69368797845048, best_epoch: 14
+[2023/03/01 06:51:46] ppocr INFO: epoch: [14/200], global_step: 1390, lr: 0.000047, loss: 0.233250, avg_reader_cost: 0.07095 s, avg_batch_cost: 0.28006 s, avg_samples: 8.0, ips: 28.56519 samples/s, eta: 2:32:49
+[2023/03/01 06:51:49] ppocr INFO: epoch: [14/200], global_step: 1400, lr: 0.000047, loss: 0.237755, avg_reader_cost: 0.00323 s, avg_batch_cost: 0.16591 s, avg_samples: 8.0, ips: 48.21866 samples/s, eta: 2:32:01
+[2023/03/01 06:52:13] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:52:27] ppocr INFO: cur metric, precision: 0.568649885583524, recall: 0.682067703568161, hmean: 0.620216306156406, fps: 52.41151730216961
+[2023/03/01 06:52:51] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:52:51] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:52:53] ppocr INFO: epoch: [15/200], global_step: 1410, lr: 0.000047, loss: 0.194445, avg_reader_cost: 2.69165 s, avg_batch_cost: 2.93913 s, avg_samples: 8.0, ips: 2.72189 samples/s, eta: 2:37:19
+[2023/03/01 06:52:58] ppocr INFO: epoch: [15/200], global_step: 1420, lr: 0.000047, loss: 0.193663, avg_reader_cost: 0.11218 s, avg_batch_cost: 0.33059 s, avg_samples: 8.0, ips: 24.19934 samples/s, eta: 2:36:51
+[2023/03/01 06:53:08] ppocr INFO: cur metric, precision: 0.5607724346838319, recall: 0.6774931381518756, hmean: 0.6136316552724259, fps: 57.03288671688297
+[2023/03/01 06:53:08] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:53:10] ppocr INFO: epoch: [15/200], global_step: 1430, lr: 0.000047, loss: 0.199524, avg_reader_cost: 0.00356 s, avg_batch_cost: 0.20552 s, avg_samples: 8.0, ips: 38.92602 samples/s, eta: 2:36:07
+[2023/03/01 06:53:15] ppocr INFO: epoch: [15/200], global_step: 1440, lr: 0.000047, loss: 0.268164, avg_reader_cost: 0.08091 s, avg_batch_cost: 0.30000 s, avg_samples: 8.0, ips: 26.66663 samples/s, eta: 2:35:35
+[2023/03/01 06:53:24] ppocr INFO: cur metric, precision: 0.5625713198934956, recall: 0.6765782250686185, hmean: 0.6143302180685358, fps: 50.68732909825511
+[2023/03/01 06:53:24] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:53:26] ppocr INFO: epoch: [15/200], global_step: 1450, lr: 0.000047, loss: 0.183167, avg_reader_cost: 0.02263 s, avg_batch_cost: 0.21681 s, avg_samples: 8.0, ips: 36.89946 samples/s, eta: 2:34:54
+[2023/03/01 06:53:31] ppocr INFO: epoch: [15/200], global_step: 1460, lr: 0.000047, loss: 0.214000, avg_reader_cost: 0.11923 s, avg_batch_cost: 0.36025 s, avg_samples: 8.0, ips: 22.20707 samples/s, eta: 2:34:31
+[2023/03/01 06:53:42] ppocr INFO: cur metric, precision: 0.558756633813495, recall: 0.6742909423604757, hmean: 0.611111111111111, fps: 49.24841146049822
+[2023/03/01 06:53:42] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:53:45] ppocr INFO: epoch: [15/200], global_step: 1470, lr: 0.000047, loss: 0.239636, avg_reader_cost: 0.10486 s, avg_batch_cost: 0.29000 s, avg_samples: 8.0, ips: 27.58664 samples/s, eta: 2:33:59
+[2023/03/01 06:53:48] ppocr INFO: epoch: [15/200], global_step: 1480, lr: 0.000047, loss: 0.232512, avg_reader_cost: 0.00160 s, avg_batch_cost: 0.20698 s, avg_samples: 8.0, ips: 38.65018 samples/s, eta: 2:33:18
+[2023/03/01 06:53:57] ppocr INFO: cur metric, precision: 0.5643867023309133, recall: 0.6756633119853613, hmean: 0.6150322714969811, fps: 56.710146702869835
+[2023/03/01 06:53:57] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:54:01] ppocr INFO: epoch: [15/200], global_step: 1490, lr: 0.000047, loss: 0.212867, avg_reader_cost: 0.04216 s, avg_batch_cost: 0.23880 s, avg_samples: 8.0, ips: 33.50028 samples/s, eta: 2:32:41
+[2023/03/01 06:54:04] ppocr INFO: epoch: [15/200], global_step: 1500, lr: 0.000047, loss: 0.199460, avg_reader_cost: 0.00273 s, avg_batch_cost: 0.18383 s, avg_samples: 8.0, ips: 43.51885 samples/s, eta: 2:31:57
+[2023/03/01 06:54:29] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:54:39] ppocr INFO: cur metric, precision: 0.5553886594066841, recall: 0.6765782250686185, hmean: 0.6100226850897092, fps: 51.66507396044817
+[2023/03/01 06:54:39] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:54:42] ppocr INFO: epoch: [16/200], global_step: 1510, lr: 0.000047, loss: 0.179298, avg_reader_cost: 2.59133 s, avg_batch_cost: 2.85508 s, avg_samples: 8.0, ips: 2.80202 samples/s, eta: 2:36:42
+[2023/03/01 06:54:47] ppocr INFO: epoch: [16/200], global_step: 1520, lr: 0.000047, loss: 0.200704, avg_reader_cost: 0.05304 s, avg_batch_cost: 0.27262 s, avg_samples: 8.0, ips: 29.34508 samples/s, eta: 2:36:08
+[2023/03/01 06:54:54] ppocr INFO: cur metric, precision: 0.5641122913505311, recall: 0.6802378774016469, hmean: 0.6167565325591042, fps: 47.40138536725613
+[2023/03/01 06:54:54] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:54:58] ppocr INFO: epoch: [16/200], global_step: 1530, lr: 0.000047, loss: 0.160385, avg_reader_cost: 0.00108 s, avg_batch_cost: 0.16938 s, avg_samples: 8.0, ips: 47.23070 samples/s, eta: 2:35:22
+[2023/03/01 06:55:10] ppocr INFO: cur metric, precision: 0.5541256623769871, recall: 0.6697163769441903, hmean: 0.6064623032311517, fps: 49.708920492706035
+[2023/03/01 06:55:10] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:55:10] ppocr INFO: epoch: [16/200], global_step: 1540, lr: 0.000047, loss: 0.185594, avg_reader_cost: 0.00160 s, avg_batch_cost: 0.19110 s, avg_samples: 8.0, ips: 41.86248 samples/s, eta: 2:34:39
+[2023/03/01 06:55:14] ppocr INFO: epoch: [16/200], global_step: 1550, lr: 0.000047, loss: 0.160750, avg_reader_cost: 0.00440 s, avg_batch_cost: 0.17855 s, avg_samples: 8.0, ips: 44.80498 samples/s, eta: 2:33:56
+[2023/03/01 06:55:26] ppocr INFO: cur metric, precision: 0.564209726443769, recall: 0.6793229643183898, hmean: 0.6164383561643837, fps: 55.66391729318319
+[2023/03/01 06:55:26] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:55:26] ppocr INFO: epoch: [16/200], global_step: 1560, lr: 0.000047, loss: 0.169623, avg_reader_cost: 0.07629 s, avg_batch_cost: 0.29918 s, avg_samples: 8.0, ips: 26.74004 samples/s, eta: 2:33:27
+[2023/03/01 06:55:30] ppocr INFO: epoch: [16/200], global_step: 1570, lr: 0.000047, loss: 0.179282, avg_reader_cost: 0.00328 s, avg_batch_cost: 0.18433 s, avg_samples: 8.0, ips: 43.39971 samples/s, eta: 2:32:45
+[2023/03/01 06:55:42] ppocr INFO: cur metric, precision: 0.549063670411985, recall: 0.6706312900274474, hmean: 0.6037891268533772, fps: 52.542159709573404
+[2023/03/01 06:55:42] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:55:43] ppocr INFO: epoch: [16/200], global_step: 1580, lr: 0.000047, loss: 0.188123, avg_reader_cost: 0.03790 s, avg_batch_cost: 0.22191 s, avg_samples: 8.0, ips: 36.05023 samples/s, eta: 2:32:08
+[2023/03/01 06:55:47] ppocr INFO: epoch: [16/200], global_step: 1590, lr: 0.000047, loss: 0.188230, avg_reader_cost: 0.00346 s, avg_batch_cost: 0.22085 s, avg_samples: 8.0, ips: 36.22395 samples/s, eta: 2:31:31
+[2023/03/01 06:55:56] ppocr INFO: cur metric, precision: 0.5537409798708697, recall: 0.666971637694419, hmean: 0.6051047935256276, fps: 43.430778696562214
+[2023/03/01 06:55:56] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:55:57] ppocr INFO: epoch: [16/200], global_step: 1600, lr: 0.000047, loss: 0.189134, avg_reader_cost: 0.07340 s, avg_batch_cost: 0.24963 s, avg_samples: 8.0, ips: 32.04736 samples/s, eta: 2:30:58
+[2023/03/01 06:56:22] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:56:29] ppocr INFO: epoch: [17/200], global_step: 1610, lr: 0.000046, loss: 0.170767, avg_reader_cost: 2.71990 s, avg_batch_cost: 2.93744 s, avg_samples: 8.0, ips: 2.72346 samples/s, eta: 2:35:33
+[2023/03/01 06:56:40] ppocr INFO: cur metric, precision: 0.5610963075751808, recall: 0.6742909423604757, hmean: 0.6125077913982964, fps: 52.91464907918279
+[2023/03/01 06:56:40] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:56:42] ppocr INFO: epoch: [17/200], global_step: 1620, lr: 0.000046, loss: 0.148276, avg_reader_cost: 0.03634 s, avg_batch_cost: 0.26733 s, avg_samples: 8.0, ips: 29.92586 samples/s, eta: 2:35:00
+[2023/03/01 06:56:46] ppocr INFO: epoch: [17/200], global_step: 1630, lr: 0.000046, loss: 0.153798, avg_reader_cost: 0.00309 s, avg_batch_cost: 0.22718 s, avg_samples: 8.0, ips: 35.21458 samples/s, eta: 2:34:24
+[2023/03/01 06:56:55] ppocr INFO: cur metric, precision: 0.5602272727272727, recall: 0.6765782250686185, hmean: 0.6129299627020307, fps: 51.93529781632483
+[2023/03/01 06:56:55] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:56:57] ppocr INFO: epoch: [17/200], global_step: 1640, lr: 0.000046, loss: 0.154946, avg_reader_cost: 0.00143 s, avg_batch_cost: 0.18756 s, avg_samples: 8.0, ips: 42.65380 samples/s, eta: 2:33:43
+[2023/03/01 06:57:01] ppocr INFO: epoch: [17/200], global_step: 1650, lr: 0.000046, loss: 0.152024, avg_reader_cost: 0.01647 s, avg_batch_cost: 0.22529 s, avg_samples: 8.0, ips: 35.50983 samples/s, eta: 2:33:07
+[2023/03/01 06:57:10] ppocr INFO: cur metric, precision: 0.559664506290507, recall: 0.6715462031107045, hmean: 0.610521938032855, fps: 56.37830460923083
+[2023/03/01 06:57:10] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:57:13] ppocr INFO: epoch: [17/200], global_step: 1660, lr: 0.000046, loss: 0.148431, avg_reader_cost: 0.08326 s, avg_batch_cost: 0.26735 s, avg_samples: 8.0, ips: 29.92332 samples/s, eta: 2:32:37
+[2023/03/01 06:57:17] ppocr INFO: epoch: [17/200], global_step: 1670, lr: 0.000046, loss: 0.145480, avg_reader_cost: 0.06940 s, avg_batch_cost: 0.25258 s, avg_samples: 8.0, ips: 31.67286 samples/s, eta: 2:32:05
+[2023/03/01 06:57:25] ppocr INFO: cur metric, precision: 0.5588571428571428, recall: 0.6710887465690759, hmean: 0.6098524215339846, fps: 50.66952251000119
+[2023/03/01 06:57:25] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:57:28] ppocr INFO: epoch: [17/200], global_step: 1680, lr: 0.000046, loss: 0.174360, avg_reader_cost: 0.00093 s, avg_batch_cost: 0.20427 s, avg_samples: 8.0, ips: 39.16455 samples/s, eta: 2:31:28
+[2023/03/01 06:57:33] ppocr INFO: epoch: [17/200], global_step: 1690, lr: 0.000046, loss: 0.167464, avg_reader_cost: 0.05009 s, avg_batch_cost: 0.25976 s, avg_samples: 8.0, ips: 30.79747 samples/s, eta: 2:30:57
+[2023/03/01 06:57:42] ppocr INFO: cur metric, precision: 0.560790273556231, recall: 0.6752058554437328, hmean: 0.6127023661270237, fps: 50.94440733138186
+[2023/03/01 06:57:42] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:57:45] ppocr INFO: epoch: [17/200], global_step: 1700, lr: 0.000046, loss: 0.171360, avg_reader_cost: 0.00720 s, avg_batch_cost: 0.17137 s, avg_samples: 8.0, ips: 46.68335 samples/s, eta: 2:30:17
+[2023/03/01 06:58:10] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:58:17] ppocr INFO: epoch: [18/200], global_step: 1710, lr: 0.000046, loss: 0.128391, avg_reader_cost: 2.78116 s, avg_batch_cost: 2.98871 s, avg_samples: 8.0, ips: 2.67674 samples/s, eta: 2:34:39
+[2023/03/01 06:58:25] ppocr INFO: cur metric, precision: 0.5606980273141123, recall: 0.67612076852699, hmean: 0.613023641642472, fps: 51.29298732357696
+[2023/03/01 06:58:25] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:58:29] ppocr INFO: epoch: [18/200], global_step: 1720, lr: 0.000046, loss: 0.127283, avg_reader_cost: 0.00465 s, avg_batch_cost: 0.18624 s, avg_samples: 8.0, ips: 42.95540 samples/s, eta: 2:34:00
+[2023/03/01 06:58:41] ppocr INFO: cur metric, precision: 0.5518939393939394, recall: 0.6665141811527905, hmean: 0.6038126813095731, fps: 52.63206503516581
+[2023/03/01 06:58:41] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:58:41] ppocr INFO: epoch: [18/200], global_step: 1730, lr: 0.000046, loss: 0.124224, avg_reader_cost: 0.10977 s, avg_batch_cost: 0.28404 s, avg_samples: 8.0, ips: 28.16486 samples/s, eta: 2:33:32
+[2023/03/01 06:58:45] ppocr INFO: epoch: [18/200], global_step: 1740, lr: 0.000046, loss: 0.128673, avg_reader_cost: 0.00323 s, avg_batch_cost: 0.20143 s, avg_samples: 8.0, ips: 39.71670 samples/s, eta: 2:32:55
+[2023/03/01 06:58:56] ppocr INFO: cur metric, precision: 0.5541305167861185, recall: 0.672003659652333, hmean: 0.6074012817862311, fps: 55.39096331690962
+[2023/03/01 06:58:56] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:58:56] ppocr INFO: epoch: [18/200], global_step: 1750, lr: 0.000046, loss: 0.137029, avg_reader_cost: 0.01607 s, avg_batch_cost: 0.23325 s, avg_samples: 8.0, ips: 34.29766 samples/s, eta: 2:32:22
+[2023/03/01 06:59:00] ppocr INFO: epoch: [18/200], global_step: 1760, lr: 0.000046, loss: 0.141454, avg_reader_cost: 0.00150 s, avg_batch_cost: 0.21683 s, avg_samples: 8.0, ips: 36.89596 samples/s, eta: 2:31:47
+[2023/03/01 06:59:10] ppocr INFO: cur metric, precision: 0.5678257546809323, recall: 0.6797804208600183, hmean: 0.6187799292109099, fps: 56.62123436684121
+[2023/03/01 06:59:10] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:59:11] ppocr INFO: epoch: [18/200], global_step: 1770, lr: 0.000046, loss: 0.138789, avg_reader_cost: 0.00209 s, avg_batch_cost: 0.19207 s, avg_samples: 8.0, ips: 41.65160 samples/s, eta: 2:31:11
+[2023/03/01 06:59:15] ppocr INFO: epoch: [18/200], global_step: 1780, lr: 0.000046, loss: 0.143861, avg_reader_cost: 0.00379 s, avg_batch_cost: 0.18908 s, avg_samples: 8.0, ips: 42.31103 samples/s, eta: 2:30:34
+[2023/03/01 06:59:23] ppocr INFO: cur metric, precision: 0.5687547746371275, recall: 0.681152790484904, hmean: 0.6199000832639467, fps: 59.21867232436491
+[2023/03/01 06:59:23] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 06:59:25] ppocr INFO: epoch: [18/200], global_step: 1790, lr: 0.000046, loss: 0.133546, avg_reader_cost: 0.02709 s, avg_batch_cost: 0.22089 s, avg_samples: 8.0, ips: 36.21780 samples/s, eta: 2:30:01
+[2023/03/01 06:59:29] ppocr INFO: epoch: [18/200], global_step: 1800, lr: 0.000046, loss: 0.154874, avg_reader_cost: 0.00128 s, avg_batch_cost: 0.15414 s, avg_samples: 8.0, ips: 51.89955 samples/s, eta: 2:29:22
+[2023/03/01 06:59:51] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:00:02] ppocr INFO: cur metric, precision: 0.5642585551330799, recall: 0.6788655077767612, hmean: 0.6162790697674418, fps: 57.56885698415132
+[2023/03/01 07:00:02] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 07:00:04] ppocr INFO: epoch: [19/200], global_step: 1810, lr: 0.000046, loss: 0.111013, avg_reader_cost: 2.49014 s, avg_batch_cost: 2.67393 s, avg_samples: 8.0, ips: 2.99185 samples/s, eta: 2:32:56
+[2023/03/01 07:00:08] ppocr INFO: epoch: [19/200], global_step: 1820, lr: 0.000046, loss: 0.112628, avg_reader_cost: 0.00135 s, avg_batch_cost: 0.21658 s, avg_samples: 8.0, ips: 36.93725 samples/s, eta: 2:32:22
+[2023/03/01 07:00:16] ppocr INFO: cur metric, precision: 0.5687547746371275, recall: 0.681152790484904, hmean: 0.6199000832639467, fps: 49.80389209273872
+[2023/03/01 07:00:16] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 07:00:18] ppocr INFO: epoch: [19/200], global_step: 1830, lr: 0.000046, loss: 0.115799, avg_reader_cost: 0.00141 s, avg_batch_cost: 0.17578 s, avg_samples: 8.0, ips: 45.51140 samples/s, eta: 2:31:45
+[2023/03/01 07:00:22] ppocr INFO: epoch: [19/200], global_step: 1840, lr: 0.000046, loss: 0.120214, avg_reader_cost: 0.00331 s, avg_batch_cost: 0.17935 s, avg_samples: 8.0, ips: 44.60531 samples/s, eta: 2:31:08
+[2023/03/01 07:00:30] ppocr INFO: cur metric, precision: 0.5469509913954358, recall: 0.6688014638609332, hmean: 0.6017699115044248, fps: 56.54087660315603
+[2023/03/01 07:00:30] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 07:00:32] ppocr INFO: epoch: [19/200], global_step: 1850, lr: 0.000046, loss: 0.115981, avg_reader_cost: 0.00263 s, avg_batch_cost: 0.17613 s, avg_samples: 8.0, ips: 45.42201 samples/s, eta: 2:30:31
+[2023/03/01 07:00:36] ppocr INFO: epoch: [19/200], global_step: 1860, lr: 0.000046, loss: 0.134332, avg_reader_cost: 0.00156 s, avg_batch_cost: 0.19071 s, avg_samples: 8.0, ips: 41.94855 samples/s, eta: 2:29:56
+[2023/03/01 07:00:44] ppocr INFO: cur metric, precision: 0.5597579425113465, recall: 0.6770356816102471, hmean: 0.6128364389233955, fps: 58.28736506563593
+[2023/03/01 07:00:44] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 07:00:47] ppocr INFO: epoch: [19/200], global_step: 1870, lr: 0.000046, loss: 0.147567, avg_reader_cost: 0.03253 s, avg_batch_cost: 0.25877 s, avg_samples: 8.0, ips: 30.91575 samples/s, eta: 2:29:28
+[2023/03/01 07:00:51] ppocr INFO: epoch: [19/200], global_step: 1880, lr: 0.000046, loss: 0.110997, avg_reader_cost: 0.04406 s, avg_batch_cost: 0.23495 s, avg_samples: 8.0, ips: 34.05046 samples/s, eta: 2:28:58
+[2023/03/01 07:00:58] ppocr INFO: cur metric, precision: 0.5599849567506582, recall: 0.681152790484904, hmean: 0.614654282765738, fps: 60.588433706048946
+[2023/03/01 07:00:58] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 07:01:01] ppocr INFO: epoch: [19/200], global_step: 1890, lr: 0.000046, loss: 0.103871, avg_reader_cost: 0.00316 s, avg_batch_cost: 0.17664 s, avg_samples: 8.0, ips: 45.28903 samples/s, eta: 2:28:23
+[2023/03/01 07:01:05] ppocr INFO: epoch: [19/200], global_step: 1900, lr: 0.000046, loss: 0.120065, avg_reader_cost: 0.00137 s, avg_batch_cost: 0.14977 s, avg_samples: 8.0, ips: 53.41605 samples/s, eta: 2:27:46
+[2023/03/01 07:01:10] ppocr INFO: cur metric, precision: 0.5622641509433962, recall: 0.6816102470265325, hmean: 0.6162117452440032, fps: 55.511469884563304
+[2023/03/01 07:01:10] ppocr INFO: best metric, hmean: 0.620216306156406, precision: 0.568649885583524, recall: 0.682067703568161, fps: 52.41151730216961, best_epoch: 15
+[2023/03/01 07:01:34] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:01:40] ppocr INFO: epoch: [20/200], global_step: 1910, lr: 0.000046, loss: 0.098157, avg_reader_cost: 2.61487 s, avg_batch_cost: 2.80415 s, avg_samples: 8.0, ips: 2.85291 samples/s, eta: 2:31:20
+[2023/03/01 07:01:51] ppocr INFO: cur metric, precision: 0.5721925133689839, recall: 0.6852698993595608, hmean: 0.623646960865945, fps: 54.81421171728947
+[2023/03/01 07:02:14] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 07:02:14] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:02:15] ppocr INFO: epoch: [20/200], global_step: 1920, lr: 0.000046, loss: 0.089814, avg_reader_cost: 0.00294 s, avg_batch_cost: 0.21105 s, avg_samples: 8.0, ips: 37.90580 samples/s, eta: 2:30:48
+[2023/03/01 07:02:18] ppocr INFO: epoch: [20/200], global_step: 1930, lr: 0.000046, loss: 0.111298, avg_reader_cost: 0.00494 s, avg_batch_cost: 0.18866 s, avg_samples: 8.0, ips: 42.40328 samples/s, eta: 2:30:13
+[2023/03/01 07:02:29] ppocr INFO: cur metric, precision: 0.5645896656534954, recall: 0.6797804208600183, hmean: 0.6168534661685348, fps: 56.8225311966142
+[2023/03/01 07:02:29] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:02:29] ppocr INFO: epoch: [20/200], global_step: 1940, lr: 0.000046, loss: 0.106070, avg_reader_cost: 0.00464 s, avg_batch_cost: 0.21238 s, avg_samples: 8.0, ips: 37.66796 samples/s, eta: 2:29:42
+[2023/03/01 07:02:33] ppocr INFO: epoch: [20/200], global_step: 1950, lr: 0.000046, loss: 0.091886, avg_reader_cost: 0.00166 s, avg_batch_cost: 0.16172 s, avg_samples: 8.0, ips: 49.46704 samples/s, eta: 2:29:06
+[2023/03/01 07:02:42] ppocr INFO: cur metric, precision: 0.5473960284750843, recall: 0.6683440073193047, hmean: 0.6018537590113284, fps: 54.82984697515828
+[2023/03/01 07:02:42] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:02:43] ppocr INFO: epoch: [20/200], global_step: 1960, lr: 0.000046, loss: 0.107698, avg_reader_cost: 0.00153 s, avg_batch_cost: 0.18529 s, avg_samples: 8.0, ips: 43.17545 samples/s, eta: 2:28:32
+[2023/03/01 07:02:47] ppocr INFO: epoch: [20/200], global_step: 1970, lr: 0.000046, loss: 0.096710, avg_reader_cost: 0.00166 s, avg_batch_cost: 0.18776 s, avg_samples: 8.0, ips: 42.60766 samples/s, eta: 2:27:59
+[2023/03/01 07:02:56] ppocr INFO: cur metric, precision: 0.557370820668693, recall: 0.6710887465690759, hmean: 0.6089663760896638, fps: 58.044873711037745
+[2023/03/01 07:02:56] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:02:57] ppocr INFO: epoch: [20/200], global_step: 1980, lr: 0.000046, loss: 0.100022, avg_reader_cost: 0.00210 s, avg_batch_cost: 0.19847 s, avg_samples: 8.0, ips: 40.30936 samples/s, eta: 2:27:28
+[2023/03/01 07:03:01] ppocr INFO: epoch: [20/200], global_step: 1990, lr: 0.000046, loss: 0.093526, avg_reader_cost: 0.00198 s, avg_batch_cost: 0.23680 s, avg_samples: 8.0, ips: 33.78436 samples/s, eta: 2:27:00
+[2023/03/01 07:03:09] ppocr INFO: cur metric, precision: 0.5640347563279184, recall: 0.6829826166514181, hmean: 0.6178357128077798, fps: 56.27831406470786
+[2023/03/01 07:03:09] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:03:11] ppocr INFO: epoch: [20/200], global_step: 2000, lr: 0.000046, loss: 0.117181, avg_reader_cost: 0.00121 s, avg_batch_cost: 0.15632 s, avg_samples: 8.0, ips: 51.17788 samples/s, eta: 2:26:25
+[2023/03/01 07:03:34] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:03:40] ppocr INFO: epoch: [21/200], global_step: 2010, lr: 0.000045, loss: 0.128204, avg_reader_cost: 2.50992 s, avg_batch_cost: 2.70163 s, avg_samples: 8.0, ips: 2.96118 samples/s, eta: 2:29:38
+[2023/03/01 07:03:47] ppocr INFO: cur metric, precision: 0.5626423690205011, recall: 0.6779505946935042, hmean: 0.6149377593360995, fps: 58.6812505727443
+[2023/03/01 07:03:47] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:03:49] ppocr INFO: epoch: [21/200], global_step: 2020, lr: 0.000045, loss: 0.094233, avg_reader_cost: 0.00271 s, avg_batch_cost: 0.17010 s, avg_samples: 8.0, ips: 47.03116 samples/s, eta: 2:29:04
+[2023/03/01 07:03:53] ppocr INFO: epoch: [21/200], global_step: 2030, lr: 0.000045, loss: 0.092425, avg_reader_cost: 0.00296 s, avg_batch_cost: 0.20323 s, avg_samples: 8.0, ips: 39.36495 samples/s, eta: 2:28:33
+[2023/03/01 07:04:01] ppocr INFO: cur metric, precision: 0.5607441154138193, recall: 0.6756633119853613, hmean: 0.612863070539419, fps: 54.68566366816943
+[2023/03/01 07:04:01] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:04:04] ppocr INFO: epoch: [21/200], global_step: 2040, lr: 0.000045, loss: 0.076059, avg_reader_cost: 0.02424 s, avg_batch_cost: 0.19937 s, avg_samples: 8.0, ips: 40.12720 samples/s, eta: 2:28:02
+[2023/03/01 07:04:07] ppocr INFO: epoch: [21/200], global_step: 2050, lr: 0.000045, loss: 0.099616, avg_reader_cost: 0.00843 s, avg_batch_cost: 0.19616 s, avg_samples: 8.0, ips: 40.78225 samples/s, eta: 2:27:30
+[2023/03/01 07:04:15] ppocr INFO: cur metric, precision: 0.5679482299200609, recall: 0.6825251601097896, hmean: 0.6199875337627259, fps: 55.27272688936596
+[2023/03/01 07:04:15] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:04:19] ppocr INFO: epoch: [21/200], global_step: 2060, lr: 0.000045, loss: 0.078403, avg_reader_cost: 0.00353 s, avg_batch_cost: 0.20275 s, avg_samples: 8.0, ips: 39.45795 samples/s, eta: 2:27:00
+[2023/03/01 07:04:23] ppocr INFO: epoch: [21/200], global_step: 2070, lr: 0.000045, loss: 0.072689, avg_reader_cost: 0.05175 s, avg_batch_cost: 0.23662 s, avg_samples: 8.0, ips: 33.80960 samples/s, eta: 2:26:33
+[2023/03/01 07:04:30] ppocr INFO: cur metric, precision: 0.5628560577288264, recall: 0.6779505946935042, hmean: 0.61506536625856, fps: 51.33158732101334
+[2023/03/01 07:04:30] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:04:33] ppocr INFO: epoch: [21/200], global_step: 2080, lr: 0.000045, loss: 0.082609, avg_reader_cost: 0.00344 s, avg_batch_cost: 0.16523 s, avg_samples: 8.0, ips: 48.41707 samples/s, eta: 2:26:00
+[2023/03/01 07:04:37] ppocr INFO: epoch: [21/200], global_step: 2090, lr: 0.000045, loss: 0.080160, avg_reader_cost: 0.00547 s, avg_batch_cost: 0.21002 s, avg_samples: 8.0, ips: 38.09140 samples/s, eta: 2:25:32
+[2023/03/01 07:04:43] ppocr INFO: cur metric, precision: 0.563114134542706, recall: 0.6816102470265325, hmean: 0.6167218543046358, fps: 56.27170744482177
+[2023/03/01 07:04:43] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:04:47] ppocr INFO: epoch: [21/200], global_step: 2100, lr: 0.000045, loss: 0.085954, avg_reader_cost: 0.00071 s, avg_batch_cost: 0.15269 s, avg_samples: 8.0, ips: 52.39320 samples/s, eta: 2:24:58
+[2023/03/01 07:05:10] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:05:23] ppocr INFO: cur metric, precision: 0.563869992441421, recall: 0.6825251601097896, hmean: 0.6175496688741722, fps: 54.35613961491324
+[2023/03/01 07:05:23] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:05:23] ppocr INFO: epoch: [22/200], global_step: 2110, lr: 0.000045, loss: 0.077451, avg_reader_cost: 2.61026 s, avg_batch_cost: 2.80144 s, avg_samples: 8.0, ips: 2.85567 samples/s, eta: 2:28:10
+[2023/03/01 07:05:28] ppocr INFO: epoch: [22/200], global_step: 2120, lr: 0.000045, loss: 0.062227, avg_reader_cost: 0.07601 s, avg_batch_cost: 0.27476 s, avg_samples: 8.0, ips: 29.11613 samples/s, eta: 2:27:46
+[2023/03/01 07:05:39] ppocr INFO: cur metric, precision: 0.5669081204727411, recall: 0.6802378774016469, hmean: 0.6184237887294656, fps: 57.051031808881746
+[2023/03/01 07:05:39] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:05:39] ppocr INFO: epoch: [22/200], global_step: 2130, lr: 0.000045, loss: 0.077825, avg_reader_cost: 0.05748 s, avg_batch_cost: 0.26512 s, avg_samples: 8.0, ips: 30.17446 samples/s, eta: 2:27:22
+[2023/03/01 07:05:43] ppocr INFO: epoch: [22/200], global_step: 2140, lr: 0.000045, loss: 0.077136, avg_reader_cost: 0.00736 s, avg_batch_cost: 0.21605 s, avg_samples: 8.0, ips: 37.02854 samples/s, eta: 2:26:53
+[2023/03/01 07:05:54] ppocr INFO: cur metric, precision: 0.5662878787878788, recall: 0.6838975297346752, hmean: 0.6195607128056361, fps: 49.23534620950528
+[2023/03/01 07:05:54] ppocr INFO: best metric, hmean: 0.623646960865945, precision: 0.5721925133689839, recall: 0.6852698993595608, fps: 54.81421171728947, best_epoch: 20
+[2023/03/01 07:05:55] ppocr INFO: epoch: [22/200], global_step: 2150, lr: 0.000045, loss: 0.066492, avg_reader_cost: 0.00468 s, avg_batch_cost: 0.22145 s, avg_samples: 8.0, ips: 36.12571 samples/s, eta: 2:26:26
+[2023/03/01 07:05:59] ppocr INFO: epoch: [22/200], global_step: 2160, lr: 0.000045, loss: 0.081722, avg_reader_cost: 0.03274 s, avg_batch_cost: 0.22983 s, avg_samples: 8.0, ips: 34.80847 samples/s, eta: 2:25:59
+[2023/03/01 07:06:09] ppocr INFO: cur metric, precision: 0.5759541984732824, recall: 0.6903019213174748, hmean: 0.6279650436953808, fps: 57.084963598383986
+[2023/03/01 07:06:32] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 07:06:32] ppocr INFO: best metric, hmean: 0.6279650436953808, precision: 0.5759541984732824, recall: 0.6903019213174748, fps: 57.084963598383986, best_epoch: 22
+[2023/03/01 07:06:33] ppocr INFO: epoch: [22/200], global_step: 2170, lr: 0.000045, loss: 0.088478, avg_reader_cost: 0.04089 s, avg_batch_cost: 0.19552 s, avg_samples: 8.0, ips: 40.91555 samples/s, eta: 2:25:30
+[2023/03/01 07:06:37] ppocr INFO: epoch: [22/200], global_step: 2180, lr: 0.000045, loss: 0.069056, avg_reader_cost: 0.00774 s, avg_batch_cost: 0.20033 s, avg_samples: 8.0, ips: 39.93411 samples/s, eta: 2:25:02
+[2023/03/01 07:06:46] ppocr INFO: cur metric, precision: 0.5683206106870229, recall: 0.681152790484904, hmean: 0.6196421140241365, fps: 54.054830101125724
+[2023/03/01 07:06:47] ppocr INFO: best metric, hmean: 0.6279650436953808, precision: 0.5759541984732824, recall: 0.6903019213174748, fps: 57.084963598383986, best_epoch: 22
+[2023/03/01 07:06:48] ppocr INFO: epoch: [22/200], global_step: 2190, lr: 0.000045, loss: 0.072659, avg_reader_cost: 0.00116 s, avg_batch_cost: 0.20659 s, avg_samples: 8.0, ips: 38.72351 samples/s, eta: 2:24:34
+[2023/03/01 07:06:52] ppocr INFO: epoch: [22/200], global_step: 2200, lr: 0.000045, loss: 0.066218, avg_reader_cost: 0.00071 s, avg_batch_cost: 0.15365 s, avg_samples: 8.0, ips: 52.06716 samples/s, eta: 2:24:02
+[2023/03/01 07:07:16] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:07:27] ppocr INFO: cur metric, precision: 0.5730038022813688, recall: 0.6893870082342177, hmean: 0.6258305647840532, fps: 49.51442431022163
+[2023/03/01 07:07:27] ppocr INFO: best metric, hmean: 0.6279650436953808, precision: 0.5759541984732824, recall: 0.6903019213174748, fps: 57.084963598383986, best_epoch: 22
+[2023/03/01 07:07:29] ppocr INFO: epoch: [23/200], global_step: 2210, lr: 0.000045, loss: 0.055837, avg_reader_cost: 2.56069 s, avg_batch_cost: 2.75750 s, avg_samples: 8.0, ips: 2.90118 samples/s, eta: 2:27:00
+[2023/03/01 07:07:33] ppocr INFO: epoch: [23/200], global_step: 2220, lr: 0.000045, loss: 0.057738, avg_reader_cost: 0.00370 s, avg_batch_cost: 0.20320 s, avg_samples: 8.0, ips: 39.36943 samples/s, eta: 2:26:32
+[2023/03/01 07:07:42] ppocr INFO: cur metric, precision: 0.5705637533106318, recall: 0.6898444647758463, hmean: 0.6245599503002691, fps: 48.97841170809814
+[2023/03/01 07:07:42] ppocr INFO: best metric, hmean: 0.6279650436953808, precision: 0.5759541984732824, recall: 0.6903019213174748, fps: 57.084963598383986, best_epoch: 22
+[2023/03/01 07:07:44] ppocr INFO: epoch: [23/200], global_step: 2230, lr: 0.000045, loss: 0.062027, avg_reader_cost: 0.00161 s, avg_batch_cost: 0.18648 s, avg_samples: 8.0, ips: 42.89925 samples/s, eta: 2:26:02
+[2023/03/01 07:07:49] ppocr INFO: epoch: [23/200], global_step: 2240, lr: 0.000045, loss: 0.060059, avg_reader_cost: 0.00323 s, avg_batch_cost: 0.26033 s, avg_samples: 8.0, ips: 30.72993 samples/s, eta: 2:25:39
+[2023/03/01 07:07:57] ppocr INFO: cur metric, precision: 0.5731150038080731, recall: 0.6884720951509606, hmean: 0.6255195344970906, fps: 53.61538212763499
+[2023/03/01 07:07:57] ppocr INFO: best metric, hmean: 0.6279650436953808, precision: 0.5759541984732824, recall: 0.6903019213174748, fps: 57.084963598383986, best_epoch: 22
+[2023/03/01 07:08:00] ppocr INFO: epoch: [23/200], global_step: 2250, lr: 0.000045, loss: 0.070542, avg_reader_cost: 0.00391 s, avg_batch_cost: 0.18233 s, avg_samples: 8.0, ips: 43.87728 samples/s, eta: 2:25:09
+[2023/03/01 07:08:04] ppocr INFO: epoch: [23/200], global_step: 2260, lr: 0.000045, loss: 0.056902, avg_reader_cost: 0.03786 s, avg_batch_cost: 0.22774 s, avg_samples: 8.0, ips: 35.12735 samples/s, eta: 2:24:44
+[2023/03/01 07:08:11] ppocr INFO: cur metric, precision: 0.5785028790786948, recall: 0.6893870082342177, hmean: 0.6290962220830724, fps: 58.31950767108736
+[2023/03/01 07:08:34] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 07:08:34] ppocr INFO: best metric, hmean: 0.6290962220830724, precision: 0.5785028790786948, recall: 0.6893870082342177, fps: 58.31950767108736, best_epoch: 23
+[2023/03/01 07:08:37] ppocr INFO: epoch: [23/200], global_step: 2270, lr: 0.000045, loss: 0.065238, avg_reader_cost: 0.00364 s, avg_batch_cost: 0.20336 s, avg_samples: 8.0, ips: 39.33858 samples/s, eta: 2:24:16
+[2023/03/01 07:08:41] ppocr INFO: epoch: [23/200], global_step: 2280, lr: 0.000045, loss: 0.070408, avg_reader_cost: 0.00222 s, avg_batch_cost: 0.16478 s, avg_samples: 8.0, ips: 48.54892 samples/s, eta: 2:23:46
+[2023/03/01 07:08:48] ppocr INFO: cur metric, precision: 0.5736761320030699, recall: 0.6838975297346752, hmean: 0.6239565943238731, fps: 56.89578787358385
+[2023/03/01 07:08:48] ppocr INFO: best metric, hmean: 0.6290962220830724, precision: 0.5785028790786948, recall: 0.6893870082342177, fps: 58.31950767108736, best_epoch: 23
+[2023/03/01 07:08:51] ppocr INFO: epoch: [23/200], global_step: 2290, lr: 0.000045, loss: 0.075662, avg_reader_cost: 0.00191 s, avg_batch_cost: 0.19085 s, avg_samples: 8.0, ips: 41.91811 samples/s, eta: 2:23:19
+[2023/03/01 07:09:00] ppocr INFO: cur metric, precision: 0.5829184220605133, recall: 0.696248856358646, hmean: 0.6345632687096102, fps: 51.80345459782239
+[2023/03/01 07:09:23] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 07:09:23] ppocr INFO: best metric, hmean: 0.6345632687096102, precision: 0.5829184220605133, recall: 0.696248856358646, fps: 51.80345459782239, best_epoch: 23
+[2023/03/01 07:09:24] ppocr INFO: epoch: [23/200], global_step: 2300, lr: 0.000045, loss: 0.071267, avg_reader_cost: 0.00235 s, avg_batch_cost: 0.18452 s, avg_samples: 8.0, ips: 43.35683 samples/s, eta: 2:22:51
+[2023/03/01 07:09:47] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:09:53] ppocr INFO: epoch: [24/200], global_step: 2310, lr: 0.000045, loss: 0.054584, avg_reader_cost: 2.57326 s, avg_batch_cost: 2.75795 s, avg_samples: 8.0, ips: 2.90071 samples/s, eta: 2:25:40
+[2023/03/01 07:10:02] ppocr INFO: cur metric, precision: 0.5832376578645235, recall: 0.6971637694419031, hmean: 0.6351323192331736, fps: 57.24447734557736
+[2023/03/01 07:10:26] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 07:10:26] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:10:27] ppocr INFO: epoch: [24/200], global_step: 2320, lr: 0.000045, loss: 0.067864, avg_reader_cost: 0.02210 s, avg_batch_cost: 0.20030 s, avg_samples: 8.0, ips: 39.93970 samples/s, eta: 2:25:13
+[2023/03/01 07:10:30] ppocr INFO: epoch: [24/200], global_step: 2330, lr: 0.000045, loss: 0.056512, avg_reader_cost: 0.00360 s, avg_batch_cost: 0.19273 s, avg_samples: 8.0, ips: 41.50897 samples/s, eta: 2:24:45
+[2023/03/01 07:10:40] ppocr INFO: cur metric, precision: 0.580199539524175, recall: 0.6916742909423604, hmean: 0.6310517529215359, fps: 52.983892371415685
+[2023/03/01 07:10:40] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:10:41] ppocr INFO: epoch: [24/200], global_step: 2340, lr: 0.000045, loss: 0.057881, avg_reader_cost: 0.04708 s, avg_batch_cost: 0.24683 s, avg_samples: 8.0, ips: 32.41113 samples/s, eta: 2:24:22
+[2023/03/01 07:10:45] ppocr INFO: epoch: [24/200], global_step: 2350, lr: 0.000045, loss: 0.068350, avg_reader_cost: 0.00492 s, avg_batch_cost: 0.22548 s, avg_samples: 8.0, ips: 35.47967 samples/s, eta: 2:23:57
+[2023/03/01 07:10:56] ppocr INFO: cur metric, precision: 0.5695389266817839, recall: 0.6893870082342177, hmean: 0.6237582781456954, fps: 47.03172707069531
+[2023/03/01 07:10:56] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:10:58] ppocr INFO: epoch: [24/200], global_step: 2360, lr: 0.000045, loss: 0.062896, avg_reader_cost: 0.06371 s, avg_batch_cost: 0.27606 s, avg_samples: 8.0, ips: 28.97951 samples/s, eta: 2:23:36
+[2023/03/01 07:11:02] ppocr INFO: epoch: [24/200], global_step: 2370, lr: 0.000045, loss: 0.056603, avg_reader_cost: 0.00090 s, avg_batch_cost: 0.20247 s, avg_samples: 8.0, ips: 39.51220 samples/s, eta: 2:23:10
+[2023/03/01 07:11:14] ppocr INFO: cur metric, precision: 0.5741862225586677, recall: 0.6939615736505031, hmean: 0.628417564208782, fps: 55.12028927512348
+[2023/03/01 07:11:14] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:11:16] ppocr INFO: epoch: [24/200], global_step: 2380, lr: 0.000045, loss: 0.060841, avg_reader_cost: 0.08923 s, avg_batch_cost: 0.30448 s, avg_samples: 8.0, ips: 26.27403 samples/s, eta: 2:22:51
+[2023/03/01 07:11:20] ppocr INFO: epoch: [24/200], global_step: 2390, lr: 0.000045, loss: 0.057497, avg_reader_cost: 0.00336 s, avg_batch_cost: 0.24479 s, avg_samples: 8.0, ips: 32.68124 samples/s, eta: 2:22:29
+[2023/03/01 07:11:30] ppocr INFO: cur metric, precision: 0.5741517346549753, recall: 0.6889295516925892, hmean: 0.6263256394260761, fps: 59.1434605807935
+[2023/03/01 07:11:30] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:11:32] ppocr INFO: epoch: [24/200], global_step: 2400, lr: 0.000045, loss: 0.058843, avg_reader_cost: 0.00589 s, avg_batch_cost: 0.19825 s, avg_samples: 8.0, ips: 40.35285 samples/s, eta: 2:22:03
+[2023/03/01 07:11:58] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:12:05] ppocr INFO: epoch: [25/200], global_step: 2410, lr: 0.000044, loss: 0.052964, avg_reader_cost: 2.94446 s, avg_batch_cost: 3.18036 s, avg_samples: 8.0, ips: 2.51544 samples/s, eta: 2:25:15
+[2023/03/01 07:12:15] ppocr INFO: cur metric, precision: 0.5710466004583652, recall: 0.6838975297346752, hmean: 0.6223980016652789, fps: 51.10591072442069
+[2023/03/01 07:12:15] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:12:18] ppocr INFO: epoch: [25/200], global_step: 2420, lr: 0.000044, loss: 0.045551, avg_reader_cost: 0.00860 s, avg_batch_cost: 0.23316 s, avg_samples: 8.0, ips: 34.31170 samples/s, eta: 2:24:51
+[2023/03/01 07:12:23] ppocr INFO: epoch: [25/200], global_step: 2430, lr: 0.000044, loss: 0.049509, avg_reader_cost: 0.12953 s, avg_batch_cost: 0.34181 s, avg_samples: 8.0, ips: 23.40464 samples/s, eta: 2:24:35
+[2023/03/01 07:12:32] ppocr INFO: cur metric, precision: 0.566123531640773, recall: 0.6834400731930467, hmean: 0.6192746113989637, fps: 49.38001608207273
+[2023/03/01 07:12:32] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:12:35] ppocr INFO: epoch: [25/200], global_step: 2440, lr: 0.000044, loss: 0.042245, avg_reader_cost: 0.00124 s, avg_batch_cost: 0.18786 s, avg_samples: 8.0, ips: 42.58458 samples/s, eta: 2:24:08
+[2023/03/01 07:12:39] ppocr INFO: epoch: [25/200], global_step: 2450, lr: 0.000044, loss: 0.060822, avg_reader_cost: 0.00275 s, avg_batch_cost: 0.22476 s, avg_samples: 8.0, ips: 35.59343 samples/s, eta: 2:23:44
+[2023/03/01 07:12:48] ppocr INFO: cur metric, precision: 0.5703363914373089, recall: 0.6825251601097896, hmean: 0.6214077467721782, fps: 45.21436242128755
+[2023/03/01 07:12:48] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:12:52] ppocr INFO: epoch: [25/200], global_step: 2460, lr: 0.000044, loss: 0.060349, avg_reader_cost: 0.00147 s, avg_batch_cost: 0.21379 s, avg_samples: 8.0, ips: 37.41925 samples/s, eta: 2:23:19
+[2023/03/01 07:12:57] ppocr INFO: epoch: [25/200], global_step: 2470, lr: 0.000044, loss: 0.054665, avg_reader_cost: 0.13285 s, avg_batch_cost: 0.36216 s, avg_samples: 8.0, ips: 22.08994 samples/s, eta: 2:23:05
+[2023/03/01 07:13:04] ppocr INFO: cur metric, precision: 0.5767034640274077, recall: 0.6930466605672461, hmean: 0.6295449823394971, fps: 58.16244672815575
+[2023/03/01 07:13:04] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:13:08] ppocr INFO: epoch: [25/200], global_step: 2480, lr: 0.000044, loss: 0.047819, avg_reader_cost: 0.00359 s, avg_batch_cost: 0.19199 s, avg_samples: 8.0, ips: 41.66970 samples/s, eta: 2:22:39
+[2023/03/01 07:13:20] ppocr INFO: cur metric, precision: 0.5689786585365854, recall: 0.6829826166514181, hmean: 0.6207900207900207, fps: 52.38482948375208
+[2023/03/01 07:13:20] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:13:20] ppocr INFO: epoch: [25/200], global_step: 2490, lr: 0.000044, loss: 0.048060, avg_reader_cost: 0.01815 s, avg_batch_cost: 0.20012 s, avg_samples: 8.0, ips: 39.97651 samples/s, eta: 2:22:14
+[2023/03/01 07:13:24] ppocr INFO: epoch: [25/200], global_step: 2500, lr: 0.000044, loss: 0.060869, avg_reader_cost: 0.00081 s, avg_batch_cost: 0.17499 s, avg_samples: 8.0, ips: 45.71740 samples/s, eta: 2:21:47
+[2023/03/01 07:13:48] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:14:03] ppocr INFO: cur metric, precision: 0.5686949866054344, recall: 0.6797804208600183, hmean: 0.6192956866013754, fps: 45.868111943326255
+[2023/03/01 07:14:03] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:14:04] ppocr INFO: epoch: [26/200], global_step: 2510, lr: 0.000044, loss: 0.040418, avg_reader_cost: 2.74660 s, avg_batch_cost: 2.94468 s, avg_samples: 8.0, ips: 2.71676 samples/s, eta: 2:24:34
+[2023/03/01 07:14:09] ppocr INFO: epoch: [26/200], global_step: 2520, lr: 0.000044, loss: 0.041134, avg_reader_cost: 0.04751 s, avg_batch_cost: 0.28908 s, avg_samples: 8.0, ips: 27.67359 samples/s, eta: 2:24:14
+[2023/03/01 07:14:20] ppocr INFO: cur metric, precision: 0.5555975794251135, recall: 0.672003659652333, hmean: 0.6082815734989648, fps: 52.301589459038254
+[2023/03/01 07:14:20] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:14:21] ppocr INFO: epoch: [26/200], global_step: 2530, lr: 0.000044, loss: 0.045648, avg_reader_cost: 0.00163 s, avg_batch_cost: 0.20874 s, avg_samples: 8.0, ips: 38.32430 samples/s, eta: 2:23:50
+[2023/03/01 07:14:25] ppocr INFO: epoch: [26/200], global_step: 2540, lr: 0.000044, loss: 0.053819, avg_reader_cost: 0.00139 s, avg_batch_cost: 0.19502 s, avg_samples: 8.0, ips: 41.02141 samples/s, eta: 2:23:24
+[2023/03/01 07:14:34] ppocr INFO: cur metric, precision: 0.5668571428571428, recall: 0.6806953339432754, hmean: 0.6185824152982748, fps: 54.9582608242172
+[2023/03/01 07:14:34] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:14:35] ppocr INFO: epoch: [26/200], global_step: 2550, lr: 0.000044, loss: 0.034856, avg_reader_cost: 0.02890 s, avg_batch_cost: 0.20971 s, avg_samples: 8.0, ips: 38.14789 samples/s, eta: 2:23:00
+[2023/03/01 07:14:40] ppocr INFO: epoch: [26/200], global_step: 2560, lr: 0.000044, loss: 0.041808, avg_reader_cost: 0.04794 s, avg_batch_cost: 0.28476 s, avg_samples: 8.0, ips: 28.09337 samples/s, eta: 2:22:41
+[2023/03/01 07:14:51] ppocr INFO: cur metric, precision: 0.5662239089184061, recall: 0.6825251601097896, hmean: 0.6189587222567932, fps: 51.17551796204916
+[2023/03/01 07:14:51] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:14:52] ppocr INFO: epoch: [26/200], global_step: 2570, lr: 0.000044, loss: 0.043988, avg_reader_cost: 0.08127 s, avg_batch_cost: 0.26613 s, avg_samples: 8.0, ips: 30.06009 samples/s, eta: 2:22:21
+[2023/03/01 07:14:57] ppocr INFO: epoch: [26/200], global_step: 2580, lr: 0.000044, loss: 0.048626, avg_reader_cost: 0.08469 s, avg_batch_cost: 0.27933 s, avg_samples: 8.0, ips: 28.64031 samples/s, eta: 2:22:01
+[2023/03/01 07:15:08] ppocr INFO: cur metric, precision: 0.5669676448457487, recall: 0.6893870082342177, hmean: 0.6222130470685383, fps: 51.027719158145025
+[2023/03/01 07:15:08] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:15:10] ppocr INFO: epoch: [26/200], global_step: 2590, lr: 0.000044, loss: 0.055369, avg_reader_cost: 0.04368 s, avg_batch_cost: 0.20463 s, avg_samples: 8.0, ips: 39.09561 samples/s, eta: 2:21:37
+[2023/03/01 07:15:13] ppocr INFO: epoch: [26/200], global_step: 2600, lr: 0.000044, loss: 0.055497, avg_reader_cost: 0.00299 s, avg_batch_cost: 0.17645 s, avg_samples: 8.0, ips: 45.33972 samples/s, eta: 2:21:12
+[2023/03/01 07:15:37] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:15:49] ppocr INFO: cur metric, precision: 0.5736641221374046, recall: 0.6875571820677036, hmean: 0.6254681647940075, fps: 59.71750003132308
+[2023/03/01 07:15:49] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:15:51] ppocr INFO: epoch: [27/200], global_step: 2610, lr: 0.000044, loss: 0.045028, avg_reader_cost: 2.62797 s, avg_batch_cost: 2.82035 s, avg_samples: 8.0, ips: 2.83653 samples/s, eta: 2:23:42
+[2023/03/01 07:15:55] ppocr INFO: epoch: [27/200], global_step: 2620, lr: 0.000044, loss: 0.042015, avg_reader_cost: 0.00400 s, avg_batch_cost: 0.21504 s, avg_samples: 8.0, ips: 37.20189 samples/s, eta: 2:23:19
+[2023/03/01 07:16:04] ppocr INFO: cur metric, precision: 0.5658093797276853, recall: 0.6843549862763038, hmean: 0.6194616977225672, fps: 51.186541038891875
+[2023/03/01 07:16:04] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:16:07] ppocr INFO: epoch: [27/200], global_step: 2630, lr: 0.000044, loss: 0.045282, avg_reader_cost: 0.13530 s, avg_batch_cost: 0.34857 s, avg_samples: 8.0, ips: 22.95100 samples/s, eta: 2:23:04
+[2023/03/01 07:16:11] ppocr INFO: epoch: [27/200], global_step: 2640, lr: 0.000044, loss: 0.047620, avg_reader_cost: 0.00578 s, avg_batch_cost: 0.20591 s, avg_samples: 8.0, ips: 38.85110 samples/s, eta: 2:22:40
+[2023/03/01 07:16:20] ppocr INFO: cur metric, precision: 0.5684568835098336, recall: 0.6875571820677036, hmean: 0.622360248447205, fps: 52.757127387656155
+[2023/03/01 07:16:20] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:16:23] ppocr INFO: epoch: [27/200], global_step: 2650, lr: 0.000044, loss: 0.040917, avg_reader_cost: 0.00485 s, avg_batch_cost: 0.21320 s, avg_samples: 8.0, ips: 37.52414 samples/s, eta: 2:22:17
+[2023/03/01 07:16:27] ppocr INFO: epoch: [27/200], global_step: 2660, lr: 0.000044, loss: 0.044433, avg_reader_cost: 0.00339 s, avg_batch_cost: 0.23327 s, avg_samples: 8.0, ips: 34.29485 samples/s, eta: 2:21:55
+[2023/03/01 07:16:35] ppocr INFO: cur metric, precision: 0.5789473684210527, recall: 0.6944190301921317, hmean: 0.6314475873544092, fps: 52.4789107999501
+[2023/03/01 07:16:35] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:16:40] ppocr INFO: epoch: [27/200], global_step: 2670, lr: 0.000044, loss: 0.041494, avg_reader_cost: 0.03667 s, avg_batch_cost: 0.22547 s, avg_samples: 8.0, ips: 35.48186 samples/s, eta: 2:21:33
+[2023/03/01 07:16:53] ppocr INFO: cur metric, precision: 0.5700189753320684, recall: 0.687099725526075, hmean: 0.6231072391619996, fps: 54.089482331276
+[2023/03/01 07:16:53] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:16:53] ppocr INFO: epoch: [27/200], global_step: 2680, lr: 0.000044, loss: 0.042500, avg_reader_cost: 0.09460 s, avg_batch_cost: 0.31981 s, avg_samples: 8.0, ips: 25.01452 samples/s, eta: 2:21:17
+[2023/03/01 07:16:57] ppocr INFO: epoch: [27/200], global_step: 2690, lr: 0.000044, loss: 0.040543, avg_reader_cost: 0.01447 s, avg_batch_cost: 0.20867 s, avg_samples: 8.0, ips: 38.33742 samples/s, eta: 2:20:54
+[2023/03/01 07:17:07] ppocr INFO: cur metric, precision: 0.5734903152297759, recall: 0.6907593778591034, hmean: 0.6266860344469808, fps: 54.57200640764754
+[2023/03/01 07:17:07] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:17:07] ppocr INFO: epoch: [27/200], global_step: 2700, lr: 0.000044, loss: 0.037582, avg_reader_cost: 0.02245 s, avg_batch_cost: 0.20913 s, avg_samples: 8.0, ips: 38.25381 samples/s, eta: 2:20:31
+[2023/03/01 07:17:32] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:17:39] ppocr INFO: epoch: [28/200], global_step: 2710, lr: 0.000044, loss: 0.037682, avg_reader_cost: 2.75455 s, avg_batch_cost: 2.99779 s, avg_samples: 8.0, ips: 2.66863 samples/s, eta: 2:23:07
+[2023/03/01 07:17:51] ppocr INFO: cur metric, precision: 0.5627836611195158, recall: 0.6806953339432754, hmean: 0.6161490683229813, fps: 54.06911501822606
+[2023/03/01 07:17:51] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:17:52] ppocr INFO: epoch: [28/200], global_step: 2720, lr: 0.000044, loss: 0.041058, avg_reader_cost: 0.06818 s, avg_batch_cost: 0.26693 s, avg_samples: 8.0, ips: 29.96990 samples/s, eta: 2:22:47
+[2023/03/01 07:17:56] ppocr INFO: epoch: [28/200], global_step: 2730, lr: 0.000044, loss: 0.040789, avg_reader_cost: 0.03109 s, avg_batch_cost: 0.28034 s, avg_samples: 8.0, ips: 28.53645 samples/s, eta: 2:22:28
+[2023/03/01 07:18:07] ppocr INFO: cur metric, precision: 0.565530303030303, recall: 0.6829826166514181, hmean: 0.6187318690426854, fps: 45.57731096838355
+[2023/03/01 07:18:07] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:18:08] ppocr INFO: epoch: [28/200], global_step: 2740, lr: 0.000044, loss: 0.041414, avg_reader_cost: 0.10463 s, avg_batch_cost: 0.28749 s, avg_samples: 8.0, ips: 27.82700 samples/s, eta: 2:22:10
+[2023/03/01 07:18:12] ppocr INFO: epoch: [28/200], global_step: 2750, lr: 0.000044, loss: 0.028922, avg_reader_cost: 0.01815 s, avg_batch_cost: 0.22858 s, avg_samples: 8.0, ips: 34.99890 samples/s, eta: 2:21:49
+[2023/03/01 07:18:22] ppocr INFO: cur metric, precision: 0.5738332058148432, recall: 0.6861848124428179, hmean: 0.625, fps: 56.52018300755057
+[2023/03/01 07:18:22] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:18:24] ppocr INFO: epoch: [28/200], global_step: 2760, lr: 0.000044, loss: 0.038182, avg_reader_cost: 0.00129 s, avg_batch_cost: 0.17569 s, avg_samples: 8.0, ips: 45.53568 samples/s, eta: 2:21:24
+[2023/03/01 07:18:28] ppocr INFO: epoch: [28/200], global_step: 2770, lr: 0.000044, loss: 0.044714, avg_reader_cost: 0.05154 s, avg_batch_cost: 0.26676 s, avg_samples: 8.0, ips: 29.98970 samples/s, eta: 2:21:05
+[2023/03/01 07:18:38] ppocr INFO: cur metric, precision: 0.5691026126467247, recall: 0.6875571820677036, hmean: 0.622747047855811, fps: 52.88459247078351
+[2023/03/01 07:18:38] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:18:40] ppocr INFO: epoch: [28/200], global_step: 2780, lr: 0.000044, loss: 0.030493, avg_reader_cost: 0.03885 s, avg_batch_cost: 0.23980 s, avg_samples: 8.0, ips: 33.36045 samples/s, eta: 2:20:45
+[2023/03/01 07:18:44] ppocr INFO: epoch: [28/200], global_step: 2790, lr: 0.000044, loss: 0.037229, avg_reader_cost: 0.00337 s, avg_batch_cost: 0.23376 s, avg_samples: 8.0, ips: 34.22371 samples/s, eta: 2:20:24
+[2023/03/01 07:18:54] ppocr INFO: cur metric, precision: 0.5771144278606966, recall: 0.6898444647758463, hmean: 0.6284642633882059, fps: 51.677340414036834
+[2023/03/01 07:18:54] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:18:56] ppocr INFO: epoch: [28/200], global_step: 2800, lr: 0.000044, loss: 0.035232, avg_reader_cost: 0.04328 s, avg_batch_cost: 0.22934 s, avg_samples: 8.0, ips: 34.88215 samples/s, eta: 2:20:03
+[2023/03/01 07:19:21] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:19:29] ppocr INFO: epoch: [29/200], global_step: 2810, lr: 0.000043, loss: 0.034496, avg_reader_cost: 2.84146 s, avg_batch_cost: 3.08505 s, avg_samples: 8.0, ips: 2.59315 samples/s, eta: 2:22:37
+[2023/03/01 07:19:38] ppocr INFO: cur metric, precision: 0.5665268776210446, recall: 0.6797804208600183, hmean: 0.6180079018506967, fps: 46.84200657326418
+[2023/03/01 07:19:38] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:19:41] ppocr INFO: epoch: [29/200], global_step: 2820, lr: 0.000043, loss: 0.032931, avg_reader_cost: 0.00230 s, avg_batch_cost: 0.18902 s, avg_samples: 8.0, ips: 42.32450 samples/s, eta: 2:22:13
+[2023/03/01 07:19:45] ppocr INFO: epoch: [29/200], global_step: 2830, lr: 0.000043, loss: 0.035045, avg_reader_cost: 0.00344 s, avg_batch_cost: 0.20114 s, avg_samples: 8.0, ips: 39.77277 samples/s, eta: 2:21:50
+[2023/03/01 07:19:53] ppocr INFO: cur metric, precision: 0.5660091047040972, recall: 0.6825251601097896, hmean: 0.618830360846122, fps: 51.54657394363298
+[2023/03/01 07:19:53] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:19:56] ppocr INFO: epoch: [29/200], global_step: 2840, lr: 0.000043, loss: 0.032160, avg_reader_cost: 0.00558 s, avg_batch_cost: 0.19523 s, avg_samples: 8.0, ips: 40.97772 samples/s, eta: 2:21:27
+[2023/03/01 07:20:00] ppocr INFO: epoch: [29/200], global_step: 2850, lr: 0.000043, loss: 0.027273, avg_reader_cost: 0.00356 s, avg_batch_cost: 0.21568 s, avg_samples: 8.0, ips: 37.09264 samples/s, eta: 2:21:05
+[2023/03/01 07:20:09] ppocr INFO: cur metric, precision: 0.567629179331307, recall: 0.6834400731930467, hmean: 0.6201743462017434, fps: 54.953666830135646
+[2023/03/01 07:20:09] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:20:13] ppocr INFO: epoch: [29/200], global_step: 2860, lr: 0.000043, loss: 0.038459, avg_reader_cost: 0.00167 s, avg_batch_cost: 0.21707 s, avg_samples: 8.0, ips: 36.85498 samples/s, eta: 2:20:44
+[2023/03/01 07:20:26] ppocr INFO: cur metric, precision: 0.570615034168565, recall: 0.6875571820677036, hmean: 0.6236514522821577, fps: 52.02528538340563
+[2023/03/01 07:20:26] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:20:26] ppocr INFO: epoch: [29/200], global_step: 2870, lr: 0.000043, loss: 0.030245, avg_reader_cost: 0.16994 s, avg_batch_cost: 0.40391 s, avg_samples: 8.0, ips: 19.80639 samples/s, eta: 2:20:34
+[2023/03/01 07:20:30] ppocr INFO: epoch: [29/200], global_step: 2880, lr: 0.000043, loss: 0.033042, avg_reader_cost: 0.00188 s, avg_batch_cost: 0.19029 s, avg_samples: 8.0, ips: 42.04105 samples/s, eta: 2:20:11
+[2023/03/01 07:20:42] ppocr INFO: cur metric, precision: 0.5734292202876609, recall: 0.6930466605672461, hmean: 0.6275890637945318, fps: 56.247446150058224
+[2023/03/01 07:20:42] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:20:43] ppocr INFO: epoch: [29/200], global_step: 2890, lr: 0.000043, loss: 0.033097, avg_reader_cost: 0.04136 s, avg_batch_cost: 0.25818 s, avg_samples: 8.0, ips: 30.98560 samples/s, eta: 2:19:52
+[2023/03/01 07:20:46] ppocr INFO: epoch: [29/200], global_step: 2900, lr: 0.000043, loss: 0.031089, avg_reader_cost: 0.00211 s, avg_batch_cost: 0.17375 s, avg_samples: 8.0, ips: 46.04436 samples/s, eta: 2:19:29
+[2023/03/01 07:21:11] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:21:26] ppocr INFO: cur metric, precision: 0.5755148741418764, recall: 0.6903019213174748, hmean: 0.6277038269550749, fps: 48.36495854106619
+[2023/03/01 07:21:26] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:21:27] ppocr INFO: epoch: [30/200], global_step: 2910, lr: 0.000043, loss: 0.023896, avg_reader_cost: 2.82970 s, avg_batch_cost: 3.05592 s, avg_samples: 8.0, ips: 2.61787 samples/s, eta: 2:21:54
+[2023/03/01 07:21:31] ppocr INFO: epoch: [30/200], global_step: 2920, lr: 0.000043, loss: 0.035380, avg_reader_cost: 0.00453 s, avg_batch_cost: 0.21142 s, avg_samples: 8.0, ips: 37.83925 samples/s, eta: 2:21:33
+[2023/03/01 07:21:41] ppocr INFO: cur metric, precision: 0.5695439125518281, recall: 0.6912168344007319, hmean: 0.6245091961148997, fps: 53.18289354327346
+[2023/03/01 07:21:41] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:21:43] ppocr INFO: epoch: [30/200], global_step: 2930, lr: 0.000043, loss: 0.034602, avg_reader_cost: 0.00367 s, avg_batch_cost: 0.21754 s, avg_samples: 8.0, ips: 36.77549 samples/s, eta: 2:21:11
+[2023/03/01 07:21:47] ppocr INFO: epoch: [30/200], global_step: 2940, lr: 0.000043, loss: 0.034903, avg_reader_cost: 0.02362 s, avg_batch_cost: 0.24868 s, avg_samples: 8.0, ips: 32.16929 samples/s, eta: 2:20:52
+[2023/03/01 07:21:57] ppocr INFO: cur metric, precision: 0.5737518910741302, recall: 0.6939615736505031, hmean: 0.6281573498964803, fps: 55.81964083449771
+[2023/03/01 07:21:57] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:21:59] ppocr INFO: epoch: [30/200], global_step: 2950, lr: 0.000043, loss: 0.025356, avg_reader_cost: 0.06900 s, avg_batch_cost: 0.23441 s, avg_samples: 8.0, ips: 34.12849 samples/s, eta: 2:20:32
+[2023/03/01 07:22:02] ppocr INFO: epoch: [30/200], global_step: 2960, lr: 0.000043, loss: 0.032979, avg_reader_cost: 0.00333 s, avg_batch_cost: 0.19970 s, avg_samples: 8.0, ips: 40.06032 samples/s, eta: 2:20:10
+[2023/03/01 07:22:13] ppocr INFO: cur metric, precision: 0.573170731707317, recall: 0.6880146386093321, hmean: 0.6253638253638253, fps: 53.96314766844378
+[2023/03/01 07:22:13] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:22:15] ppocr INFO: epoch: [30/200], global_step: 2970, lr: 0.000043, loss: 0.030965, avg_reader_cost: 0.01353 s, avg_batch_cost: 0.21861 s, avg_samples: 8.0, ips: 36.59566 samples/s, eta: 2:19:49
+[2023/03/01 07:22:19] ppocr INFO: epoch: [30/200], global_step: 2980, lr: 0.000043, loss: 0.030945, avg_reader_cost: 0.02847 s, avg_batch_cost: 0.24016 s, avg_samples: 8.0, ips: 33.31140 samples/s, eta: 2:19:30
+[2023/03/01 07:22:29] ppocr INFO: cur metric, precision: 0.5722983257229832, recall: 0.6880146386093321, hmean: 0.6248442044038222, fps: 47.089736270558866
+[2023/03/01 07:22:29] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:22:32] ppocr INFO: epoch: [30/200], global_step: 2990, lr: 0.000043, loss: 0.032154, avg_reader_cost: 0.01891 s, avg_batch_cost: 0.24294 s, avg_samples: 8.0, ips: 32.92984 samples/s, eta: 2:19:11
+[2023/03/01 07:22:36] ppocr INFO: epoch: [30/200], global_step: 3000, lr: 0.000043, loss: 0.028591, avg_reader_cost: 0.00745 s, avg_batch_cost: 0.24292 s, avg_samples: 8.0, ips: 32.93225 samples/s, eta: 2:18:52
+[2023/03/01 07:23:01] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:23:10] ppocr INFO: cur metric, precision: 0.5702947845804989, recall: 0.6903019213174748, hmean: 0.6245860927152318, fps: 55.37143167945724
+[2023/03/01 07:23:10] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:23:13] ppocr INFO: epoch: [31/200], global_step: 3010, lr: 0.000043, loss: 0.026615, avg_reader_cost: 2.61331 s, avg_batch_cost: 2.82402 s, avg_samples: 8.0, ips: 2.83284 samples/s, eta: 2:20:59
+[2023/03/01 07:23:19] ppocr INFO: epoch: [31/200], global_step: 3020, lr: 0.000043, loss: 0.029140, avg_reader_cost: 0.14098 s, avg_batch_cost: 0.38485 s, avg_samples: 8.0, ips: 20.78724 samples/s, eta: 2:20:47
+[2023/03/01 07:23:27] ppocr INFO: cur metric, precision: 0.5699047619047619, recall: 0.6843549862763038, hmean: 0.6219081272084805, fps: 48.66221104410584
+[2023/03/01 07:23:27] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:23:30] ppocr INFO: epoch: [31/200], global_step: 3030, lr: 0.000043, loss: 0.026366, avg_reader_cost: 0.00595 s, avg_batch_cost: 0.20664 s, avg_samples: 8.0, ips: 38.71466 samples/s, eta: 2:20:26
+[2023/03/01 07:23:35] ppocr INFO: epoch: [31/200], global_step: 3040, lr: 0.000043, loss: 0.030070, avg_reader_cost: 0.12163 s, avg_batch_cost: 0.30684 s, avg_samples: 8.0, ips: 26.07251 samples/s, eta: 2:20:11
+[2023/03/01 07:23:43] ppocr INFO: cur metric, precision: 0.5667046750285063, recall: 0.682067703568161, hmean: 0.619057504670957, fps: 48.92401789878058
+[2023/03/01 07:23:43] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:23:47] ppocr INFO: epoch: [31/200], global_step: 3050, lr: 0.000043, loss: 0.026751, avg_reader_cost: 0.00391 s, avg_batch_cost: 0.18213 s, avg_samples: 8.0, ips: 43.92435 samples/s, eta: 2:19:48
+[2023/03/01 07:23:59] ppocr INFO: cur metric, precision: 0.5584707646176912, recall: 0.6816102470265325, hmean: 0.6139266584260404, fps: 51.90555309563121
+[2023/03/01 07:23:59] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:23:59] ppocr INFO: epoch: [31/200], global_step: 3060, lr: 0.000043, loss: 0.026519, avg_reader_cost: 0.03198 s, avg_batch_cost: 0.26999 s, avg_samples: 8.0, ips: 29.63039 samples/s, eta: 2:19:31
+[2023/03/01 07:24:03] ppocr INFO: epoch: [31/200], global_step: 3070, lr: 0.000043, loss: 0.028039, avg_reader_cost: 0.00375 s, avg_batch_cost: 0.24374 s, avg_samples: 8.0, ips: 32.82135 samples/s, eta: 2:19:12
+[2023/03/01 07:24:14] ppocr INFO: cur metric, precision: 0.5629238884702336, recall: 0.6834400731930467, hmean: 0.6173553719008263, fps: 57.369669565626545
+[2023/03/01 07:24:14] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:24:15] ppocr INFO: epoch: [31/200], global_step: 3080, lr: 0.000043, loss: 0.030619, avg_reader_cost: 0.00231 s, avg_batch_cost: 0.22318 s, avg_samples: 8.0, ips: 35.84587 samples/s, eta: 2:18:52
+[2023/03/01 07:24:19] ppocr INFO: epoch: [31/200], global_step: 3090, lr: 0.000043, loss: 0.029381, avg_reader_cost: 0.04479 s, avg_batch_cost: 0.28137 s, avg_samples: 8.0, ips: 28.43197 samples/s, eta: 2:18:36
+[2023/03/01 07:24:30] ppocr INFO: cur metric, precision: 0.5755857898715041, recall: 0.6967063129002745, hmean: 0.6303807947019867, fps: 52.87931190771174
+[2023/03/01 07:24:30] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:24:31] ppocr INFO: epoch: [31/200], global_step: 3100, lr: 0.000043, loss: 0.031698, avg_reader_cost: 0.08047 s, avg_batch_cost: 0.29170 s, avg_samples: 8.0, ips: 27.42581 samples/s, eta: 2:18:20
+[2023/03/01 07:24:54] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:25:01] ppocr INFO: epoch: [32/200], global_step: 3110, lr: 0.000043, loss: 0.021131, avg_reader_cost: 2.66059 s, avg_batch_cost: 2.85040 s, avg_samples: 8.0, ips: 2.80663 samples/s, eta: 2:20:23
+[2023/03/01 07:25:10] ppocr INFO: cur metric, precision: 0.5620052770448549, recall: 0.682067703568161, hmean: 0.616243025418475, fps: 56.716802994386875
+[2023/03/01 07:25:10] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:25:12] ppocr INFO: epoch: [32/200], global_step: 3120, lr: 0.000043, loss: 0.031908, avg_reader_cost: 0.07048 s, avg_batch_cost: 0.24360 s, avg_samples: 8.0, ips: 32.84118 samples/s, eta: 2:20:04
+[2023/03/01 07:25:15] ppocr INFO: epoch: [32/200], global_step: 3130, lr: 0.000043, loss: 0.038495, avg_reader_cost: 0.00226 s, avg_batch_cost: 0.17589 s, avg_samples: 8.0, ips: 45.48286 samples/s, eta: 2:19:42
+[2023/03/01 07:25:23] ppocr INFO: cur metric, precision: 0.5446061963419186, recall: 0.6674290942360476, hmean: 0.5997944501541623, fps: 53.87096616752939
+[2023/03/01 07:25:23] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:25:25] ppocr INFO: epoch: [32/200], global_step: 3140, lr: 0.000043, loss: 0.039547, avg_reader_cost: 0.00951 s, avg_batch_cost: 0.19314 s, avg_samples: 8.0, ips: 41.42169 samples/s, eta: 2:19:21
+[2023/03/01 07:25:29] ppocr INFO: epoch: [32/200], global_step: 3150, lr: 0.000043, loss: 0.038343, avg_reader_cost: 0.00170 s, avg_batch_cost: 0.18299 s, avg_samples: 8.0, ips: 43.71919 samples/s, eta: 2:18:59
+[2023/03/01 07:25:36] ppocr INFO: cur metric, precision: 0.5590015128593041, recall: 0.67612076852699, hmean: 0.612008281573499, fps: 53.075619303547505
+[2023/03/01 07:25:36] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:25:38] ppocr INFO: epoch: [32/200], global_step: 3160, lr: 0.000043, loss: 0.033850, avg_reader_cost: 0.00228 s, avg_batch_cost: 0.17247 s, avg_samples: 8.0, ips: 46.38608 samples/s, eta: 2:18:37
+[2023/03/01 07:25:42] ppocr INFO: epoch: [32/200], global_step: 3170, lr: 0.000043, loss: 0.028528, avg_reader_cost: 0.00328 s, avg_batch_cost: 0.17528 s, avg_samples: 8.0, ips: 45.64129 samples/s, eta: 2:18:15
+[2023/03/01 07:25:50] ppocr INFO: cur metric, precision: 0.5620052770448549, recall: 0.682067703568161, hmean: 0.616243025418475, fps: 59.64946462299336
+[2023/03/01 07:25:50] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:25:52] ppocr INFO: epoch: [32/200], global_step: 3180, lr: 0.000043, loss: 0.027606, avg_reader_cost: 0.00082 s, avg_batch_cost: 0.17889 s, avg_samples: 8.0, ips: 44.71906 samples/s, eta: 2:17:54
+[2023/03/01 07:25:56] ppocr INFO: epoch: [32/200], global_step: 3190, lr: 0.000043, loss: 0.028933, avg_reader_cost: 0.00139 s, avg_batch_cost: 0.19760 s, avg_samples: 8.0, ips: 40.48624 samples/s, eta: 2:17:33
+[2023/03/01 07:26:03] ppocr INFO: cur metric, precision: 0.5626406601650412, recall: 0.6861848124428179, hmean: 0.6183017312448474, fps: 60.17901457047293
+[2023/03/01 07:26:03] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:26:05] ppocr INFO: epoch: [32/200], global_step: 3200, lr: 0.000043, loss: 0.026628, avg_reader_cost: 0.00064 s, avg_batch_cost: 0.14696 s, avg_samples: 8.0, ips: 54.43602 samples/s, eta: 2:17:10
+[2023/03/01 07:26:28] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:26:35] ppocr INFO: epoch: [33/200], global_step: 3210, lr: 0.000042, loss: 0.026041, avg_reader_cost: 2.53040 s, avg_batch_cost: 2.71590 s, avg_samples: 8.0, ips: 2.94562 samples/s, eta: 2:19:02
+[2023/03/01 07:26:41] ppocr INFO: cur metric, precision: 0.5701149425287356, recall: 0.6806953339432754, hmean: 0.6205170975813178, fps: 58.14438586220668
+[2023/03/01 07:26:41] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:26:44] ppocr INFO: epoch: [33/200], global_step: 3220, lr: 0.000042, loss: 0.023405, avg_reader_cost: 0.00122 s, avg_batch_cost: 0.16312 s, avg_samples: 8.0, ips: 49.04509 samples/s, eta: 2:18:39
+[2023/03/01 07:26:48] ppocr INFO: epoch: [33/200], global_step: 3230, lr: 0.000042, loss: 0.048078, avg_reader_cost: 0.00092 s, avg_batch_cost: 0.18203 s, avg_samples: 8.0, ips: 43.94875 samples/s, eta: 2:18:18
+[2023/03/01 07:26:53] ppocr INFO: cur metric, precision: 0.557180352455943, recall: 0.6797804208600183, hmean: 0.6124046981248712, fps: 57.987648171274856
+[2023/03/01 07:26:53] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:26:57] ppocr INFO: epoch: [33/200], global_step: 3240, lr: 0.000042, loss: 0.040125, avg_reader_cost: 0.00294 s, avg_batch_cost: 0.18402 s, avg_samples: 8.0, ips: 43.47444 samples/s, eta: 2:17:57
+[2023/03/01 07:27:06] ppocr INFO: cur metric, precision: 0.5591559909570459, recall: 0.6788655077767612, hmean: 0.6132231404958678, fps: 56.297153334196835
+[2023/03/01 07:27:06] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:27:06] ppocr INFO: epoch: [33/200], global_step: 3250, lr: 0.000042, loss: 0.041918, avg_reader_cost: 0.00379 s, avg_batch_cost: 0.16931 s, avg_samples: 8.0, ips: 47.25087 samples/s, eta: 2:17:35
+[2023/03/01 07:27:10] ppocr INFO: epoch: [33/200], global_step: 3260, lr: 0.000042, loss: 0.022182, avg_reader_cost: 0.00539 s, avg_batch_cost: 0.17490 s, avg_samples: 8.0, ips: 45.74018 samples/s, eta: 2:17:14
+[2023/03/01 07:27:18] ppocr INFO: cur metric, precision: 0.5659879336349924, recall: 0.6866422689844465, hmean: 0.6205043406366267, fps: 56.4885091117819
+[2023/03/01 07:27:18] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:27:19] ppocr INFO: epoch: [33/200], global_step: 3270, lr: 0.000042, loss: 0.028698, avg_reader_cost: 0.00205 s, avg_batch_cost: 0.16557 s, avg_samples: 8.0, ips: 48.31937 samples/s, eta: 2:16:53
+[2023/03/01 07:27:22] ppocr INFO: epoch: [33/200], global_step: 3280, lr: 0.000042, loss: 0.022603, avg_reader_cost: 0.00178 s, avg_batch_cost: 0.15938 s, avg_samples: 8.0, ips: 50.19511 samples/s, eta: 2:16:31
+[2023/03/01 07:27:30] ppocr INFO: cur metric, precision: 0.5680091185410334, recall: 0.6838975297346752, hmean: 0.6205894562058946, fps: 53.95237459426099
+[2023/03/01 07:27:30] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:27:32] ppocr INFO: epoch: [33/200], global_step: 3290, lr: 0.000042, loss: 0.026639, avg_reader_cost: 0.00386 s, avg_batch_cost: 0.16998 s, avg_samples: 8.0, ips: 47.06320 samples/s, eta: 2:16:10
+[2023/03/01 07:27:35] ppocr INFO: epoch: [33/200], global_step: 3300, lr: 0.000042, loss: 0.023341, avg_reader_cost: 0.00061 s, avg_batch_cost: 0.15439 s, avg_samples: 8.0, ips: 51.81595 samples/s, eta: 2:15:48
+[2023/03/01 07:27:58] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:28:08] ppocr INFO: cur metric, precision: 0.563581640331076, recall: 0.6852698993595608, hmean: 0.6184971098265897, fps: 55.58245836620355
+[2023/03/01 07:28:08] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:28:09] ppocr INFO: epoch: [34/200], global_step: 3310, lr: 0.000042, loss: 0.020552, avg_reader_cost: 2.40340 s, avg_batch_cost: 2.58385 s, avg_samples: 8.0, ips: 3.09616 samples/s, eta: 2:17:29
+[2023/03/01 07:28:13] ppocr INFO: epoch: [34/200], global_step: 3320, lr: 0.000042, loss: 0.028880, avg_reader_cost: 0.00392 s, avg_batch_cost: 0.17068 s, avg_samples: 8.0, ips: 46.87160 samples/s, eta: 2:17:07
+[2023/03/01 07:28:20] ppocr INFO: cur metric, precision: 0.5610672679443818, recall: 0.6829826166514181, hmean: 0.6160511656694863, fps: 60.393224411665905
+[2023/03/01 07:28:20] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:28:22] ppocr INFO: epoch: [34/200], global_step: 3330, lr: 0.000042, loss: 0.024681, avg_reader_cost: 0.00345 s, avg_batch_cost: 0.16927 s, avg_samples: 8.0, ips: 47.26118 samples/s, eta: 2:16:46
+[2023/03/01 07:28:26] ppocr INFO: epoch: [34/200], global_step: 3340, lr: 0.000042, loss: 0.023216, avg_reader_cost: 0.05778 s, avg_batch_cost: 0.24220 s, avg_samples: 8.0, ips: 33.03122 samples/s, eta: 2:16:29
+[2023/03/01 07:28:34] ppocr INFO: cur metric, precision: 0.5563881603596853, recall: 0.6793229643183898, hmean: 0.611740473738414, fps: 59.01985732132309
+[2023/03/01 07:28:34] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:28:36] ppocr INFO: epoch: [34/200], global_step: 3350, lr: 0.000042, loss: 0.026368, avg_reader_cost: 0.05082 s, avg_batch_cost: 0.21435 s, avg_samples: 8.0, ips: 37.32251 samples/s, eta: 2:16:10
+[2023/03/01 07:28:39] ppocr INFO: epoch: [34/200], global_step: 3360, lr: 0.000042, loss: 0.023781, avg_reader_cost: 0.00173 s, avg_batch_cost: 0.17182 s, avg_samples: 8.0, ips: 46.56007 samples/s, eta: 2:15:49
+[2023/03/01 07:28:46] ppocr INFO: cur metric, precision: 0.5709958349110186, recall: 0.6898444647758463, hmean: 0.6248187279883985, fps: 59.505397588262426
+[2023/03/01 07:28:46] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:28:48] ppocr INFO: epoch: [34/200], global_step: 3370, lr: 0.000042, loss: 0.023469, avg_reader_cost: 0.00159 s, avg_batch_cost: 0.16021 s, avg_samples: 8.0, ips: 49.93440 samples/s, eta: 2:15:28
+[2023/03/01 07:28:52] ppocr INFO: epoch: [34/200], global_step: 3380, lr: 0.000042, loss: 0.023830, avg_reader_cost: 0.00337 s, avg_batch_cost: 0.18048 s, avg_samples: 8.0, ips: 44.32537 samples/s, eta: 2:15:08
+[2023/03/01 07:28:58] ppocr INFO: cur metric, precision: 0.5623111782477341, recall: 0.681152790484904, hmean: 0.6160529582126603, fps: 56.63248800326214
+[2023/03/01 07:28:58] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:29:01] ppocr INFO: epoch: [34/200], global_step: 3390, lr: 0.000042, loss: 0.024012, avg_reader_cost: 0.00182 s, avg_batch_cost: 0.15607 s, avg_samples: 8.0, ips: 51.25827 samples/s, eta: 2:14:47
+[2023/03/01 07:29:05] ppocr INFO: epoch: [34/200], global_step: 3400, lr: 0.000042, loss: 0.025508, avg_reader_cost: 0.00063 s, avg_batch_cost: 0.14601 s, avg_samples: 8.0, ips: 54.78927 samples/s, eta: 2:14:26
+[2023/03/01 07:29:27] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 07:29:36] ppocr INFO: cur metric, precision: 0.5700189753320684, recall: 0.687099725526075, hmean: 0.6231072391619996, fps: 52.454870070425
+[2023/03/01 07:29:36] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:29:39] ppocr INFO: epoch: [35/200], global_step: 3410, lr: 0.000042, loss: 0.025408, avg_reader_cost: 2.36601 s, avg_batch_cost: 2.53877 s, avg_samples: 8.0, ips: 3.15113 samples/s, eta: 2:16:01
+[2023/03/01 07:29:43] ppocr INFO: epoch: [35/200], global_step: 3420, lr: 0.000042, loss: 0.021092, avg_reader_cost: 0.00448 s, avg_batch_cost: 0.20821 s, avg_samples: 8.0, ips: 38.42259 samples/s, eta: 2:15:42
+[2023/03/01 07:29:49] ppocr INFO: cur metric, precision: 0.564625850340136, recall: 0.6834400731930467, hmean: 0.6183774834437086, fps: 57.818870220656606
+[2023/03/01 07:29:49] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:29:52] ppocr INFO: epoch: [35/200], global_step: 3430, lr: 0.000042, loss: 0.017052, avg_reader_cost: 0.00296 s, avg_batch_cost: 0.16450 s, avg_samples: 8.0, ips: 48.63154 samples/s, eta: 2:15:21
+[2023/03/01 07:30:01] ppocr INFO: cur metric, precision: 0.5701288855193328, recall: 0.6880146386093321, hmean: 0.6235489220563847, fps: 55.572604771080385
+[2023/03/01 07:30:01] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:30:02] ppocr INFO: epoch: [35/200], global_step: 3440, lr: 0.000042, loss: 0.023190, avg_reader_cost: 0.00386 s, avg_batch_cost: 0.18216 s, avg_samples: 8.0, ips: 43.91813 samples/s, eta: 2:15:01
+[2023/03/01 07:30:06] ppocr INFO: epoch: [35/200], global_step: 3450, lr: 0.000042, loss: 0.020817, avg_reader_cost: 0.00174 s, avg_batch_cost: 0.17259 s, avg_samples: 8.0, ips: 46.35175 samples/s, eta: 2:14:41
+[2023/03/01 07:30:14] ppocr INFO: cur metric, precision: 0.5728413845568657, recall: 0.6889295516925892, hmean: 0.6255451713395639, fps: 59.162397897954655
+[2023/03/01 07:30:14] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:30:15] ppocr INFO: epoch: [35/200], global_step: 3460, lr: 0.000042, loss: 0.017644, avg_reader_cost: 0.00301 s, avg_batch_cost: 0.17471 s, avg_samples: 8.0, ips: 45.79148 samples/s, eta: 2:14:22
+[2023/03/01 07:30:19] ppocr INFO: epoch: [35/200], global_step: 3470, lr: 0.000042, loss: 0.021676, avg_reader_cost: 0.00337 s, avg_batch_cost: 0.20066 s, avg_samples: 8.0, ips: 39.86810 samples/s, eta: 2:14:03
+[2023/03/01 07:30:27] ppocr INFO: cur metric, precision: 0.5733282674772037, recall: 0.6903019213174748, hmean: 0.6264009962640099, fps: 58.25029032762511
+[2023/03/01 07:30:27] ppocr INFO: best metric, hmean: 0.6351323192331736, precision: 0.5832376578645235, recall: 0.6971637694419031, fps: 57.24447734557736, best_epoch: 24
+[2023/03/01 07:30:28] ppocr INFO: epoch: [35/200], global_step: 3480, lr: 0.000042, loss: 0.017919, avg_reader_cost: 0.00186 s, avg_batch_cost: 0.16492 s, avg_samples: 8.0, ips: 48.50891 samples/s, eta: 2:13:43
