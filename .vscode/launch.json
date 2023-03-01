@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/PaddleOCR/tools/train.py",
-            "args" : ["-c", "/Users/maryeyvazi/Desktop/project/configs/vi_layoutxlm.yml"]
+            "args" : ["-c", "/paddle/receipt-understanding/configs/vi_layoutxlm.yml"]
         },       
         {
             "name": "Python: Attach using Proccess ID",

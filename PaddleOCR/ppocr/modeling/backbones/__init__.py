@@ -56,9 +56,10 @@ def build_backbone(config, model_type):
     elif model_type == 'kie':
         from .kie_unet_sdmgr import Kie_backbone
         from .vqa_layoutlm import LayoutLMForSer, LayoutLMv2ForSer, LayoutLMv2ForRe, LayoutXLMForSer, LayoutXLMForRe
+        from .mini_layoutxlm import MiniLayoutXLMForSer
         support_dict = [
             'Kie_backbone', 'LayoutLMForSer', 'LayoutLMv2ForSer',
-            'LayoutLMv2ForRe', 'LayoutXLMForSer', 'LayoutXLMForRe'
+            'LayoutLMv2ForRe', 'LayoutXLMForSer', 'LayoutXLMForRe', 'MiniLayoutXLMForSer'
         ]
     elif model_type == 'table':
         from .table_resnet_vd import ResNet

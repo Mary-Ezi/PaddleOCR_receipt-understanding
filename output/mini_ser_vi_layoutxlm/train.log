@@ -1,0 +1,1044 @@
+[2023/03/01 06:05:11] ppocr INFO: Architecture : 
+[2023/03/01 06:05:11] ppocr INFO:     Backbone : 
+[2023/03/01 06:05:11] ppocr INFO:         checkpoints : None
+[2023/03/01 06:05:11] ppocr INFO:         name : MiniLayoutXLMForSer
+[2023/03/01 06:05:11] ppocr INFO:         num_classes : 61
+[2023/03/01 06:05:11] ppocr INFO:         num_hidden_layers : mini
+[2023/03/01 06:05:11] ppocr INFO:     Transform : None
+[2023/03/01 06:05:11] ppocr INFO:     algorithm : MiniLayoutXLM
+[2023/03/01 06:05:11] ppocr INFO:     model_type : kie
+[2023/03/01 06:05:11] ppocr INFO: Eval : 
+[2023/03/01 06:05:11] ppocr INFO:     dataset : 
+[2023/03/01 06:05:11] ppocr INFO:         data_dir : ./data/dev/image
+[2023/03/01 06:05:11] ppocr INFO:         label_file_list : ['./data/dev.txt']
+[2023/03/01 06:05:11] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:05:11] ppocr INFO:         transforms : 
+[2023/03/01 06:05:11] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:05:11] ppocr INFO:                 channel_first : False
+[2023/03/01 06:05:11] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:05:11] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:05:11] ppocr INFO:                 algorithm : MiniLayoutXLM
+[2023/03/01 06:05:11] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:05:11] ppocr INFO:                 contains_re : False
+[2023/03/01 06:05:11] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:05:11] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:05:11] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:05:11] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:05:11] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:05:11] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:05:11] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:05:11] ppocr INFO:             Resize : 
+[2023/03/01 06:05:11] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:05:11] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:05:11] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:05:11] ppocr INFO:                 order : hwc
+[2023/03/01 06:05:11] ppocr INFO:                 scale : 1
+[2023/03/01 06:05:11] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:05:11] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:05:11] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:05:11] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:05:11] ppocr INFO:     loader : 
+[2023/03/01 06:05:11] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:05:11] ppocr INFO:         drop_last : False
+[2023/03/01 06:05:11] ppocr INFO:         num_workers : 4
+[2023/03/01 06:05:11] ppocr INFO:         shuffle : False
+[2023/03/01 06:05:11] ppocr INFO: Global : 
+[2023/03/01 06:05:11] ppocr INFO:     cal_metric_during_train : False
+[2023/03/01 06:05:11] ppocr INFO:     distributed : False
+[2023/03/01 06:05:11] ppocr INFO:     epoch_num : 200
+[2023/03/01 06:05:11] ppocr INFO:     eval_batch_step : [0, 19]
+[2023/03/01 06:05:11] ppocr INFO:     kie_det_model_dir : None
+[2023/03/01 06:05:11] ppocr INFO:     kie_rec_model_dir : None
+[2023/03/01 06:05:11] ppocr INFO:     log_smooth_window : 10
+[2023/03/01 06:05:11] ppocr INFO:     print_batch_step : 10
+[2023/03/01 06:05:11] ppocr INFO:     save_epoch_step : 2000
+[2023/03/01 06:05:11] ppocr INFO:     save_inference_dir : ./output/mini_ser_vi_layoutxlm/infer
+[2023/03/01 06:05:11] ppocr INFO:     save_model_dir : ./output/mini_ser_vi_layoutxlm
+[2023/03/01 06:05:11] ppocr INFO:     save_res_path : ./mz/output/mini_ser_vi_layoutxlm/res
+[2023/03/01 06:05:11] ppocr INFO:     seed : 2022
+[2023/03/01 06:05:11] ppocr INFO:     use_gpu : Fasle
+[2023/03/01 06:05:11] ppocr INFO:     use_visualdl : False
+[2023/03/01 06:05:11] ppocr INFO: Loss : 
+[2023/03/01 06:05:11] ppocr INFO:     key : backbone_out
+[2023/03/01 06:05:11] ppocr INFO:     name : VQASerTokenLayoutLMLoss
+[2023/03/01 06:05:11] ppocr INFO:     num_classes : 61
+[2023/03/01 06:05:11] ppocr INFO: Metric : 
+[2023/03/01 06:05:11] ppocr INFO:     main_indicator : hmean
+[2023/03/01 06:05:11] ppocr INFO:     name : VQASerTokenMetric
+[2023/03/01 06:05:11] ppocr INFO: Optimizer : 
+[2023/03/01 06:05:11] ppocr INFO:     beta1 : 0.9
+[2023/03/01 06:05:11] ppocr INFO:     beta2 : 0.999
+[2023/03/01 06:05:11] ppocr INFO:     lr : 
+[2023/03/01 06:05:11] ppocr INFO:         epochs : 200
+[2023/03/01 06:05:11] ppocr INFO:         learning_rate : 5e-05
+[2023/03/01 06:05:11] ppocr INFO:         name : Linear
+[2023/03/01 06:05:11] ppocr INFO:         warmup_epoch : 2
+[2023/03/01 06:05:11] ppocr INFO:     name : AdamW
+[2023/03/01 06:05:11] ppocr INFO:     regularizer : 
+[2023/03/01 06:05:11] ppocr INFO:         factor : 0.0
+[2023/03/01 06:05:11] ppocr INFO:         name : L2
+[2023/03/01 06:05:11] ppocr INFO: PostProcess : 
+[2023/03/01 06:05:11] ppocr INFO:     class_path : ./data/labels.txt
+[2023/03/01 06:05:11] ppocr INFO:     name : VQASerTokenLayoutLMPostProcess
+[2023/03/01 06:05:11] ppocr INFO: Train : 
+[2023/03/01 06:05:11] ppocr INFO:     dataset : 
+[2023/03/01 06:05:11] ppocr INFO:         data_dir : ./data/train/image
+[2023/03/01 06:05:11] ppocr INFO:         label_file_list : ['./data/train.txt']
+[2023/03/01 06:05:11] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:05:11] ppocr INFO:         ratio_list : [1.0]
+[2023/03/01 06:05:11] ppocr INFO:         transforms : 
+[2023/03/01 06:05:11] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:05:11] ppocr INFO:                 channel_first : False
+[2023/03/01 06:05:11] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:05:11] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:05:11] ppocr INFO:                 algorithm : MiniLayoutXLM
+[2023/03/01 06:05:11] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:05:11] ppocr INFO:                 contains_re : False
+[2023/03/01 06:05:11] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:05:11] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:05:11] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:05:11] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:05:11] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:05:11] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:05:11] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:05:11] ppocr INFO:             Resize : 
+[2023/03/01 06:05:11] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:05:11] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:05:11] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:05:11] ppocr INFO:                 order : hwc
+[2023/03/01 06:05:11] ppocr INFO:                 scale : 1
+[2023/03/01 06:05:11] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:05:11] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:05:11] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:05:11] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:05:11] ppocr INFO:     loader : 
+[2023/03/01 06:05:11] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:05:11] ppocr INFO:         drop_last : False
+[2023/03/01 06:05:11] ppocr INFO:         num_workers : 4
+[2023/03/01 06:05:11] ppocr INFO:         shuffle : True
+[2023/03/01 06:05:11] ppocr INFO: profiler_options : None
+[2023/03/01 06:05:11] ppocr INFO: train with paddle 2.3.1 and device Place(gpu:0)
+[2023/03/01 06:05:11] ppocr INFO: Initialize indexs of datasets:['./data/train.txt']
+[2023/03/01 06:05:33] ppocr INFO: Architecture : 
+[2023/03/01 06:05:33] ppocr INFO:     Backbone : 
+[2023/03/01 06:05:33] ppocr INFO:         checkpoints : None
+[2023/03/01 06:05:33] ppocr INFO:         name : MiniLayoutXLMForSer
+[2023/03/01 06:05:33] ppocr INFO:         num_classes : 61
+[2023/03/01 06:05:33] ppocr INFO:         num_hidden_layers : mini
+[2023/03/01 06:05:33] ppocr INFO:     Transform : None
+[2023/03/01 06:05:33] ppocr INFO:     algorithm : LayoutXLM
+[2023/03/01 06:05:33] ppocr INFO:     model_type : kie
+[2023/03/01 06:05:33] ppocr INFO: Eval : 
+[2023/03/01 06:05:33] ppocr INFO:     dataset : 
+[2023/03/01 06:05:33] ppocr INFO:         data_dir : ./data/dev/image
+[2023/03/01 06:05:33] ppocr INFO:         label_file_list : ['./data/dev.txt']
+[2023/03/01 06:05:33] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:05:33] ppocr INFO:         transforms : 
+[2023/03/01 06:05:33] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:05:33] ppocr INFO:                 channel_first : False
+[2023/03/01 06:05:33] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:05:33] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:05:33] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:05:33] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:05:33] ppocr INFO:                 contains_re : False
+[2023/03/01 06:05:33] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:05:33] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:05:33] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:05:33] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:05:33] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:05:33] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:05:33] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:05:33] ppocr INFO:             Resize : 
+[2023/03/01 06:05:33] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:05:33] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:05:33] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:05:33] ppocr INFO:                 order : hwc
+[2023/03/01 06:05:33] ppocr INFO:                 scale : 1
+[2023/03/01 06:05:33] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:05:33] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:05:33] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:05:33] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:05:33] ppocr INFO:     loader : 
+[2023/03/01 06:05:33] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:05:33] ppocr INFO:         drop_last : False
+[2023/03/01 06:05:33] ppocr INFO:         num_workers : 4
+[2023/03/01 06:05:33] ppocr INFO:         shuffle : False
+[2023/03/01 06:05:33] ppocr INFO: Global : 
+[2023/03/01 06:05:33] ppocr INFO:     cal_metric_during_train : False
+[2023/03/01 06:05:33] ppocr INFO:     distributed : False
+[2023/03/01 06:05:33] ppocr INFO:     epoch_num : 200
+[2023/03/01 06:05:33] ppocr INFO:     eval_batch_step : [0, 19]
+[2023/03/01 06:05:33] ppocr INFO:     kie_det_model_dir : None
+[2023/03/01 06:05:33] ppocr INFO:     kie_rec_model_dir : None
+[2023/03/01 06:05:33] ppocr INFO:     log_smooth_window : 10
+[2023/03/01 06:05:33] ppocr INFO:     print_batch_step : 10
+[2023/03/01 06:05:33] ppocr INFO:     save_epoch_step : 2000
+[2023/03/01 06:05:33] ppocr INFO:     save_inference_dir : ./output/mini_ser_vi_layoutxlm/infer
+[2023/03/01 06:05:33] ppocr INFO:     save_model_dir : ./output/mini_ser_vi_layoutxlm
+[2023/03/01 06:05:33] ppocr INFO:     save_res_path : ./mz/output/mini_ser_vi_layoutxlm/res
+[2023/03/01 06:05:33] ppocr INFO:     seed : 2022
+[2023/03/01 06:05:33] ppocr INFO:     use_gpu : Fasle
+[2023/03/01 06:05:33] ppocr INFO:     use_visualdl : False
+[2023/03/01 06:05:33] ppocr INFO: Loss : 
+[2023/03/01 06:05:33] ppocr INFO:     key : backbone_out
+[2023/03/01 06:05:33] ppocr INFO:     name : VQASerTokenLayoutLMLoss
+[2023/03/01 06:05:33] ppocr INFO:     num_classes : 61
+[2023/03/01 06:05:33] ppocr INFO: Metric : 
+[2023/03/01 06:05:33] ppocr INFO:     main_indicator : hmean
+[2023/03/01 06:05:33] ppocr INFO:     name : VQASerTokenMetric
+[2023/03/01 06:05:33] ppocr INFO: Optimizer : 
+[2023/03/01 06:05:33] ppocr INFO:     beta1 : 0.9
+[2023/03/01 06:05:33] ppocr INFO:     beta2 : 0.999
+[2023/03/01 06:05:33] ppocr INFO:     lr : 
+[2023/03/01 06:05:33] ppocr INFO:         epochs : 200
+[2023/03/01 06:05:33] ppocr INFO:         learning_rate : 5e-05
+[2023/03/01 06:05:33] ppocr INFO:         name : Linear
+[2023/03/01 06:05:33] ppocr INFO:         warmup_epoch : 2
+[2023/03/01 06:05:33] ppocr INFO:     name : AdamW
+[2023/03/01 06:05:33] ppocr INFO:     regularizer : 
+[2023/03/01 06:05:33] ppocr INFO:         factor : 0.0
+[2023/03/01 06:05:33] ppocr INFO:         name : L2
+[2023/03/01 06:05:33] ppocr INFO: PostProcess : 
+[2023/03/01 06:05:33] ppocr INFO:     class_path : ./data/labels.txt
+[2023/03/01 06:05:33] ppocr INFO:     name : VQASerTokenLayoutLMPostProcess
+[2023/03/01 06:05:33] ppocr INFO: Train : 
+[2023/03/01 06:05:33] ppocr INFO:     dataset : 
+[2023/03/01 06:05:33] ppocr INFO:         data_dir : ./data/train/image
+[2023/03/01 06:05:33] ppocr INFO:         label_file_list : ['./data/train.txt']
+[2023/03/01 06:05:33] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:05:33] ppocr INFO:         ratio_list : [1.0]
+[2023/03/01 06:05:33] ppocr INFO:         transforms : 
+[2023/03/01 06:05:33] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:05:33] ppocr INFO:                 channel_first : False
+[2023/03/01 06:05:33] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:05:33] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:05:33] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:05:33] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:05:33] ppocr INFO:                 contains_re : False
+[2023/03/01 06:05:33] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:05:33] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:05:33] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:05:33] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:05:33] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:05:33] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:05:33] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:05:33] ppocr INFO:             Resize : 
+[2023/03/01 06:05:33] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:05:33] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:05:33] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:05:33] ppocr INFO:                 order : hwc
+[2023/03/01 06:05:33] ppocr INFO:                 scale : 1
+[2023/03/01 06:05:33] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:05:33] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:05:33] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:05:33] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:05:33] ppocr INFO:     loader : 
+[2023/03/01 06:05:33] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:05:33] ppocr INFO:         drop_last : False
+[2023/03/01 06:05:33] ppocr INFO:         num_workers : 4
+[2023/03/01 06:05:33] ppocr INFO:         shuffle : True
+[2023/03/01 06:05:33] ppocr INFO: profiler_options : None
+[2023/03/01 06:05:33] ppocr INFO: train with paddle 2.3.1 and device Place(gpu:0)
+[2023/03/01 06:05:33] ppocr INFO: Initialize indexs of datasets:['./data/train.txt']
+[2023/03/01 06:05:35] ppocr INFO: Initialize indexs of datasets:['./data/dev.txt']
+[2023/03/01 06:06:02] ppocr INFO: Architecture : 
+[2023/03/01 06:06:02] ppocr INFO:     Backbone : 
+[2023/03/01 06:06:02] ppocr INFO:         checkpoints : None
+[2023/03/01 06:06:02] ppocr INFO:         has_visual_segment_embedding : False
+[2023/03/01 06:06:02] ppocr INFO:         name : MiniLayoutXLMForSer
+[2023/03/01 06:06:02] ppocr INFO:         num_classes : 61
+[2023/03/01 06:06:02] ppocr INFO:         num_hidden_layers : mini
+[2023/03/01 06:06:02] ppocr INFO:     Transform : None
+[2023/03/01 06:06:02] ppocr INFO:     algorithm : LayoutXLM
+[2023/03/01 06:06:02] ppocr INFO:     model_type : kie
+[2023/03/01 06:06:02] ppocr INFO: Eval : 
+[2023/03/01 06:06:02] ppocr INFO:     dataset : 
+[2023/03/01 06:06:02] ppocr INFO:         data_dir : ./data/dev/image
+[2023/03/01 06:06:02] ppocr INFO:         label_file_list : ['./data/dev.txt']
+[2023/03/01 06:06:02] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:06:02] ppocr INFO:         transforms : 
+[2023/03/01 06:06:02] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:06:02] ppocr INFO:                 channel_first : False
+[2023/03/01 06:06:02] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:06:02] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:06:02] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:06:02] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:06:02] ppocr INFO:                 contains_re : False
+[2023/03/01 06:06:02] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:06:02] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:06:02] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:06:02] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:06:02] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:06:02] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:06:02] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:06:02] ppocr INFO:             Resize : 
+[2023/03/01 06:06:02] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:06:02] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:06:02] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:06:02] ppocr INFO:                 order : hwc
+[2023/03/01 06:06:02] ppocr INFO:                 scale : 1
+[2023/03/01 06:06:02] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:06:02] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:06:02] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:06:02] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:06:02] ppocr INFO:     loader : 
+[2023/03/01 06:06:02] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:06:02] ppocr INFO:         drop_last : False
+[2023/03/01 06:06:02] ppocr INFO:         num_workers : 4
+[2023/03/01 06:06:02] ppocr INFO:         shuffle : False
+[2023/03/01 06:06:02] ppocr INFO: Global : 
+[2023/03/01 06:06:02] ppocr INFO:     cal_metric_during_train : False
+[2023/03/01 06:06:02] ppocr INFO:     distributed : False
+[2023/03/01 06:06:02] ppocr INFO:     epoch_num : 200
+[2023/03/01 06:06:02] ppocr INFO:     eval_batch_step : [0, 19]
+[2023/03/01 06:06:02] ppocr INFO:     kie_det_model_dir : None
+[2023/03/01 06:06:02] ppocr INFO:     kie_rec_model_dir : None
+[2023/03/01 06:06:02] ppocr INFO:     log_smooth_window : 10
+[2023/03/01 06:06:02] ppocr INFO:     print_batch_step : 10
+[2023/03/01 06:06:02] ppocr INFO:     save_epoch_step : 2000
+[2023/03/01 06:06:02] ppocr INFO:     save_inference_dir : ./output/mini_ser_vi_layoutxlm/infer
+[2023/03/01 06:06:02] ppocr INFO:     save_model_dir : ./output/mini_ser_vi_layoutxlm
+[2023/03/01 06:06:02] ppocr INFO:     save_res_path : ./mz/output/mini_ser_vi_layoutxlm/res
+[2023/03/01 06:06:02] ppocr INFO:     seed : 2022
+[2023/03/01 06:06:02] ppocr INFO:     use_gpu : Fasle
+[2023/03/01 06:06:02] ppocr INFO:     use_visualdl : False
+[2023/03/01 06:06:02] ppocr INFO: Loss : 
+[2023/03/01 06:06:02] ppocr INFO:     key : backbone_out
+[2023/03/01 06:06:02] ppocr INFO:     name : VQASerTokenLayoutLMLoss
+[2023/03/01 06:06:02] ppocr INFO:     num_classes : 61
+[2023/03/01 06:06:02] ppocr INFO: Metric : 
+[2023/03/01 06:06:02] ppocr INFO:     main_indicator : hmean
+[2023/03/01 06:06:02] ppocr INFO:     name : VQASerTokenMetric
+[2023/03/01 06:06:02] ppocr INFO: Optimizer : 
+[2023/03/01 06:06:02] ppocr INFO:     beta1 : 0.9
+[2023/03/01 06:06:02] ppocr INFO:     beta2 : 0.999
+[2023/03/01 06:06:02] ppocr INFO:     lr : 
+[2023/03/01 06:06:02] ppocr INFO:         epochs : 200
+[2023/03/01 06:06:02] ppocr INFO:         learning_rate : 5e-05
+[2023/03/01 06:06:02] ppocr INFO:         name : Linear
+[2023/03/01 06:06:02] ppocr INFO:         warmup_epoch : 2
+[2023/03/01 06:06:02] ppocr INFO:     name : AdamW
+[2023/03/01 06:06:02] ppocr INFO:     regularizer : 
+[2023/03/01 06:06:02] ppocr INFO:         factor : 0.0
+[2023/03/01 06:06:02] ppocr INFO:         name : L2
+[2023/03/01 06:06:02] ppocr INFO: PostProcess : 
+[2023/03/01 06:06:02] ppocr INFO:     class_path : ./data/labels.txt
+[2023/03/01 06:06:02] ppocr INFO:     name : VQASerTokenLayoutLMPostProcess
+[2023/03/01 06:06:02] ppocr INFO: Train : 
+[2023/03/01 06:06:02] ppocr INFO:     dataset : 
+[2023/03/01 06:06:02] ppocr INFO:         data_dir : ./data/train/image
+[2023/03/01 06:06:02] ppocr INFO:         label_file_list : ['./data/train.txt']
+[2023/03/01 06:06:02] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:06:02] ppocr INFO:         ratio_list : [1.0]
+[2023/03/01 06:06:02] ppocr INFO:         transforms : 
+[2023/03/01 06:06:02] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:06:02] ppocr INFO:                 channel_first : False
+[2023/03/01 06:06:02] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:06:02] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:06:02] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:06:02] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:06:02] ppocr INFO:                 contains_re : False
+[2023/03/01 06:06:02] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:06:02] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:06:02] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:06:02] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:06:02] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:06:02] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:06:02] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:06:02] ppocr INFO:             Resize : 
+[2023/03/01 06:06:02] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:06:02] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:06:02] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:06:02] ppocr INFO:                 order : hwc
+[2023/03/01 06:06:02] ppocr INFO:                 scale : 1
+[2023/03/01 06:06:02] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:06:02] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:06:02] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:06:02] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:06:02] ppocr INFO:     loader : 
+[2023/03/01 06:06:02] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:06:02] ppocr INFO:         drop_last : False
+[2023/03/01 06:06:02] ppocr INFO:         num_workers : 4
+[2023/03/01 06:06:02] ppocr INFO:         shuffle : True
+[2023/03/01 06:06:02] ppocr INFO: profiler_options : None
+[2023/03/01 06:06:02] ppocr INFO: train with paddle 2.3.1 and device Place(gpu:0)
+[2023/03/01 06:06:02] ppocr INFO: Initialize indexs of datasets:['./data/train.txt']
+[2023/03/01 06:06:04] ppocr INFO: Initialize indexs of datasets:['./data/dev.txt']
+[2023/03/01 06:07:39] ppocr INFO: Architecture : 
+[2023/03/01 06:07:39] ppocr INFO:     Backbone : 
+[2023/03/01 06:07:39] ppocr INFO:         checkpoints : None
+[2023/03/01 06:07:39] ppocr INFO:         has_visual_segment_embedding : False
+[2023/03/01 06:07:39] ppocr INFO:         name : MiniLayoutXLMForSer
+[2023/03/01 06:07:39] ppocr INFO:         num_classes : 61
+[2023/03/01 06:07:39] ppocr INFO:         num_hidden_layers : mini
+[2023/03/01 06:07:39] ppocr INFO:     Transform : None
+[2023/03/01 06:07:39] ppocr INFO:     algorithm : LayoutXLM
+[2023/03/01 06:07:39] ppocr INFO:     model_type : kie
+[2023/03/01 06:07:39] ppocr INFO: Eval : 
+[2023/03/01 06:07:39] ppocr INFO:     dataset : 
+[2023/03/01 06:07:39] ppocr INFO:         data_dir : ./data/dev/image
+[2023/03/01 06:07:39] ppocr INFO:         label_file_list : ['./data/dev.txt']
+[2023/03/01 06:07:39] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:07:39] ppocr INFO:         transforms : 
+[2023/03/01 06:07:39] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:07:39] ppocr INFO:                 channel_first : False
+[2023/03/01 06:07:39] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:07:39] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:07:39] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:07:39] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:07:39] ppocr INFO:                 contains_re : False
+[2023/03/01 06:07:39] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:07:39] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:07:39] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:07:39] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:07:39] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:07:39] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:07:39] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:07:39] ppocr INFO:             Resize : 
+[2023/03/01 06:07:39] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:07:39] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:07:39] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:07:39] ppocr INFO:                 order : hwc
+[2023/03/01 06:07:39] ppocr INFO:                 scale : 1
+[2023/03/01 06:07:39] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:07:39] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:07:39] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:07:39] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:07:39] ppocr INFO:     loader : 
+[2023/03/01 06:07:39] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:07:39] ppocr INFO:         drop_last : False
+[2023/03/01 06:07:39] ppocr INFO:         num_workers : 4
+[2023/03/01 06:07:39] ppocr INFO:         shuffle : False
+[2023/03/01 06:07:39] ppocr INFO: Global : 
+[2023/03/01 06:07:39] ppocr INFO:     cal_metric_during_train : False
+[2023/03/01 06:07:39] ppocr INFO:     distributed : False
+[2023/03/01 06:07:39] ppocr INFO:     epoch_num : 200
+[2023/03/01 06:07:39] ppocr INFO:     eval_batch_step : [0, 19]
+[2023/03/01 06:07:39] ppocr INFO:     kie_det_model_dir : None
+[2023/03/01 06:07:39] ppocr INFO:     kie_rec_model_dir : None
+[2023/03/01 06:07:39] ppocr INFO:     log_smooth_window : 10
+[2023/03/01 06:07:39] ppocr INFO:     print_batch_step : 10
+[2023/03/01 06:07:39] ppocr INFO:     save_epoch_step : 2000
+[2023/03/01 06:07:39] ppocr INFO:     save_inference_dir : ./output/mini_ser_vi_layoutxlm/infer
+[2023/03/01 06:07:39] ppocr INFO:     save_model_dir : ./output/mini_ser_vi_layoutxlm
+[2023/03/01 06:07:39] ppocr INFO:     save_res_path : ./mz/output/mini_ser_vi_layoutxlm/res
+[2023/03/01 06:07:39] ppocr INFO:     seed : 2022
+[2023/03/01 06:07:39] ppocr INFO:     use_gpu : Fasle
+[2023/03/01 06:07:39] ppocr INFO:     use_visualdl : False
+[2023/03/01 06:07:39] ppocr INFO: Loss : 
+[2023/03/01 06:07:39] ppocr INFO:     key : backbone_out
+[2023/03/01 06:07:39] ppocr INFO:     name : VQASerTokenLayoutLMLoss
+[2023/03/01 06:07:39] ppocr INFO:     num_classes : 61
+[2023/03/01 06:07:39] ppocr INFO: Metric : 
+[2023/03/01 06:07:39] ppocr INFO:     main_indicator : hmean
+[2023/03/01 06:07:39] ppocr INFO:     name : VQASerTokenMetric
+[2023/03/01 06:07:39] ppocr INFO: Optimizer : 
+[2023/03/01 06:07:39] ppocr INFO:     beta1 : 0.9
+[2023/03/01 06:07:39] ppocr INFO:     beta2 : 0.999
+[2023/03/01 06:07:39] ppocr INFO:     lr : 
+[2023/03/01 06:07:39] ppocr INFO:         epochs : 200
+[2023/03/01 06:07:39] ppocr INFO:         learning_rate : 5e-05
+[2023/03/01 06:07:39] ppocr INFO:         name : Linear
+[2023/03/01 06:07:39] ppocr INFO:         warmup_epoch : 2
+[2023/03/01 06:07:39] ppocr INFO:     name : AdamW
+[2023/03/01 06:07:39] ppocr INFO:     regularizer : 
+[2023/03/01 06:07:39] ppocr INFO:         factor : 0.0
+[2023/03/01 06:07:39] ppocr INFO:         name : L2
+[2023/03/01 06:07:39] ppocr INFO: PostProcess : 
+[2023/03/01 06:07:39] ppocr INFO:     class_path : ./data/labels.txt
+[2023/03/01 06:07:39] ppocr INFO:     name : VQASerTokenLayoutLMPostProcess
+[2023/03/01 06:07:39] ppocr INFO: Train : 
+[2023/03/01 06:07:39] ppocr INFO:     dataset : 
+[2023/03/01 06:07:39] ppocr INFO:         data_dir : ./data/train/image
+[2023/03/01 06:07:39] ppocr INFO:         label_file_list : ['./data/train.txt']
+[2023/03/01 06:07:39] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:07:39] ppocr INFO:         ratio_list : [1.0]
+[2023/03/01 06:07:39] ppocr INFO:         transforms : 
+[2023/03/01 06:07:39] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:07:39] ppocr INFO:                 channel_first : False
+[2023/03/01 06:07:39] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:07:39] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:07:39] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:07:39] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:07:39] ppocr INFO:                 contains_re : False
+[2023/03/01 06:07:39] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:07:39] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:07:39] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:07:39] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:07:39] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:07:39] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:07:39] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:07:39] ppocr INFO:             Resize : 
+[2023/03/01 06:07:39] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:07:39] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:07:39] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:07:39] ppocr INFO:                 order : hwc
+[2023/03/01 06:07:39] ppocr INFO:                 scale : 1
+[2023/03/01 06:07:39] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:07:39] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:07:39] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:07:39] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:07:39] ppocr INFO:     loader : 
+[2023/03/01 06:07:39] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:07:39] ppocr INFO:         drop_last : False
+[2023/03/01 06:07:39] ppocr INFO:         num_workers : 4
+[2023/03/01 06:07:39] ppocr INFO:         shuffle : True
+[2023/03/01 06:07:39] ppocr INFO: profiler_options : None
+[2023/03/01 06:07:39] ppocr INFO: train with paddle 2.3.1 and device Place(gpu:0)
+[2023/03/01 06:07:39] ppocr INFO: Initialize indexs of datasets:['./data/train.txt']
+[2023/03/01 06:07:42] ppocr INFO: Initialize indexs of datasets:['./data/dev.txt']
+[2023/03/01 06:08:54] ppocr INFO: Architecture : 
+[2023/03/01 06:08:54] ppocr INFO:     Backbone : 
+[2023/03/01 06:08:54] ppocr INFO:         checkpoints : None
+[2023/03/01 06:08:54] ppocr INFO:         name : MiniLayoutXLMForSer
+[2023/03/01 06:08:54] ppocr INFO:         num_classes : 61
+[2023/03/01 06:08:54] ppocr INFO:         num_hidden_layers : 2
+[2023/03/01 06:08:54] ppocr INFO:     Transform : None
+[2023/03/01 06:08:54] ppocr INFO:     algorithm : LayoutXLM
+[2023/03/01 06:08:54] ppocr INFO:     model_type : kie
+[2023/03/01 06:08:54] ppocr INFO: Eval : 
+[2023/03/01 06:08:54] ppocr INFO:     dataset : 
+[2023/03/01 06:08:54] ppocr INFO:         data_dir : ./data/dev/image
+[2023/03/01 06:08:54] ppocr INFO:         label_file_list : ['./data/dev.txt']
+[2023/03/01 06:08:54] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:08:54] ppocr INFO:         transforms : 
+[2023/03/01 06:08:54] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:08:54] ppocr INFO:                 channel_first : False
+[2023/03/01 06:08:54] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:08:54] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:08:54] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:08:54] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:08:54] ppocr INFO:                 contains_re : False
+[2023/03/01 06:08:54] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:08:54] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:08:54] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:08:54] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:08:54] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:08:54] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:08:54] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:08:54] ppocr INFO:             Resize : 
+[2023/03/01 06:08:54] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:08:54] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:08:54] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:08:54] ppocr INFO:                 order : hwc
+[2023/03/01 06:08:54] ppocr INFO:                 scale : 1
+[2023/03/01 06:08:54] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:08:54] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:08:54] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:08:54] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:08:54] ppocr INFO:     loader : 
+[2023/03/01 06:08:54] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:08:54] ppocr INFO:         drop_last : False
+[2023/03/01 06:08:54] ppocr INFO:         num_workers : 4
+[2023/03/01 06:08:54] ppocr INFO:         shuffle : False
+[2023/03/01 06:08:54] ppocr INFO: Global : 
+[2023/03/01 06:08:54] ppocr INFO:     cal_metric_during_train : False
+[2023/03/01 06:08:54] ppocr INFO:     distributed : False
+[2023/03/01 06:08:54] ppocr INFO:     epoch_num : 200
+[2023/03/01 06:08:54] ppocr INFO:     eval_batch_step : [0, 19]
+[2023/03/01 06:08:54] ppocr INFO:     kie_det_model_dir : None
+[2023/03/01 06:08:54] ppocr INFO:     kie_rec_model_dir : None
+[2023/03/01 06:08:54] ppocr INFO:     log_smooth_window : 10
+[2023/03/01 06:08:54] ppocr INFO:     print_batch_step : 10
+[2023/03/01 06:08:54] ppocr INFO:     save_epoch_step : 2000
+[2023/03/01 06:08:54] ppocr INFO:     save_inference_dir : ./output/mini_ser_vi_layoutxlm/infer
+[2023/03/01 06:08:54] ppocr INFO:     save_model_dir : ./output/mini_ser_vi_layoutxlm
+[2023/03/01 06:08:54] ppocr INFO:     save_res_path : ./mz/output/mini_ser_vi_layoutxlm/res
+[2023/03/01 06:08:54] ppocr INFO:     seed : 2022
+[2023/03/01 06:08:54] ppocr INFO:     use_gpu : Fasle
+[2023/03/01 06:08:54] ppocr INFO:     use_visualdl : False
+[2023/03/01 06:08:54] ppocr INFO: Loss : 
+[2023/03/01 06:08:54] ppocr INFO:     key : backbone_out
+[2023/03/01 06:08:54] ppocr INFO:     name : VQASerTokenLayoutLMLoss
+[2023/03/01 06:08:54] ppocr INFO:     num_classes : 61
+[2023/03/01 06:08:54] ppocr INFO: Metric : 
+[2023/03/01 06:08:54] ppocr INFO:     main_indicator : hmean
+[2023/03/01 06:08:54] ppocr INFO:     name : VQASerTokenMetric
+[2023/03/01 06:08:54] ppocr INFO: Optimizer : 
+[2023/03/01 06:08:54] ppocr INFO:     beta1 : 0.9
+[2023/03/01 06:08:54] ppocr INFO:     beta2 : 0.999
+[2023/03/01 06:08:54] ppocr INFO:     lr : 
+[2023/03/01 06:08:54] ppocr INFO:         epochs : 200
+[2023/03/01 06:08:54] ppocr INFO:         learning_rate : 5e-05
+[2023/03/01 06:08:54] ppocr INFO:         name : Linear
+[2023/03/01 06:08:54] ppocr INFO:         warmup_epoch : 2
+[2023/03/01 06:08:54] ppocr INFO:     name : AdamW
+[2023/03/01 06:08:54] ppocr INFO:     regularizer : 
+[2023/03/01 06:08:54] ppocr INFO:         factor : 0.0
+[2023/03/01 06:08:54] ppocr INFO:         name : L2
+[2023/03/01 06:08:54] ppocr INFO: PostProcess : 
+[2023/03/01 06:08:54] ppocr INFO:     class_path : ./data/labels.txt
+[2023/03/01 06:08:54] ppocr INFO:     name : VQASerTokenLayoutLMPostProcess
+[2023/03/01 06:08:54] ppocr INFO: Train : 
+[2023/03/01 06:08:54] ppocr INFO:     dataset : 
+[2023/03/01 06:08:54] ppocr INFO:         data_dir : ./data/train/image
+[2023/03/01 06:08:54] ppocr INFO:         label_file_list : ['./data/train.txt']
+[2023/03/01 06:08:54] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:08:54] ppocr INFO:         ratio_list : [1.0]
+[2023/03/01 06:08:54] ppocr INFO:         transforms : 
+[2023/03/01 06:08:54] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:08:54] ppocr INFO:                 channel_first : False
+[2023/03/01 06:08:54] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:08:54] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:08:54] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:08:54] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:08:54] ppocr INFO:                 contains_re : False
+[2023/03/01 06:08:54] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:08:54] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:08:54] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:08:54] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:08:54] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:08:54] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:08:54] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:08:54] ppocr INFO:             Resize : 
+[2023/03/01 06:08:54] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:08:54] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:08:54] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:08:54] ppocr INFO:                 order : hwc
+[2023/03/01 06:08:54] ppocr INFO:                 scale : 1
+[2023/03/01 06:08:54] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:08:54] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:08:54] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:08:54] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:08:54] ppocr INFO:     loader : 
+[2023/03/01 06:08:54] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:08:54] ppocr INFO:         drop_last : False
+[2023/03/01 06:08:54] ppocr INFO:         num_workers : 4
+[2023/03/01 06:08:54] ppocr INFO:         shuffle : True
+[2023/03/01 06:08:54] ppocr INFO: profiler_options : None
+[2023/03/01 06:08:54] ppocr INFO: train with paddle 2.3.1 and device Place(gpu:0)
+[2023/03/01 06:08:54] ppocr INFO: Initialize indexs of datasets:['./data/train.txt']
+[2023/03/01 06:08:56] ppocr INFO: Initialize indexs of datasets:['./data/dev.txt']
+[2023/03/01 06:09:13] ppocr INFO: Architecture : 
+[2023/03/01 06:09:13] ppocr INFO:     Backbone : 
+[2023/03/01 06:09:13] ppocr INFO:         checkpoints : None
+[2023/03/01 06:09:13] ppocr INFO:         name : MiniLayoutXLMForSer
+[2023/03/01 06:09:13] ppocr INFO:         num_classes : 61
+[2023/03/01 06:09:13] ppocr INFO:         num_hidden_layers : 2
+[2023/03/01 06:09:13] ppocr INFO:     Transform : None
+[2023/03/01 06:09:13] ppocr INFO:     algorithm : LayoutXLM
+[2023/03/01 06:09:13] ppocr INFO:     model_type : kie
+[2023/03/01 06:09:13] ppocr INFO: Eval : 
+[2023/03/01 06:09:13] ppocr INFO:     dataset : 
+[2023/03/01 06:09:13] ppocr INFO:         data_dir : ./data/dev/image
+[2023/03/01 06:09:13] ppocr INFO:         label_file_list : ['./data/dev.txt']
+[2023/03/01 06:09:13] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:09:13] ppocr INFO:         transforms : 
+[2023/03/01 06:09:13] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:09:13] ppocr INFO:                 channel_first : False
+[2023/03/01 06:09:13] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:09:13] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:09:13] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:09:13] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:09:13] ppocr INFO:                 contains_re : False
+[2023/03/01 06:09:13] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:09:13] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:09:13] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:09:13] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:09:13] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:09:13] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:09:13] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:09:13] ppocr INFO:             Resize : 
+[2023/03/01 06:09:13] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:09:13] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:09:13] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:09:13] ppocr INFO:                 order : hwc
+[2023/03/01 06:09:13] ppocr INFO:                 scale : 1
+[2023/03/01 06:09:13] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:09:13] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:09:13] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:09:13] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:09:13] ppocr INFO:     loader : 
+[2023/03/01 06:09:13] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:09:13] ppocr INFO:         drop_last : False
+[2023/03/01 06:09:13] ppocr INFO:         num_workers : 4
+[2023/03/01 06:09:13] ppocr INFO:         shuffle : False
+[2023/03/01 06:09:13] ppocr INFO: Global : 
+[2023/03/01 06:09:13] ppocr INFO:     cal_metric_during_train : False
+[2023/03/01 06:09:13] ppocr INFO:     distributed : False
+[2023/03/01 06:09:13] ppocr INFO:     epoch_num : 200
+[2023/03/01 06:09:13] ppocr INFO:     eval_batch_step : [0, 19]
+[2023/03/01 06:09:13] ppocr INFO:     kie_det_model_dir : None
+[2023/03/01 06:09:13] ppocr INFO:     kie_rec_model_dir : None
+[2023/03/01 06:09:13] ppocr INFO:     log_smooth_window : 10
+[2023/03/01 06:09:13] ppocr INFO:     print_batch_step : 10
+[2023/03/01 06:09:13] ppocr INFO:     save_epoch_step : 2000
+[2023/03/01 06:09:13] ppocr INFO:     save_inference_dir : ./output/mini_ser_vi_layoutxlm/infer
+[2023/03/01 06:09:13] ppocr INFO:     save_model_dir : ./output/mini_ser_vi_layoutxlm
+[2023/03/01 06:09:13] ppocr INFO:     save_res_path : ./mz/output/mini_ser_vi_layoutxlm/res
+[2023/03/01 06:09:13] ppocr INFO:     seed : 2022
+[2023/03/01 06:09:13] ppocr INFO:     use_gpu : Fasle
+[2023/03/01 06:09:13] ppocr INFO:     use_visualdl : False
+[2023/03/01 06:09:13] ppocr INFO: Loss : 
+[2023/03/01 06:09:13] ppocr INFO:     key : backbone_out
+[2023/03/01 06:09:13] ppocr INFO:     name : VQASerTokenLayoutLMLoss
+[2023/03/01 06:09:13] ppocr INFO:     num_classes : 61
+[2023/03/01 06:09:13] ppocr INFO: Metric : 
+[2023/03/01 06:09:13] ppocr INFO:     main_indicator : hmean
+[2023/03/01 06:09:13] ppocr INFO:     name : VQASerTokenMetric
+[2023/03/01 06:09:13] ppocr INFO: Optimizer : 
+[2023/03/01 06:09:13] ppocr INFO:     beta1 : 0.9
+[2023/03/01 06:09:13] ppocr INFO:     beta2 : 0.999
+[2023/03/01 06:09:13] ppocr INFO:     lr : 
+[2023/03/01 06:09:13] ppocr INFO:         epochs : 200
+[2023/03/01 06:09:13] ppocr INFO:         learning_rate : 5e-05
+[2023/03/01 06:09:13] ppocr INFO:         name : Linear
+[2023/03/01 06:09:13] ppocr INFO:         warmup_epoch : 2
+[2023/03/01 06:09:13] ppocr INFO:     name : AdamW
+[2023/03/01 06:09:13] ppocr INFO:     regularizer : 
+[2023/03/01 06:09:13] ppocr INFO:         factor : 0.0
+[2023/03/01 06:09:13] ppocr INFO:         name : L2
+[2023/03/01 06:09:13] ppocr INFO: PostProcess : 
+[2023/03/01 06:09:13] ppocr INFO:     class_path : ./data/labels.txt
+[2023/03/01 06:09:13] ppocr INFO:     name : VQASerTokenLayoutLMPostProcess
+[2023/03/01 06:09:13] ppocr INFO: Train : 
+[2023/03/01 06:09:13] ppocr INFO:     dataset : 
+[2023/03/01 06:09:13] ppocr INFO:         data_dir : ./data/train/image
+[2023/03/01 06:09:13] ppocr INFO:         label_file_list : ['./data/train.txt']
+[2023/03/01 06:09:13] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:09:13] ppocr INFO:         ratio_list : [1.0]
+[2023/03/01 06:09:13] ppocr INFO:         transforms : 
+[2023/03/01 06:09:13] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:09:13] ppocr INFO:                 channel_first : False
+[2023/03/01 06:09:13] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:09:13] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:09:13] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:09:13] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:09:13] ppocr INFO:                 contains_re : False
+[2023/03/01 06:09:13] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:09:13] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:09:13] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:09:13] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:09:13] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:09:13] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:09:13] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:09:13] ppocr INFO:             Resize : 
+[2023/03/01 06:09:13] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:09:13] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:09:13] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:09:13] ppocr INFO:                 order : hwc
+[2023/03/01 06:09:13] ppocr INFO:                 scale : 1
+[2023/03/01 06:09:13] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:09:13] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:09:13] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:09:13] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:09:13] ppocr INFO:     loader : 
+[2023/03/01 06:09:13] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:09:13] ppocr INFO:         drop_last : False
+[2023/03/01 06:09:13] ppocr INFO:         num_workers : 4
+[2023/03/01 06:09:13] ppocr INFO:         shuffle : True
+[2023/03/01 06:09:13] ppocr INFO: profiler_options : None
+[2023/03/01 06:09:13] ppocr INFO: train with paddle 2.3.1 and device Place(gpu:0)
+[2023/03/01 06:09:13] ppocr INFO: Initialize indexs of datasets:['./data/train.txt']
+[2023/03/01 06:09:16] ppocr INFO: Initialize indexs of datasets:['./data/dev.txt']
+[2023/03/01 06:11:31] ppocr INFO: Architecture : 
+[2023/03/01 06:11:31] ppocr INFO:     Backbone : 
+[2023/03/01 06:11:31] ppocr INFO:         checkpoints : None
+[2023/03/01 06:11:31] ppocr INFO:         name : MiniLayoutXLMForSer
+[2023/03/01 06:11:31] ppocr INFO:         num_classes : 61
+[2023/03/01 06:11:31] ppocr INFO:         num_hidden_layers : 2
+[2023/03/01 06:11:31] ppocr INFO:     Transform : None
+[2023/03/01 06:11:31] ppocr INFO:     algorithm : LayoutXLM
+[2023/03/01 06:11:31] ppocr INFO:     model_type : kie
+[2023/03/01 06:11:31] ppocr INFO: Eval : 
+[2023/03/01 06:11:31] ppocr INFO:     dataset : 
+[2023/03/01 06:11:31] ppocr INFO:         data_dir : ./data/dev/image
+[2023/03/01 06:11:31] ppocr INFO:         label_file_list : ['./data/dev.txt']
+[2023/03/01 06:11:31] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:11:31] ppocr INFO:         transforms : 
+[2023/03/01 06:11:31] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:11:31] ppocr INFO:                 channel_first : False
+[2023/03/01 06:11:31] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:11:31] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:11:31] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:11:31] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:11:31] ppocr INFO:                 contains_re : False
+[2023/03/01 06:11:31] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:11:31] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:11:31] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:11:31] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:11:31] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:11:31] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:11:31] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:11:31] ppocr INFO:             Resize : 
+[2023/03/01 06:11:31] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:11:31] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:11:31] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:11:31] ppocr INFO:                 order : hwc
+[2023/03/01 06:11:31] ppocr INFO:                 scale : 1
+[2023/03/01 06:11:31] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:11:31] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:11:31] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:11:31] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:11:31] ppocr INFO:     loader : 
+[2023/03/01 06:11:31] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:11:31] ppocr INFO:         drop_last : False
+[2023/03/01 06:11:31] ppocr INFO:         num_workers : 4
+[2023/03/01 06:11:31] ppocr INFO:         shuffle : False
+[2023/03/01 06:11:31] ppocr INFO: Global : 
+[2023/03/01 06:11:31] ppocr INFO:     cal_metric_during_train : False
+[2023/03/01 06:11:31] ppocr INFO:     distributed : False
+[2023/03/01 06:11:31] ppocr INFO:     epoch_num : 200
+[2023/03/01 06:11:31] ppocr INFO:     eval_batch_step : [0, 19]
+[2023/03/01 06:11:31] ppocr INFO:     kie_det_model_dir : None
+[2023/03/01 06:11:31] ppocr INFO:     kie_rec_model_dir : None
+[2023/03/01 06:11:31] ppocr INFO:     log_smooth_window : 10
+[2023/03/01 06:11:31] ppocr INFO:     print_batch_step : 10
+[2023/03/01 06:11:31] ppocr INFO:     save_epoch_step : 2000
+[2023/03/01 06:11:31] ppocr INFO:     save_inference_dir : ./output/mini_ser_vi_layoutxlm/infer
+[2023/03/01 06:11:31] ppocr INFO:     save_model_dir : ./output/mini_ser_vi_layoutxlm
+[2023/03/01 06:11:31] ppocr INFO:     save_res_path : ./mz/output/mini_ser_vi_layoutxlm/res
+[2023/03/01 06:11:31] ppocr INFO:     seed : 2022
+[2023/03/01 06:11:31] ppocr INFO:     use_gpu : Fasle
+[2023/03/01 06:11:31] ppocr INFO:     use_visualdl : False
+[2023/03/01 06:11:31] ppocr INFO: Loss : 
+[2023/03/01 06:11:31] ppocr INFO:     key : backbone_out
+[2023/03/01 06:11:31] ppocr INFO:     name : VQASerTokenLayoutLMLoss
+[2023/03/01 06:11:31] ppocr INFO:     num_classes : 61
+[2023/03/01 06:11:31] ppocr INFO: Metric : 
+[2023/03/01 06:11:31] ppocr INFO:     main_indicator : hmean
+[2023/03/01 06:11:31] ppocr INFO:     name : VQASerTokenMetric
+[2023/03/01 06:11:31] ppocr INFO: Optimizer : 
+[2023/03/01 06:11:31] ppocr INFO:     beta1 : 0.9
+[2023/03/01 06:11:31] ppocr INFO:     beta2 : 0.999
+[2023/03/01 06:11:31] ppocr INFO:     lr : 
+[2023/03/01 06:11:31] ppocr INFO:         epochs : 200
+[2023/03/01 06:11:31] ppocr INFO:         learning_rate : 5e-05
+[2023/03/01 06:11:31] ppocr INFO:         name : Linear
+[2023/03/01 06:11:31] ppocr INFO:         warmup_epoch : 2
+[2023/03/01 06:11:31] ppocr INFO:     name : AdamW
+[2023/03/01 06:11:31] ppocr INFO:     regularizer : 
+[2023/03/01 06:11:31] ppocr INFO:         factor : 0.0
+[2023/03/01 06:11:31] ppocr INFO:         name : L2
+[2023/03/01 06:11:31] ppocr INFO: PostProcess : 
+[2023/03/01 06:11:31] ppocr INFO:     class_path : ./data/labels.txt
+[2023/03/01 06:11:31] ppocr INFO:     name : VQASerTokenLayoutLMPostProcess
+[2023/03/01 06:11:31] ppocr INFO: Train : 
+[2023/03/01 06:11:31] ppocr INFO:     dataset : 
+[2023/03/01 06:11:31] ppocr INFO:         data_dir : ./data/train/image
+[2023/03/01 06:11:31] ppocr INFO:         label_file_list : ['./data/train.txt']
+[2023/03/01 06:11:31] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:11:31] ppocr INFO:         ratio_list : [1.0]
+[2023/03/01 06:11:31] ppocr INFO:         transforms : 
+[2023/03/01 06:11:31] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:11:31] ppocr INFO:                 channel_first : False
+[2023/03/01 06:11:31] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:11:31] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:11:31] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:11:31] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:11:31] ppocr INFO:                 contains_re : False
+[2023/03/01 06:11:31] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:11:31] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:11:31] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:11:31] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:11:31] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:11:31] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:11:31] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:11:31] ppocr INFO:             Resize : 
+[2023/03/01 06:11:32] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:11:32] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:11:32] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:11:32] ppocr INFO:                 order : hwc
+[2023/03/01 06:11:32] ppocr INFO:                 scale : 1
+[2023/03/01 06:11:32] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:11:32] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:11:32] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:11:32] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:11:32] ppocr INFO:     loader : 
+[2023/03/01 06:11:32] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:11:32] ppocr INFO:         drop_last : False
+[2023/03/01 06:11:32] ppocr INFO:         num_workers : 4
+[2023/03/01 06:11:32] ppocr INFO:         shuffle : True
+[2023/03/01 06:11:32] ppocr INFO: profiler_options : None
+[2023/03/01 06:11:32] ppocr INFO: train with paddle 2.3.1 and device Place(gpu:0)
+[2023/03/01 06:11:32] ppocr INFO: Initialize indexs of datasets:['./data/train.txt']
+[2023/03/01 06:11:34] ppocr INFO: Initialize indexs of datasets:['./data/dev.txt']
+[2023/03/01 06:12:03] ppocr INFO: Architecture : 
+[2023/03/01 06:12:03] ppocr INFO:     Backbone : 
+[2023/03/01 06:12:03] ppocr INFO:         checkpoints : None
+[2023/03/01 06:12:03] ppocr INFO:         name : MiniLayoutXLMForSer
+[2023/03/01 06:12:03] ppocr INFO:         num_classes : 61
+[2023/03/01 06:12:03] ppocr INFO:         num_hidden_layers : 2
+[2023/03/01 06:12:03] ppocr INFO:     Transform : None
+[2023/03/01 06:12:03] ppocr INFO:     algorithm : LayoutXLM
+[2023/03/01 06:12:03] ppocr INFO:     model_type : kie
+[2023/03/01 06:12:03] ppocr INFO: Eval : 
+[2023/03/01 06:12:03] ppocr INFO:     dataset : 
+[2023/03/01 06:12:03] ppocr INFO:         data_dir : ./data/dev/image
+[2023/03/01 06:12:03] ppocr INFO:         label_file_list : ['./data/dev.txt']
+[2023/03/01 06:12:03] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:12:03] ppocr INFO:         transforms : 
+[2023/03/01 06:12:03] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:12:03] ppocr INFO:                 channel_first : False
+[2023/03/01 06:12:03] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:12:03] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:12:03] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:12:03] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:12:03] ppocr INFO:                 contains_re : False
+[2023/03/01 06:12:03] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:12:03] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:12:03] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:12:03] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:12:03] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:12:03] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:12:03] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:12:03] ppocr INFO:             Resize : 
+[2023/03/01 06:12:03] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:12:03] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:12:03] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:12:03] ppocr INFO:                 order : hwc
+[2023/03/01 06:12:03] ppocr INFO:                 scale : 1
+[2023/03/01 06:12:03] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:12:03] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:12:03] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:12:03] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:12:03] ppocr INFO:     loader : 
+[2023/03/01 06:12:03] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:12:03] ppocr INFO:         drop_last : False
+[2023/03/01 06:12:03] ppocr INFO:         num_workers : 4
+[2023/03/01 06:12:03] ppocr INFO:         shuffle : False
+[2023/03/01 06:12:03] ppocr INFO: Global : 
+[2023/03/01 06:12:03] ppocr INFO:     cal_metric_during_train : False
+[2023/03/01 06:12:03] ppocr INFO:     distributed : False
+[2023/03/01 06:12:03] ppocr INFO:     epoch_num : 200
+[2023/03/01 06:12:03] ppocr INFO:     eval_batch_step : [0, 19]
+[2023/03/01 06:12:03] ppocr INFO:     kie_det_model_dir : None
+[2023/03/01 06:12:03] ppocr INFO:     kie_rec_model_dir : None
+[2023/03/01 06:12:03] ppocr INFO:     log_smooth_window : 10
+[2023/03/01 06:12:03] ppocr INFO:     print_batch_step : 10
+[2023/03/01 06:12:03] ppocr INFO:     save_epoch_step : 2000
+[2023/03/01 06:12:03] ppocr INFO:     save_inference_dir : ./output/mini_ser_vi_layoutxlm/infer
+[2023/03/01 06:12:03] ppocr INFO:     save_model_dir : ./output/mini_ser_vi_layoutxlm
+[2023/03/01 06:12:03] ppocr INFO:     save_res_path : ./mz/output/mini_ser_vi_layoutxlm/res
+[2023/03/01 06:12:03] ppocr INFO:     seed : 2022
+[2023/03/01 06:12:03] ppocr INFO:     use_gpu : Fasle
+[2023/03/01 06:12:03] ppocr INFO:     use_visualdl : False
+[2023/03/01 06:12:03] ppocr INFO: Loss : 
+[2023/03/01 06:12:03] ppocr INFO:     key : backbone_out
+[2023/03/01 06:12:03] ppocr INFO:     name : VQASerTokenLayoutLMLoss
+[2023/03/01 06:12:03] ppocr INFO:     num_classes : 61
+[2023/03/01 06:12:03] ppocr INFO: Metric : 
+[2023/03/01 06:12:03] ppocr INFO:     main_indicator : hmean
+[2023/03/01 06:12:03] ppocr INFO:     name : VQASerTokenMetric
+[2023/03/01 06:12:03] ppocr INFO: Optimizer : 
+[2023/03/01 06:12:03] ppocr INFO:     beta1 : 0.9
+[2023/03/01 06:12:03] ppocr INFO:     beta2 : 0.999
+[2023/03/01 06:12:03] ppocr INFO:     lr : 
+[2023/03/01 06:12:03] ppocr INFO:         epochs : 200
+[2023/03/01 06:12:03] ppocr INFO:         learning_rate : 5e-05
+[2023/03/01 06:12:03] ppocr INFO:         name : Linear
+[2023/03/01 06:12:03] ppocr INFO:         warmup_epoch : 2
+[2023/03/01 06:12:03] ppocr INFO:     name : AdamW
+[2023/03/01 06:12:03] ppocr INFO:     regularizer : 
+[2023/03/01 06:12:03] ppocr INFO:         factor : 0.0
+[2023/03/01 06:12:03] ppocr INFO:         name : L2
+[2023/03/01 06:12:03] ppocr INFO: PostProcess : 
+[2023/03/01 06:12:03] ppocr INFO:     class_path : ./data/labels.txt
+[2023/03/01 06:12:03] ppocr INFO:     name : VQASerTokenLayoutLMPostProcess
+[2023/03/01 06:12:03] ppocr INFO: Train : 
+[2023/03/01 06:12:03] ppocr INFO:     dataset : 
+[2023/03/01 06:12:03] ppocr INFO:         data_dir : ./data/train/image
+[2023/03/01 06:12:03] ppocr INFO:         label_file_list : ['./data/train.txt']
+[2023/03/01 06:12:03] ppocr INFO:         name : SimpleDataSet
+[2023/03/01 06:12:03] ppocr INFO:         ratio_list : [1.0]
+[2023/03/01 06:12:03] ppocr INFO:         transforms : 
+[2023/03/01 06:12:03] ppocr INFO:             DecodeImage : 
+[2023/03/01 06:12:03] ppocr INFO:                 channel_first : False
+[2023/03/01 06:12:03] ppocr INFO:                 img_mode : RGB
+[2023/03/01 06:12:03] ppocr INFO:             VQATokenLabelEncode : 
+[2023/03/01 06:12:03] ppocr INFO:                 algorithm : LayoutXLM
+[2023/03/01 06:12:03] ppocr INFO:                 class_path : ./data/labels.txt
+[2023/03/01 06:12:03] ppocr INFO:                 contains_re : False
+[2023/03/01 06:12:03] ppocr INFO:                 order_method : tb-yx
+[2023/03/01 06:12:03] ppocr INFO:                 use_textline_bbox_info : True
+[2023/03/01 06:12:03] ppocr INFO:             VQATokenPad : 
+[2023/03/01 06:12:03] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:12:03] ppocr INFO:                 return_attention_mask : True
+[2023/03/01 06:12:03] ppocr INFO:             VQASerTokenChunk : 
+[2023/03/01 06:12:03] ppocr INFO:                 max_seq_len : 512
+[2023/03/01 06:12:03] ppocr INFO:             Resize : 
+[2023/03/01 06:12:03] ppocr INFO:                 size : [224, 224]
+[2023/03/01 06:12:03] ppocr INFO:             NormalizeImage : 
+[2023/03/01 06:12:03] ppocr INFO:                 mean : [123.675, 116.28, 103.53]
+[2023/03/01 06:12:03] ppocr INFO:                 order : hwc
+[2023/03/01 06:12:03] ppocr INFO:                 scale : 1
+[2023/03/01 06:12:03] ppocr INFO:                 std : [58.395, 57.12, 57.375]
+[2023/03/01 06:12:03] ppocr INFO:             ToCHWImage : None
+[2023/03/01 06:12:03] ppocr INFO:             KeepKeys : 
+[2023/03/01 06:12:03] ppocr INFO:                 keep_keys : ['input_ids', 'bbox', 'attention_mask', 'token_type_ids', 'image', 'labels']
+[2023/03/01 06:12:03] ppocr INFO:     loader : 
+[2023/03/01 06:12:03] ppocr INFO:         batch_size_per_card : 8
+[2023/03/01 06:12:03] ppocr INFO:         drop_last : False
+[2023/03/01 06:12:03] ppocr INFO:         num_workers : 4
+[2023/03/01 06:12:03] ppocr INFO:         shuffle : True
+[2023/03/01 06:12:03] ppocr INFO: profiler_options : None
+[2023/03/01 06:12:03] ppocr INFO: train with paddle 2.3.1 and device Place(gpu:0)
+[2023/03/01 06:12:03] ppocr INFO: Initialize indexs of datasets:['./data/train.txt']
+[2023/03/01 06:12:05] ppocr INFO: Initialize indexs of datasets:['./data/dev.txt']
+[2023/03/01 06:12:08] ppocr INFO: train dataloader has 100 iters
+[2023/03/01 06:12:08] ppocr INFO: valid dataloader has 13 iters
+[2023/03/01 06:12:08] ppocr INFO: During the training process, after the 0th iteration, an evaluation is run every 19 iterations
+[2023/03/01 06:12:17] ppocr INFO: epoch: [1/200], global_step: 10, lr: 0.000001, loss: 4.309829, avg_reader_cost: 0.09456 s, avg_batch_cost: 0.64942 s, avg_samples: 8.0, ips: 12.31875 samples/s, eta: 3:36:21
+[2023/03/01 06:12:26] ppocr INFO: cur metric, precision: 0.026931254429482635, recall: 0.03476669716376944, hmean: 0.03035143769968051, fps: 62.895301458693346
+[2023/03/01 06:12:38] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:12:38] ppocr INFO: best metric, hmean: 0.03035143769968051, precision: 0.026931254429482635, recall: 0.03476669716376944, fps: 62.895301458693346, best_epoch: 1
+[2023/03/01 06:12:38] ppocr INFO: epoch: [1/200], global_step: 20, lr: 0.000004, loss: 4.131919, avg_reader_cost: 0.00278 s, avg_batch_cost: 0.16514 s, avg_samples: 8.0, ips: 48.44237 samples/s, eta: 2:15:37
+[2023/03/01 06:12:42] ppocr INFO: epoch: [1/200], global_step: 30, lr: 0.000006, loss: 3.759008, avg_reader_cost: 0.00175 s, avg_batch_cost: 0.16155 s, avg_samples: 8.0, ips: 49.51943 samples/s, eta: 1:48:17
+[2023/03/01 06:12:51] ppocr INFO: cur metric, precision: 0.028201219512195123, recall: 0.016925892040256175, hmean: 0.021154945683247568, fps: 60.513964958692185
+[2023/03/01 06:12:51] ppocr INFO: best metric, hmean: 0.03035143769968051, precision: 0.026931254429482635, recall: 0.03476669716376944, fps: 62.895301458693346, best_epoch: 1
+[2023/03/01 06:12:51] ppocr INFO: epoch: [1/200], global_step: 40, lr: 0.000009, loss: 3.518605, avg_reader_cost: 0.00143 s, avg_batch_cost: 0.15315 s, avg_samples: 8.0, ips: 52.23805 samples/s, eta: 1:33:55
+[2023/03/01 06:12:55] ppocr INFO: epoch: [1/200], global_step: 50, lr: 0.000011, loss: 3.344485, avg_reader_cost: 0.00263 s, avg_batch_cost: 0.16877 s, avg_samples: 8.0, ips: 47.40138 samples/s, eta: 1:26:19
+[2023/03/01 06:13:04] ppocr INFO: cur metric, precision: 0.02132701421800948, recall: 0.008234217749313814, hmean: 0.011881188118811881, fps: 61.283857827079245
+[2023/03/01 06:13:04] ppocr INFO: best metric, hmean: 0.03035143769968051, precision: 0.026931254429482635, recall: 0.03476669716376944, fps: 62.895301458693346, best_epoch: 1
+[2023/03/01 06:13:05] ppocr INFO: epoch: [1/200], global_step: 60, lr: 0.000014, loss: 3.253209, avg_reader_cost: 0.03715 s, avg_batch_cost: 0.21236 s, avg_samples: 8.0, ips: 37.67261 samples/s, eta: 1:23:39
+[2023/03/01 06:13:09] ppocr INFO: epoch: [1/200], global_step: 70, lr: 0.000016, loss: 3.230545, avg_reader_cost: 0.00177 s, avg_batch_cost: 0.16705 s, avg_samples: 8.0, ips: 47.89093 samples/s, eta: 1:19:35
+[2023/03/01 06:13:17] ppocr INFO: cur metric, precision: 0.016981132075471698, recall: 0.004117108874656907, hmean: 0.006627393225331369, fps: 60.0210158500379
+[2023/03/01 06:13:17] ppocr INFO: best metric, hmean: 0.03035143769968051, precision: 0.026931254429482635, recall: 0.03476669716376944, fps: 62.895301458693346, best_epoch: 1
+[2023/03/01 06:13:19] ppocr INFO: epoch: [1/200], global_step: 80, lr: 0.000019, loss: 3.156082, avg_reader_cost: 0.06631 s, avg_batch_cost: 0.21869 s, avg_samples: 8.0, ips: 36.58159 samples/s, eta: 1:18:41
+[2023/03/01 06:13:22] ppocr INFO: epoch: [1/200], global_step: 90, lr: 0.000021, loss: 3.244313, avg_reader_cost: 0.00223 s, avg_batch_cost: 0.16846 s, avg_samples: 8.0, ips: 47.48794 samples/s, eta: 1:16:07
+[2023/03/01 06:13:29] ppocr INFO: cur metric, precision: 0.02108433734939759, recall: 0.006404391582799634, hmean: 0.00982456140350877, fps: 60.2658372788024
+[2023/03/01 06:13:29] ppocr INFO: best metric, hmean: 0.03035143769968051, precision: 0.026931254429482635, recall: 0.03476669716376944, fps: 62.895301458693346, best_epoch: 1
+[2023/03/01 06:13:31] ppocr INFO: epoch: [1/200], global_step: 100, lr: 0.000024, loss: 3.303373, avg_reader_cost: 0.01755 s, avg_batch_cost: 0.17095 s, avg_samples: 8.0, ips: 46.79605 samples/s, eta: 1:14:08
+[2023/03/01 06:13:43] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:13:50] ppocr INFO: epoch: [2/200], global_step: 110, lr: 0.000026, loss: 3.132194, avg_reader_cost: 1.50492 s, avg_batch_cost: 1.72367 s, avg_samples: 8.0, ips: 4.64125 samples/s, eta: 1:59:18
+[2023/03/01 06:13:59] ppocr INFO: cur metric, precision: 0.00911854103343465, recall: 0.0013723696248856359, hmean: 0.002385685884691849, fps: 58.53142542717238
+[2023/03/01 06:13:59] ppocr INFO: best metric, hmean: 0.03035143769968051, precision: 0.026931254429482635, recall: 0.03476669716376944, fps: 62.895301458693346, best_epoch: 1
+[2023/03/01 06:14:01] ppocr INFO: epoch: [2/200], global_step: 120, lr: 0.000029, loss: 3.099095, avg_reader_cost: 0.04677 s, avg_batch_cost: 0.26007 s, avg_samples: 8.0, ips: 30.76126 samples/s, eta: 1:56:29
+[2023/03/01 06:14:05] ppocr INFO: epoch: [2/200], global_step: 130, lr: 0.000031, loss: 3.175726, avg_reader_cost: 0.00301 s, avg_batch_cost: 0.20299 s, avg_samples: 8.0, ips: 39.41038 samples/s, eta: 1:52:39
+[2023/03/01 06:14:13] ppocr INFO: cur metric, precision: 0.025081788440567066, recall: 0.010521500457456541, hmean: 0.014824363519174991, fps: 52.63721045514584
+[2023/03/01 06:14:13] ppocr INFO: best metric, hmean: 0.03035143769968051, precision: 0.026931254429482635, recall: 0.03476669716376944, fps: 62.895301458693346, best_epoch: 1
+[2023/03/01 06:14:16] ppocr INFO: epoch: [2/200], global_step: 140, lr: 0.000034, loss: 3.129882, avg_reader_cost: 0.00093 s, avg_batch_cost: 0.19298 s, avg_samples: 8.0, ips: 41.45513 samples/s, eta: 1:49:07
+[2023/03/01 06:14:22] ppocr INFO: epoch: [2/200], global_step: 150, lr: 0.000036, loss: 2.921278, avg_reader_cost: 0.17579 s, avg_batch_cost: 0.37884 s, avg_samples: 8.0, ips: 21.11699 samples/s, eta: 1:50:08
+[2023/03/01 06:14:31] ppocr INFO: cur metric, precision: 0.04228961982058949, recall: 0.04528819762122598, hmean: 0.0437375745526839, fps: 44.25353941988173
+[2023/03/01 06:14:58] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:14:58] ppocr INFO: best metric, hmean: 0.0437375745526839, precision: 0.04228961982058949, recall: 0.04528819762122598, fps: 44.25353941988173, best_epoch: 2
+[2023/03/01 06:15:02] ppocr INFO: epoch: [2/200], global_step: 160, lr: 0.000039, loss: 3.098485, avg_reader_cost: 0.00515 s, avg_batch_cost: 0.28802 s, avg_samples: 8.0, ips: 27.77617 samples/s, eta: 1:49:09
+[2023/03/01 06:15:09] ppocr INFO: epoch: [2/200], global_step: 170, lr: 0.000041, loss: 3.130503, avg_reader_cost: 0.27422 s, avg_batch_cost: 0.54516 s, avg_samples: 8.0, ips: 14.67453 samples/s, eta: 1:53:17
+[2023/03/01 06:15:20] ppocr INFO: cur metric, precision: 0.04008438818565401, recall: 0.00869167429094236, hmean: 0.014285714285714287, fps: 47.28546003084268
+[2023/03/01 06:15:20] ppocr INFO: best metric, hmean: 0.0437375745526839, precision: 0.04228961982058949, recall: 0.04528819762122598, fps: 44.25353941988173, best_epoch: 2
+[2023/03/01 06:15:23] ppocr INFO: epoch: [2/200], global_step: 180, lr: 0.000044, loss: 3.035718, avg_reader_cost: 0.00164 s, avg_batch_cost: 0.21696 s, avg_samples: 8.0, ips: 36.87238 samples/s, eta: 1:50:55
+[2023/03/01 06:15:29] ppocr INFO: epoch: [2/200], global_step: 190, lr: 0.000046, loss: 2.902289, avg_reader_cost: 0.18650 s, avg_batch_cost: 0.40671 s, avg_samples: 8.0, ips: 19.67026 samples/s, eta: 1:52:05
+[2023/03/01 06:15:39] ppocr INFO: cur metric, precision: 0.0857709469509172, recall: 0.07913998170173833, hmean: 0.08232215084463478, fps: 42.045842083895124
+[2023/03/01 06:16:05] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:16:05] ppocr INFO: best metric, hmean: 0.08232215084463478, precision: 0.0857709469509172, recall: 0.07913998170173833, fps: 42.045842083895124, best_epoch: 2
+[2023/03/01 06:16:09] ppocr INFO: epoch: [2/200], global_step: 200, lr: 0.000049, loss: 2.815966, avg_reader_cost: 0.00188 s, avg_batch_cost: 0.19573 s, avg_samples: 8.0, ips: 40.87215 samples/s, eta: 1:49:40
+[2023/03/01 06:16:35] ppocr INFO: save model in ./output/mini_ser_vi_layoutxlm/latest
+[2023/03/01 06:16:52] ppocr INFO: cur metric, precision: 0.11391223155929038, recall: 0.055809698078682524, hmean: 0.0749155664722137, fps: 52.97341972822589
+[2023/03/01 06:16:52] ppocr INFO: best metric, hmean: 0.08232215084463478, precision: 0.0857709469509172, recall: 0.07913998170173833, fps: 42.045842083895124, best_epoch: 2
+[2023/03/01 06:16:52] ppocr INFO: epoch: [3/200], global_step: 210, lr: 0.000050, loss: 2.745876, avg_reader_cost: 2.97206 s, avg_batch_cost: 3.19564 s, avg_samples: 8.0, ips: 2.50341 samples/s, eta: 2:34:35
+[2023/03/01 06:16:56] ppocr INFO: epoch: [3/200], global_step: 220, lr: 0.000050, loss: 2.682202, avg_reader_cost: 0.00325 s, avg_batch_cost: 0.24378 s, avg_samples: 8.0, ips: 32.81707 samples/s, eta: 2:31:08
+[2023/03/01 06:17:12] ppocr INFO: cur metric, precision: 0.0989724175229854, recall: 0.16742909423604757, hmean: 0.12440516655336505, fps: 53.54473246233917
+[2023/03/01 06:17:39] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:17:39] ppocr INFO: best metric, hmean: 0.12440516655336505, precision: 0.0989724175229854, recall: 0.16742909423604757, fps: 53.54473246233917, best_epoch: 3
+[2023/03/01 06:17:40] ppocr INFO: epoch: [3/200], global_step: 230, lr: 0.000050, loss: 2.736071, avg_reader_cost: 0.23683 s, avg_batch_cost: 0.47558 s, avg_samples: 8.0, ips: 16.82143 samples/s, eta: 2:31:18
+[2023/03/01 06:17:44] ppocr INFO: epoch: [3/200], global_step: 240, lr: 0.000050, loss: 2.739685, avg_reader_cost: 0.00378 s, avg_batch_cost: 0.22882 s, avg_samples: 8.0, ips: 34.96161 samples/s, eta: 2:28:04
+[2023/03/01 06:17:55] ppocr INFO: cur metric, precision: 0.1683929168058804, recall: 0.23055809698078683, hmean: 0.19463216837227265, fps: 52.662661715010934
+[2023/03/01 06:18:22] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:18:22] ppocr INFO: best metric, hmean: 0.19463216837227265, precision: 0.1683929168058804, recall: 0.23055809698078683, fps: 52.662661715010934, best_epoch: 3
+[2023/03/01 06:18:24] ppocr INFO: epoch: [3/200], global_step: 250, lr: 0.000050, loss: 2.646812, avg_reader_cost: 0.09087 s, avg_batch_cost: 0.30646 s, avg_samples: 8.0, ips: 26.10416 samples/s, eta: 2:26:06
+[2023/03/01 06:18:29] ppocr INFO: epoch: [3/200], global_step: 260, lr: 0.000050, loss: 2.469039, avg_reader_cost: 0.09667 s, avg_batch_cost: 0.37613 s, avg_samples: 8.0, ips: 21.26898 samples/s, eta: 2:25:10
+[2023/03/01 06:18:44] ppocr INFO: cur metric, precision: 0.19961612284069097, recall: 0.28545288197621227, hmean: 0.23493975903614459, fps: 50.70985017619005
+[2023/03/01 06:19:11] ppocr INFO: save best model is to ./output/mini_ser_vi_layoutxlm/best_accuracy
+[2023/03/01 06:19:11] ppocr INFO: best metric, hmean: 0.23493975903614459, precision: 0.19961612284069097, recall: 0.28545288197621227, fps: 50.70985017619005, best_epoch: 3
+[2023/03/01 06:19:12] ppocr INFO: epoch: [3/200], global_step: 270, lr: 0.000050, loss: 2.534045, avg_reader_cost: 0.24875 s, avg_batch_cost: 0.50868 s, avg_samples: 8.0, ips: 15.72689 samples/s, eta: 2:25:55
+[2023/03/01 06:19:16] ppocr INFO: epoch: [3/200], global_step: 280, lr: 0.000050, loss: 2.326292, avg_reader_cost: 0.00309 s, avg_batch_cost: 0.21688 s, avg_samples: 8.0, ips: 36.88760 samples/s, eta: 2:23:11

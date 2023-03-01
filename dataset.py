@@ -4,6 +4,7 @@ from os import listdir
 from os.path import isfile, join
 
 set_names = set()
+chars = set()
 def read_image_labels(json_path):
     
     with open(json_path, encoding='utf-8') as file:
@@ -16,6 +17,8 @@ def read_image_labels(json_path):
         set_names.add(category)
         for word in line['words']:
             label_info = {'transcription': word['text'], 'label': category, 'id': group_id, "linking": []}
+            [chars.add(c) for c in word['text']]
+            [chars.add(c) for c in category]
             points = word['quad']
             label_info['points'] = [[points['x1'], points['y1']], [points['x2'], points['y1']], [points['x2'], points['y2']], [points['x1'], points['y2']]]
             labels.append(label_info)
@@ -53,3 +56,8 @@ for stage in ['train','dev', 'test']:
     prepare_data(stage)
 
 write_labels()
+
+with open(f"data/dict.txt", "w") as fout:
+        #fout.write(f"Ignore\n")
+        for c in chars:
+            fout.write(f"{c}\n")

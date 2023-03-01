@@ -1,14 +1,14 @@
 Global:
-  use_gpu: True
-  epoch_num: &epoch_num 100
-  log_smooth_window: 20
-  print_batch_step: 20
-  save_model_dir: ./output/ser_vi_layoutxlm
-  save_epoch_step: 100
+  use_gpu: Fasle
+  epoch_num: &epoch_num 200
+  log_smooth_window: 10
+  print_batch_step: 10
+  save_model_dir: ./output/mini_ser_vi_layoutxlm
+  save_epoch_step: 2000
   # evaluation is run every 10 iterations after the 0th iteration
-  eval_batch_step: [ 0, 100 ]
+  eval_batch_step: [ 0, 19 ]
   cal_metric_during_train: False
-  save_inference_dir: ./output/ser_vi_layoutxlm/infer
+  save_inference_dir: ./output/mini_ser_vi_layoutxlm/infer
   use_visualdl: False
   seed: 2022
   infer_img: ./data/train/image/receipt_00000.png
@@ -17,7 +17,7 @@ Global:
   # infer_img: train_data/XFUND/zh_val/val.json
   # infer_mode: False
 
-  save_res_path: ./output/ser_vi_layoutxlm/res
+  save_res_path: ./mz/output/mini_ser_vi_layoutxlm/res
   kie_rec_model_dir: 
   kie_det_model_dir:
 
@@ -26,13 +26,10 @@ Architecture:
   algorithm: &algorithm "LayoutXLM"
   Transform:
   Backbone:
-    name: LayoutXLMForSer
-    pretrained: True
+    name: MiniLayoutXLMForSer
     checkpoints: 
     num_classes: &num_classes 61
-    #pretrained_model/ser_vi_layoutxlm_xfund_pretrained/best_accuracy
-    # one of base or vi
-    mode: vi
+    num_hidden_layers: 2
 
 Loss:
   name: VQASerTokenLayoutLMLoss
@@ -79,7 +76,7 @@ Train:
           # one of [None, "tb-yx"]
           order_method: &order_method "tb-yx"
       - VQATokenPad:
-          max_seq_len: &max_seq_len 64
+          max_seq_len: &max_seq_len 512
           return_attention_mask: True
       - VQASerTokenChunk:
           max_seq_len: *max_seq_len
@@ -96,7 +93,7 @@ Train:
   loader:
     shuffle: True
     drop_last: False
-    batch_size_per_card: 16
+    batch_size_per_card: 8
     num_workers: 4
 
 Eval:
@@ -133,5 +130,5 @@ Eval:
   loader:
     shuffle: False
     drop_last: False
-    batch_size_per_card: 16
+    batch_size_per_card: 8
     num_workers: 4

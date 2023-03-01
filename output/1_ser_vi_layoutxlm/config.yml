@@ -1,9 +1,9 @@
 Global:
   use_gpu: true
-  epoch_num: 200
+  epoch_num: 100
   log_smooth_window: 20
   print_batch_step: 20
-  save_model_dir: ./output/ser_vi_layoutxlm
+  save_model_dir: ./output/1_ser_vi_layoutxlm
   save_epoch_step: 100
   eval_batch_step:
   - 0
@@ -13,7 +13,7 @@ Global:
   use_visualdl: false
   seed: 2022
   infer_img: ./data/train/image/receipt_00000.png
-  save_res_path: ./mz/output/ser_vi_layoutxlm/res
+  save_res_path: ./output/1_ser_vi_layoutxlm/res
   kie_rec_model_dir: null
   kie_det_model_dir: null
 Architecture:
@@ -37,7 +37,7 @@ Optimizer:
   lr:
     name: Linear
     learning_rate: 5.0e-05
-    epochs: 200
+    epochs: 100
     warmup_epoch: 2
   regularizer:
     name: L2

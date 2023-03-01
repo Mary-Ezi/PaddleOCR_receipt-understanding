@@ -1,19 +1,18 @@
 Global:
-  use_gpu: true
+  use_gpu: Fasle
   epoch_num: 200
-  log_smooth_window: 20
-  print_batch_step: 20
-  save_model_dir: ./output/ser_vi_layoutxlm
-  save_epoch_step: 100
+  log_smooth_window: 10
+  print_batch_step: 10
+  save_model_dir: ./output/mini_ser_vi_layoutxlm
+  save_epoch_step: 2000
   eval_batch_step:
   - 0
-  - 100
+  - 19
   cal_metric_during_train: false
-  save_inference_dir: ./output/ser_vi_layoutxlm/infer
+  save_inference_dir: ./output/mini_ser_vi_layoutxlm/infer
   use_visualdl: false
   seed: 2022
-  infer_img: ./data/train/image/receipt_00000.png
-  save_res_path: ./mz/output/ser_vi_layoutxlm/res
+  save_res_path: ./mz/output/mini_ser_vi_layoutxlm/res
   kie_rec_model_dir: null
   kie_det_model_dir: null
 Architecture:
@@ -21,11 +20,10 @@ Architecture:
   algorithm: LayoutXLM
   Transform: null
   Backbone:
-    name: LayoutXLMForSer
-    pretrained: true
+    name: MiniLayoutXLMForSer
     checkpoints: null
     num_classes: 61
-    mode: vi
+    num_hidden_layers: 2
 Loss:
   name: VQASerTokenLayoutLMLoss
   num_classes: 61
@@ -67,10 +65,10 @@ Train:
         use_textline_bbox_info: true
         order_method: tb-yx
     - VQATokenPad:
-        max_seq_len: 64
+        max_seq_len: 512
         return_attention_mask: true
     - VQASerTokenChunk:
-        max_seq_len: 64
+        max_seq_len: 512
     - Resize:
         size:
         - 224
@@ -98,7 +96,7 @@ Train:
   loader:
     shuffle: true
     drop_last: false
-    batch_size_per_card: 16
+    batch_size_per_card: 8
     num_workers: 4
 Eval:
   dataset:
@@ -117,10 +115,10 @@ Eval:
         use_textline_bbox_info: true
         order_method: tb-yx
     - VQATokenPad:
-        max_seq_len: 64
+        max_seq_len: 512
         return_attention_mask: true
     - VQASerTokenChunk:
-        max_seq_len: 64
+        max_seq_len: 512
     - Resize:
         size:
         - 224
@@ -148,6 +146,6 @@ Eval:
   loader:
     shuffle: false
     drop_last: false
-    batch_size_per_card: 16
+    batch_size_per_card: 8
     num_workers: 4
 profiler_options: null
