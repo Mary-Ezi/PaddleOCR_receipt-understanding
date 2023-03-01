@@ -28,7 +28,7 @@ Architecture:
   Models:
     Teacher:
       pretrained:
-      freeze_params: true
+      freeze_params: false
       return_all_feats: true
       model_type: *model_type
       algorithm: &algorithm "LayoutXLM"
@@ -38,7 +38,7 @@ Architecture:
         pretrained: True
         # one of base or vi
         mode: vi
-        checkpoints: 
+        checkpoints: #./output/ser_vi_layoutxlm
         num_classes: &num_classes 61
     Student:
       pretrained:
@@ -51,6 +51,7 @@ Architecture:
         name: MiniLayoutXLMForSer
         checkpoints:
         num_classes: *num_classes
+        num_hidden_layers: 2
 
 Loss:
   name: CombinedLoss
@@ -82,12 +83,16 @@ Optimizer:
     factor: 0.00000
     
 PostProcess:
-  name: VQASerTokenLayoutLMPostProcess
+  name: DistillationSerPostProcess
+  model_name: ["Student", "Teacher"]
+  key: backbone_out
   class_path: &class_path ./data/labels.txt
 
 Metric:
-  name: VQASerTokenMetric
+  name: DistillationMetric
+  base_metric_name: VQASerTokenMetric
   main_indicator: hmean
+  key: "Student"
 
 Train:
   dataset:
@@ -125,7 +130,7 @@ Train:
   loader:
     shuffle: True
     drop_last: False
-    batch_size_per_card: 8
+    batch_size_per_card: 3
     num_workers: 4
 
 Eval:
@@ -162,5 +167,5 @@ Eval:
   loader:
     shuffle: False
     drop_last: False
-    batch_size_per_card: 8
+    batch_size_per_card: 3
     num_workers: 4
