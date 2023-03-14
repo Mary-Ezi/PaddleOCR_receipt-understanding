@@ -17,7 +17,7 @@ Global:
   # infer_img: train_data/XFUND/zh_val/val.json
   # infer_mode: False
 
-  save_res_path: ./mz/output/mini_ser_vi_layoutxlm/res
+  save_res_path: ./output/mini_ser_vi_layoutxlm/res
   kie_rec_model_dir: 
   kie_det_model_dir:
 

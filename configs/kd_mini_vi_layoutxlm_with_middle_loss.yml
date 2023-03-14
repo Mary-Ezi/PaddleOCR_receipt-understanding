@@ -3,7 +3,7 @@ Global:
   epoch_num: &epoch_num 200
   log_smooth_window: 10
   print_batch_step: 10
-  save_model_dir: ./output/kd_mini_ser_vi_layoutxlm
+  save_model_dir: ./output/kd_mini_ser_vi_layoutxlm_2_layers_with_middle_loss
   save_epoch_step: 200
   # evaluation is run every 10 iterations after the 0th iteration
   eval_batch_step: [ 0, 100 ]
@@ -68,6 +68,13 @@ Loss:
       model_name_pairs:
       - ["Student", "Teacher"]
       key: backbone_out
+  - CustomDistillationVQADistanceLoss:
+      weight: 0.5
+      mode: "l2"
+      model_name_pairs:
+        - ["Student", "Teacher"]
+      keys: ["hidden_states_1", "hidden_states_8"]
+      name: "middle_layer_8_to_4_loss"
 
 Optimizer:
   name: AdamW
