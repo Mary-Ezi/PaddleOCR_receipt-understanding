@@ -27,6 +27,7 @@ from .distillation_loss import DistillationDistanceLoss, DistillationDBLoss, Dis
 from .distillation_loss import DistillationVQASerTokenLayoutLMLoss, DistillationSERDMLLoss
 from .distillation_loss import DistillationLossFromOutput
 from .distillation_loss import DistillationVQADistanceLoss
+from .distillation_loss import CustomDistillationVQADistanceLoss
 
 
 class CombinedLoss(nn.Layer):
